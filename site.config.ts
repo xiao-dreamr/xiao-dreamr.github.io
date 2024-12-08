@@ -6,12 +6,12 @@ export default defineSiteConfig({
   title: '霖的小屋 ο(=•ω＜=)ρ⌒☆',
   author: {
     name: '霖',
-    avatar: 'https://img.picui.cn/free/2024/12/07/67545069227e8.png',
+    avatar: './lin.png',
     status:{emoji: '🟢',message: '在线...?'}
   },
   subtitle: '',
-  description: '庄生晓梦迷蝴蝶，望帝春心托杜鹃。',
-  favicon:'https://img.picui.cn/free/2024/12/07/675456ce0ada2.png',
+  description: '庄生晓梦迷蝴蝶',
+  favicon:'./icon.png',
   social: [
     {
       name: 'GitHub',
