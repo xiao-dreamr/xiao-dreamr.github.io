@@ -1,0 +1,1 @@
+[{"title":"C#中的typeof()与GetType()","tags":["C#","随笔"],"categories":[],"author":"霖","excerpt":"## 获取类型\n获取类型主要通过 `Object.GetType() `方法和`typeof()` 运算符两种方式。\n不同点：\n- `Object.GetType()`是Object类的方法，可以获取","link":"/posts/csharp_typeof_gettype"}]

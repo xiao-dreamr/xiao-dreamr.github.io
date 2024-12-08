@@ -1,0 +1,26 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "霖的小屋 ο(=•ω＜=)ρ⌒☆",
+    "home_page_url": "https://xiao-dreamr.github.io/",
+    "feed_url": "https://xiao-dreamr.github.io/feed.json",
+    "description": "庄生晓梦迷蝴蝶",
+    "icon": "https://raw.githubusercontent.com/xiao-dreamr/xiao-dreamr.github.io/refs/heads/main/lin.png",
+    "author": {
+        "name": "霖",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<h2>获取类型</h2>\n<p>获取类型主要通过 <code>Object.GetType() </code>方法和<code>typeof()</code> 运算符两种方式。<br>\n不同点：</p>\n<ul>\n<li><code>Object.GetType()</code>是Object类的方法，可以获取</li>\n</ul>\n<br/><p>访问 <a href=\"https://xiao-dreamr.github.io/posts/csharp_typeof_gettype\" target=\"_blank\">https://xiao-dreamr.github.io/posts/csharp_typeof_gettype</a> 阅读全文。</p>",
+            "url": "https://xiao-dreamr.github.io/posts/csharp_typeof_gettype",
+            "title": "C#中的typeof()与GetType()",
+            "date_modified": "2024-11-17T00:00:00.000Z",
+            "date_published": "2024-12-08T13:02:37.963Z",
+            "author": {
+                "name": "霖",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

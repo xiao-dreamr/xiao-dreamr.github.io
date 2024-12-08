@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://xiao-dreamr.github.io/</id>
+    <title>霖的小屋 ο(=•ω＜=)ρ⌒☆</title>
+    <updated>2024-12-08T13:03:46.630Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>霖</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://xiao-dreamr.github.io/"/>
+    <link rel="self" href="https://xiao-dreamr.github.io/atom.xml"/>
+    <subtitle>庄生晓梦迷蝴蝶</subtitle>
+    <logo>https://raw.githubusercontent.com/xiao-dreamr/xiao-dreamr.github.io/refs/heads/main/lin.png</logo>
+    <icon>https://xiao-dreamr.github.io/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2024 © 霖</rights>
+    <entry>
+        <title type="html"><![CDATA[C#中的typeof()与GetType()]]></title>
+        <id>https://xiao-dreamr.github.io/posts/csharp_typeof_gettype</id>
+        <link href="https://xiao-dreamr.github.io/posts/csharp_typeof_gettype"/>
+        <updated>2024-11-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>获取类型</h2>
+<p>获取类型主要通过 <code>Object.GetType() </code>方法和<code>typeof()</code> 运算符两种方式。<br>
+不同点：</p>
+<ul>
+<li><code>Object.GetType()</code>是Object类的方法，可以获取</li>
+</ul>
+<br/><p>访问 <a href="https://xiao-dreamr.github.io/posts/csharp_typeof_gettype" target="_blank">https://xiao-dreamr.github.io/posts/csharp_typeof_gettype</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>霖</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-12-08T13:02:37.963Z</published>
+    </entry>
+</feed>
