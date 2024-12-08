@@ -12,7 +12,7 @@ tags:
 获取类型主要通过 `Object.GetType() `方法和`typeof()` 运算符两种方式。
 不同点：
 - `Object.GetType()`是Object类的方法，可以获取任何对象的类型。
-- 而`typeof()`运算符是运算符，只是长得像函数，需要传入类型本身而非实例
+- 而`typeof()`运算符是运算符，只是长得像函数，需要传入类本身而非实例
 
 相同点：
 - `Object.GetType()`与`typeof()`获取的信息是一致的
