@@ -1,8 +1,8 @@
 ---
-title: 我的小伙伴们
+title: 病友
 keywords: 链接
-description: 云游的小伙伴们
-links: https://www.yunyoujun.cn/friends/links.json
+description: 病友
+links: https://xiao-dreamr.github.io//friends/links.json
 random: true
 ---
 
