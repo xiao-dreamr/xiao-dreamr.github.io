@@ -13,11 +13,13 @@ export default defineValaxyConfig<UserThemeConfig>({
   // site config see site.config.ts
 
   theme: 'yun',
-
   themeConfig: {
     banner: {
       enable: true,
       title: '霖的小屋',
+      cloud:{
+        enable: true,
+      },
     },
     footer: {
       since: 2021,
@@ -26,7 +28,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       },
       beian: {
         enable: false,
-        icp: '苏ICP备17038157号',
+        icp:"",
       },
     },
   },
