@@ -6,7 +6,7 @@ export default defineSiteConfig({
   title: '霖的小屋 ο(=•ω＜=)ρ⌒☆',
   author: {
     name: '霖',
-    avatar: 'https://raw.githubusercontent.com/xiao-dreamr/xiao-dreamr.github.io/refs/heads/main/lin.png',
+    avatar: 'https://avatars.githubusercontent.com/u/189501925?v=4',
     status:{emoji: '🟢',message: '在线...?'}
   },
   subtitle: '',

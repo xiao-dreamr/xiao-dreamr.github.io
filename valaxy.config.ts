@@ -21,6 +21,18 @@ export default defineValaxyConfig<UserThemeConfig>({
         enable: true,
       },
     },
+    bg_image:{
+      enable : true,
+      dark:"https://img.picui.cn/free/2024/12/11/6759b4f393e96.png"
+    },
+    say:{
+      enable:true,
+      api:"https://el-bot-api.elpsy.cn/api/words/young",
+      hitokoto:{
+        enable:true,
+        api:"https://el-bot-api.elpsy.cn/api/words/young",
+      }
+    },
     footer: {
       since: 2021,
       icon: {

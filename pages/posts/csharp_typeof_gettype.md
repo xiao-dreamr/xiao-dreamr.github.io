@@ -3,7 +3,7 @@ title: C#中的typeof()与GetType()
 date: 2024-11-17
 update: 2024-12-08
 author: Lin
-categroies: C#
+categories: C#
 tags:
   - C#
   - 随笔
