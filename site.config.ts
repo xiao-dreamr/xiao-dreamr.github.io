@@ -13,7 +13,7 @@ export default defineSiteConfig({
   subtitle: '',
   lastUpdated:true,
   description: '庄生晓梦迷蝴蝶',
-  favicon:'https://pic.imgdb.cn/item/675ce224d0e0a243d4e3c64f.png',
+  favicon:'https://pic.imgdb.cn/item/675d87f2d0e0a243d4e40406.png',
   comment:{
     enable:true,
   },

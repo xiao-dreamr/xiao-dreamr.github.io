@@ -1,5 +1,6 @@
 ---
 title: C#中的typeof()与GetType()
+icon : i-mdi-dot-net
 date: 2024-11-17
 update: 2024-12-08
 author: Lin

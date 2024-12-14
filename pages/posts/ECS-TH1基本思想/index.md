@@ -1,5 +1,6 @@
 ---
-title: ECS-TH1 基本思想
+title: ECS-TH1 初识
+icon : i-ri-stack-line
 author: Lin
 date: 2024-12-10
 categories: ECS
@@ -21,13 +22,13 @@ tags:
 
 ## 本章目录
 
+本章主要讲了ECS的理论基础
 1. 什么是ECS
     1. ECS与OOP的区别
     2. 为什么要用ECS？
 2. 万丈高楼平地起
-	1. 由OOP到ECS
-	2. GO补完计划
-	3. ComponentId
+	  1. 由OOP到ECS
+	  2. 对象补完计划
 
 <!-- more -->
 
@@ -66,9 +67,11 @@ GameObject --> 环境物
 环境物 --> 大树
 GameObject --> 人
 ```
-不难看出，OOP看起来像是把每个游戏对象竖直分隔开，成为独立的个体，也就是常说的类，每个`GameObject`(下文缩写为`GO`)都有自己独立的属性，互不干扰。
+不难看出，OOP看起来像是把每个游戏对象竖直分隔开，成为独立的个体，并依赖继承关系来实现代码复用，也就是常说的类，每个`GameObject`(下文缩写为`GO`)都有自己独立的属性，互不干扰。
 
-而在ECS的水平分割中，看起来应该是这样的：
+但，当GO间的继承关系变得复杂时，其本符合生活习惯的思维方式反而会变成一种障碍，各种复杂的多重继承更是令人脑袋晕晕。
+
+那么，ECS的水平分割看起来又是什么样的呢？
 
 ```mermaid
 graph LR
@@ -100,17 +103,163 @@ graph LR
 
 可见，在ECS中，并没有很清晰的“`GO`”概念，取而代之的是一个个`Component`。不同的逻辑由相应组件的`System`实现，互不干扰，降低了耦合性。
 
-在这种实现方式下，不同的`GO`之间的界限被抹除(~~GO补完计划~~)，只留下紧密排列的`Component`，`System`也不需要关心自己到底在操作哪个"对象"，而只需要关注眼前的数据就好了，既不用引入无关数据，也不会干扰其他系统，可谓一举两得~ ♪(´▽｀)
+在这种实现方式下，不同的`GO`之间的界限被抹除 (~~GO补完计划~~)，只留下紧密排列的Component，System也不需要关心自己到底在操作哪个"对象"，而只需要关注眼前的数据就好了，既不用引入无关数据，也不会干扰其他系统，可谓一举两得~ ♪(´▽｀)
 
 从OOP的“按对象排列”思想转换为ECS中的“按数据排列”，便是开启ECS的第一步。
 
 ### 为什么要用ECS？
 
-ECS带来的便利之一，就是**遍历**时的优雅。
+ECS带来的最大便利，就是极致的**速度**
 
-试想一下，如果你面前摆放着一些已完成的“乐高作品”，现在，要求你**把所有的黄色2x2砖块**都做上某种标记，这无疑是困难且不可能完成的 (￣▽￣)"
+试想一下，如果你面前摆放着一些已完成的“乐高作品”，现在，要求你**把所有的黄色2x2砖块**都做上某种标记，这无疑是困难且不可能完成的。
 
 但是如果是一些独立且排列整齐的积木块呢？在这种情况下，**找出所有**黄色积木块就非常简单了，只需要找出黄色积木块所在的组，依次标记就好啦 (o゜▽゜)o☆（如图）
 
 ![乐高示例](./legoexample.png)
 
+乐高成品对应的即是OOP模式中的`GO`，以单个对象为单位，整体操作；而散落排布的积木块即是ECS中的`Component`，以单个组件为单位，精确而高效。
+
+不过，传统的OOP在绝大多数情况下都没什么大问题，依旧正常运转，但是当加载的GO数量极大时，性能开销与缓存未命中也将指数爆炸。
+
+这时，天空一声巨响，ECS闪亮登场，其准确简洁的数据结构几乎是为这种场景量身定制，效率提升十分显著。
+当然，在普通场景中，ECS的表现同样优秀，其完全解耦的`System`亦能为开发提供很多便利，如肆意妄为(?)的代码复用，摆脱烦人的复杂继承。再怎么说，学学ECS总是没什么坏处的嘛 ~(￣▽￣)~*
+
+## 万丈高楼平地起
+### 从OOP到ECS
+万事开头难，不妨先试试一种不那么激进的方式——让GO成为Component的承载者，而不是数据与方法的承载者，示例如下：
+```csharp
+abstract class GameObject
+{
+	/// 实体Id
+	int Id { set; get; }
+	/// 实体所承载的Components
+	List<Component> Components { set; get; } = [];
+	/// Component的类型，无序，用于加速判断
+	HashSet<Type> ComponentTypes { set; get; } = [];
+	/// 获取T类型的Component(示例)
+	Component? GetComponent<T>()
+	{
+		return Components.Find(c => c.GetType() is T);
+	}
+	bool Has<T>()
+	{
+		return ComponentTypes.Contains(typeof(T));
+	}
+}
+```
+而当我们想操作Component时，System可以像这样写:
+```csharp
+void MySystem(List<GameObject> objects){
+	foreach(GameObject obj in objects){
+		if(obj.Has<MyComponent>()){
+			component = obj.GetComponent<MyComponent>();
+			// 干点啥 ¯\_(ツ)_/¯
+		}
+	}
+}
+```
+这种方法对于习惯OOP的人来说很容易接受，写起来也很舒服，且易于维护，但基本没有解决OOP的痛点，还可能导致更多性能问题。总而言之，这种方法只是一个由OOP到ECS过渡态的“杂交版”，只能起到思维上的过渡，并不推荐实际应用。
+
+### 对象补完计划
+
+接下来，我们所要做的就是**彻底消灭GO**，取而代之，我们将称呼“石头”“大树”“人”这一类东西为`Entity`。
+
+具体实现这一目的的方法，便是**视Entity为Index**，消灭GO之间的界限，只把实体看作对Component的索引，就已经足矣，此即为「**對象補完計画**」（什）
+
+化GO为Entity后，实现应该像这样：
+```csharp
+abstract class Entity
+{
+	int Id { set; get; }
+	/// Entity通常包含一个包含Component类型Id的HashSet来加速查询
+	HashSet<int> ComponentTypes { set; get; } = [];
+}
+```
+
+Entity仅仅作为Component的Index，而不含任何功能，所有Entity的属性都别无二致。
+
+那么，不同的Component是如何绑定到Entity身上的呢？
+
+
+```mermaid
+graph BT
+	subgraph EntityList
+		E0
+		E1
+		E2
+		E4
+	end
+	subgraph ComponentList
+		C0
+		C1
+		C2
+		C4
+	end
+	E0 --> C0
+	E1 --> C1
+	E2 --> C2
+	E4 --> C4
+
+```
+
+如图，Entity和Component都以一定的顺序排列的数组中，Entity永远位于第`Id`项，Component同理，该种数组能使Entity与Component相互链接；而不同组件的数组又由不同组件的System掌管，如此，任意$N$种Component，$M$个Entity，都可以通过$2N$个长度为$M$的数组实现将Entity作为Index访问Component.
+
+那么，Entity中的`ComponentTypes`又是如何实现的呢？一个简单的示例如下：
+```csharp
+public static class Family
+{
+	/// 验证的最后一个ComponentType的Id
+    private static ulong identifierValue = 0;
+
+    private static ulong Identifier()
+    {
+		// 每验证一个新的ComponentType，就使其自增1
+        return identifierValue++;
+    }
+
+	/// 用于验证该Type是否已被注册
+	/// 结构为{Type type->int Id}
+    private static readonly Dictionary<Type, ulong> typeIdentifiers = new Dictionary<Type, ulong>();
+    
+    public static ulong Type<T>()
+    {
+        var type = typeof(T);
+        if (!typeIdentifiers.ContainsKey(type))
+        {
+			// 未注册才进行验证
+            typeIdentifiers[type] = Identifier();
+        }
+        return typeIdentifiers[type];
+    }
+}
+```
+演示：
+
+```csharp
+class ComponentA{}
+class ComponentB{}
+class ComponentC{}
+
+Console.WriteLine($"AId - {Family.Type<ComponentA>()}");
+Console.WriteLine($"BId - {Family.Type<ComponentB>()}"); 
+Console.WriteLine($"CId - {Family.Type<ComponentC>()}"); 
+Console.WriteLine($"AId - {Family.Type<ComponentA>()}"); 
+```
+
+输出结果：
+```
+AId - 0
+BId - 1
+CId - 2
+AId - 0
+```
+如此，不同Component的Type就能被抽象为一个唯一的Id，并存入Entity的`ComponentTypes`中，以便快速检索。
+
+至此，我们已经在ECS的世界种扬帆起航，正式开启了高效与优雅的旅途。
+
+## 接下来？
+
+下一章TH2: Entity放在哪——SparseSet 稀疏集
+其实PR1的内容在这章已经展示的差不多了，PR1需要做的主要就是汇总并完善一下各种示例（
+
+ECS-TH1初识，结束~ο(=•ω＜=)ρ⌒☆

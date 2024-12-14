@@ -18,6 +18,9 @@ importers:
         specifier: 0.20.6
         version: 0.20.6(rollup@4.28.1)(vue@3.5.13(typescript@5.7.2))
     devDependencies:
+      '@iconify-json/mdi':
+        specifier: ^1.2.1
+        version: 1.2.1
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -513,6 +516,9 @@ packages:
 
   '@iconify-json/ant-design@1.2.3':
     resolution: {integrity: sha512-LoGrgGfRJ9iwwmTbtKnWg0FtN+87gy/C5WWErC2qUygyRuOyOMTxKJoUnl360UaXejiInDIK58o0jlJKoIVS4Q==}
+
+  '@iconify-json/mdi@1.2.1':
+    resolution: {integrity: sha512-dSkQU78gsZV6Yxnq78+LuX7jzeFC/5NAmz7O3rh558GimGFcwMVY/OtqRowIzjqJBmMmWZft7wkFV4TrwRXjlg==}
 
   '@iconify-json/ri@1.2.3':
     resolution: {integrity: sha512-UVKofd5xkSevGd5K01pvO4NWsu+2C9spu+GxnMZUYymUiaWmpCAxtd22MFSpm6MGf0MP4GCwhDCo1Q8L8oZ9wg==}
@@ -3994,6 +4000,10 @@ snapshots:
       - vue
 
   '@iconify-json/ant-design@1.2.3':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/mdi@1.2.1':
     dependencies:
       '@iconify/types': 2.0.0
 
