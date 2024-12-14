@@ -16,5 +16,6 @@ dist-ssr
 node_modules
 .idea/
 *.log
+*.psd
 
 components.d.ts

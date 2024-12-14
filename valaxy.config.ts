@@ -1,5 +1,6 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
+import { addonWaline } from 'valaxy-addon-waline'
 
 // add icons what you will need
 const safelist = [
@@ -23,27 +24,29 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
     bg_image:{
       enable : true,
-      dark:"https://img.picui.cn/free/2024/12/11/6759b4f393e96.png"
+      url:"https://pic.imgdb.cn/item/675cd5e7d0e0a243d4e3c51f.png",
+      dark:"https://pic.imgdb.cn/item/675c4ab9d0e0a243d4e3bc96.png",   //"https://img.picui.cn/free/2024/12/11/6759b4f393e96.png"
+      opacity:0.9,
     },
     say:{
       enable:true,
-      api:"https://el-bot-api.elpsy.cn/api/words/young",
+      api:"https://v1.hitokoto.cn?c=i&encode=text",
       hitokoto:{
         enable:true,
-        api:"https://el-bot-api.elpsy.cn/api/words/young",
+        api:"https://v1.hitokoto.cn?c=i&encode=text",
       }
     },
     footer: {
-      since: 2021,
+      since: 2024,
       icon: {
         enable: false,
       },
-      beian: {
-        enable: false,
-        icp:"",
-      },
     },
   },
-
+  addons:[
+    addonWaline({
+      serverURL:"https://linwaline.vercel.app/"
+    }),
+  ],
   unocss: { safelist },
 })

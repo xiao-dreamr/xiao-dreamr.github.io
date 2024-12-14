@@ -1,5 +1,6 @@
 import { defineSiteConfig } from 'valaxy'
 
+
 export default defineSiteConfig({
   url: 'https://xiao-dreamr.github.io/',
   lang: 'zh-CN',
@@ -10,8 +11,12 @@ export default defineSiteConfig({
     status:{emoji: '🟢',message: '在线...?'}
   },
   subtitle: '',
+  lastUpdated:true,
   description: '庄生晓梦迷蝴蝶',
-  favicon:'https://raw.githubusercontent.com/xiao-dreamr/xiao-dreamr.github.io/refs/heads/main/icon.png',
+  favicon:'https://pic.imgdb.cn/item/675ce224d0e0a243d4e3c64f.png',
+  comment:{
+    enable:true,
+  },
   social: [
     {
       name: 'GitHub',
