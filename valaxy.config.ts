@@ -45,7 +45,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   },
   addons:[
     addonWaline({
-      serverURL:"https://linwaline.vercel.app/"
+      serverURL:"https://comment.linium.xin/"
     }),
   ],
   unocss: { safelist },

@@ -2,7 +2,7 @@ import { defineSiteConfig } from 'valaxy'
 
 
 export default defineSiteConfig({
-  url: 'https://xiao-dreamr.github.io/',
+  url: 'https://linium.xin/',
   lang: 'zh-CN',
   title: '霖的小屋 ο(=•ω＜=)ρ⌒☆',
   author: {
