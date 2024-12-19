@@ -30,10 +30,10 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
     say:{
       enable:true,
-      api:"https://v1.hitokoto.cn?c=i&encode=text",
+      api:"https://v1.hitokoto.cn?c=i&encode=json",
       hitokoto:{
         enable:true,
-        api:"https://v1.hitokoto.cn?c=i&encode=text",
+        api:"https://v1.hitokoto.cn?c=i&encode=json",
       }
     },
     footer: {
@@ -45,7 +45,9 @@ export default defineValaxyConfig<UserThemeConfig>({
   },
   addons:[
     addonWaline({
-      serverURL:"https://comment.linium.xin/"
+      serverURL:"https://comment.linium.xin/",
+      comment:true,
+      pageview:true,
     }),
   ],
   unocss: { safelist },
