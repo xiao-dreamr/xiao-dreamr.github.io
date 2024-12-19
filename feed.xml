@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>霖的小屋 ο(=•ω＜=)ρ⌒☆</title>
+        <link>https://linium.xin/</link>
+        <description>庄生晓梦迷蝴蝶</description>
+        <lastBuildDate>Thu, 19 Dec 2024 14:40:07 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>霖的小屋 ο(=•ω＜=)ρ⌒☆</title>
+            <url>https://avatars.githubusercontent.com/u/189501925?v=4</url>
+            <link>https://linium.xin/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2024 © 霖</copyright>
+        <atom:link href="https://linium.xin/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[C#中的typeof()与GetType()]]></title>
+            <link>https://linium.xin/posts/csharp_typeof_gettype</link>
+            <guid>https://linium.xin/posts/csharp_typeof_gettype</guid>
+            <pubDate>Thu, 19 Dec 2024 14:39:02 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>获取类型</h2>
+<p>获取类型主要通过 <code>Object.GetType() </code>方法和<code>typeof()</code> 运算符两种方式。</p>
+<p>不同点：</p>
+<ul>
+<li><code>Object.GetType()</code>是Object类的方法，可以获</li>
+</ul>
+<br/><p>访问 <a href="https://linium.xin/posts/csharp_typeof_gettype" target="_blank">https://linium.xin/posts/csharp_typeof_gettype</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (霖)</author>
+        </item>
+        <item>
+            <title><![CDATA[ECS-TH1 初识]]></title>
+            <link>https://linium.xin/posts/ECS-TH1初识/index</link>
+            <guid>https://linium.xin/posts/ECS-TH1初识/index</guid>
+            <pubDate>Thu, 19 Dec 2024 14:39:02 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://pic.imgdb.cn/item/675cee53d0e0a243d4e3c863.png" alt=""></p>
+<h2>系列介绍</h2>
+<p>本系列是读<a href="https://skypjack.github.io/">ECS深入浅出——EnTT作者skypjack</a>系列的笔记，旨在给自己讲清楚ECS具体是怎么一回事，并在C#中从头实现一遍,因此会包含较多的个人理解，如有疏漏，还望各位批评指出 ο(=•ω＜=)ρ⌒☆</p>
+<p>本系列将以一章理论(<strong>Th</strong>eory)，一章实践(<strong>Pr</strong>acticle)的节奏更新，实践章中一般会包含在实现过程中踩的坑与具体步骤。偶尔会在其中插入一章进阶(<strong>Ex</strong>tra)，即较难理解的技巧向章节。</p>
+<h2>本章目录</h2>
+<p>本章主要讲了ECS的理论基础</p>
+<ol>
+<li>什么是ECS
+<ol>
+<li>ECS与OOP的区别</li>
+<li>为什么要用ECS？</li>
+</ol>
+</li>
+<li>万丈高楼平地起
+<ol>
+<li>由OOP到ECS</li>
+<li>对象补完计划</li>
+</ol>
+</li>
+</ol>
+<br/><p>访问 <a href="https://linium.xin/posts/ECS-TH1初识/index" target="_blank">https://linium.xin/posts/ECS-TH1初识/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (霖)</author>
+        </item>
+    </channel>
+</rss>
