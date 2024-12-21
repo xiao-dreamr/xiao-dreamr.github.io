@@ -4,11 +4,11 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://linium.xin/',
   lang: 'zh-CN',
-  title: '霖的小屋 ο(=•ω＜=)ρ⌒☆',
+  title: '霖的树屋 ο(=•ω＜=)ρ⌒☆',
   author: {
     name: '霖',
     avatar: 'https://avatars.githubusercontent.com/u/189501925?v=4',
-    status:{emoji: '🟢',message: '在线...?'}
+    status:{emoji: '❄️',message: '静候春天...'}
   },
   subtitle: '',
   lastUpdated:true,
