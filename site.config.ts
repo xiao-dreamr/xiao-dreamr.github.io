@@ -29,5 +29,9 @@ export default defineSiteConfig({
   search: {
     enable: true,
   },
+  frontmatter:{
+    isPost:true,
+    author:'霖',
+  },
   
 })
