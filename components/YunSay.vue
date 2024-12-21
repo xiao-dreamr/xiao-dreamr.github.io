@@ -68,7 +68,7 @@ onMounted(() => {
   text-align: center;
   font-family: var(--va-font-serif);
   font-weight: bold;
-  padding: 0.5rem;
+  padding: 1.3rem;
   border-top: var(--va-border-width) solid var(--va-c-text-light);
   border-bottom: var(--va-border-width) solid var(--va-c-text-light);
 
