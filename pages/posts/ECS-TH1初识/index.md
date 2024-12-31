@@ -13,7 +13,7 @@ tags:
 
 ## 系列介绍
 
-本系列是读[ECS深入浅出——EnTT作者skypjack](https://skypjack.github.io/)系列的笔记，并在C#中从头实现一遍,因此会包含较多的个人理解，如有疏漏，还望各位批评指出 ο(=•ω＜=)ρ⌒☆
+本系列是读[ECS深入浅出——EnTT作者skypjack](https://skypjack.github.io/)系列的笔记，并在C#中从头实现一遍，因此会包含较多的个人理解，如有疏漏，还望各位批评指正 ο(=•ω＜=)ρ⌒☆
 
 本系列将以一章理论(**Th**eory)，一章实践(**Pr**acticle)的节奏更新，实践章中一般会包含在实现过程中踩的坑与具体步骤。偶尔会在其中插入一章进阶(**Ex**tra)，即较难理解的技巧向章节。
 
@@ -165,11 +165,13 @@ void MySystem(List<GameObject> objects){
 化GO为Entity后，具体实现应该像这样：
 
 ```csharp
-abstract class Entity(int id)
-{
-	// 其实Entity还应有version属性来实现复用
-	// version的实现会在后面的章节完成
-	int Id { get; } = id;
+namespace Entity{
+	public struct Entity(int id)
+	{
+		// 其实Entity还应有version属性来实现复用
+		// version的实现会在后面的章节完成
+		int Id { get; } = id;
+	}
 }
 ```
 
@@ -200,6 +202,8 @@ graph BT
 ```
 
 如图，Entity和Component都以一定的顺序排列的数组中，Entity永远位于第`Id`项，Component同理，该种数组能使Entity与Component相互链接；而不同组件的数组又由不同组件的System掌管，如此，任意$N$种Component，$M$个Entity，都可以通过$2N$个长度为$M$的数组实现将Entity作为Index访问Component。优雅而高效~
+
+这就是另一个C++ ECS框架——entityx的实现方式，而EnTT的实现方式我们将在TH2中详细介绍。
 
 至此，我们已经初步理解了ECS的概念，正式踏上了追求高效与优雅的旅途。
 

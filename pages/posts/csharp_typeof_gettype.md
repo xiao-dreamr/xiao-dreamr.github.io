@@ -26,8 +26,8 @@ tags:
 ```csharp
 Foo Foo1 = new Foo();
 Console.WriteLine($"GetType():  {Foo1.GetType()}");
-Console.WriteLine($"typeof(GetType()): {typeof(Foo1.GetType())}"); //错误
 Console.WriteLine($"typeof(): {typeof(Foo)}"); //正确
+Console.WriteLine($"typeof(GetType()): {typeof(Foo1.GetType())}"); // [!code error]
 
 class Foo { }
 
@@ -37,8 +37,8 @@ class Foo { }
 
 ```
 GetType():  Foo
-typeof(GetType()): *报错*
 typeof():   Foo
+typeof(GetType()): *报错* // [!code error]
 
 ```
 

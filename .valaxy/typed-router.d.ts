@@ -29,6 +29,7 @@ declare module 'vue-router/auto-routes' {
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/csharp_typeof_gettype': RouteRecordInfo<'/posts/csharp_typeof_gettype', '/posts/csharp_typeof_gettype', Record<never, never>, Record<never, never>>,
+    '/posts/ECS-PR1初识': RouteRecordInfo<'/posts/ECS-PR1初识', '/posts/ECS-PR1初识', Record<never, never>, Record<never, never>>,
     '/posts/ECS-TH1初识/': RouteRecordInfo<'/posts/ECS-TH1初识/', '/posts/ECS-TH1初识', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
