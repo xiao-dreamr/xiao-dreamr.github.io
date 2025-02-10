@@ -62,3 +62,7 @@ Foo1 is IFoo: True
 Foo1 is Foo: True
 ```
 
+> 值得注意的是，泛型类的实例在GetType()后的返回值形如MyClass`1\[T]，T不同时，GetType()的结果亦不同
+
+比如：A<B>与A<C>不会被认为是同一个类
+

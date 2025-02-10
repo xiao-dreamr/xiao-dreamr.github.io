@@ -32,7 +32,6 @@ tags:
 
 >在你面前有一块石头，一棵大树和在树荫下读书的一个人
 
-
 那么，在ECS和OOP中，这个场景都将如何拆解呢？这里就可以引出两种拆解方式：**水平分割**与**竖直分割**
 
 在传统的OOP架构中，拆解后的结构看起来像是这样的：
@@ -59,6 +58,7 @@ GameObject --> 环境物
 环境物 --> 大树
 GameObject --> 人
 ```
+
 不难看出，OOP看起来像是把每个游戏对象竖直分隔开，成为独立的个体，并依赖继承关系来实现代码复用，也就是常说的类，每个`GameObject`(下文缩写为`GO`)都有自己独立的属性，彼此独立。
 
 但，当GO间的继承关系变得复杂时，其本符合生活习惯的思维方式反而会变成一种障碍，各种复杂的多重继承更是令人脑袋晕晕。
@@ -120,40 +120,45 @@ ECS带来的最大便利，就是极致的**速度**
 总之，再怎么说，学学ECS总是没什么坏处的嘛 ~(￣▽￣)~*
 
 ## 万丈高楼平地起
+
 ### 从OOP到ECS
+
 万事开头难，不妨先试试一种不那么激进的方式——让GO成为Component的承载者，而不是数据与方法的承载者，示例如下：
+
 ```csharp
 abstract class GameObject
 {
-	/// 实体Id
-	int Id { set; get; }
-	/// 实体所承载的Components
-	List<Component> Components { set; get; } = [];
-	/// Component的类型，无序，用于加速判断
-	HashSet<Type> ComponentTypes { set; get; } = [];
-	/// 获取T类型的Component(示例)
-	Component? GetComponent<T>()
-	{
-		return Components.Find(c => c.GetType() is T);
-	}
-	bool Has<T>()
-	{
-		return ComponentTypes.Contains(typeof(T));
-	}
+    /// 实体Id
+    int Id { set; get; }
+    /// 实体所承载的Components
+    List<Component> Components { set; get; } = [];
+    /// Component的类型，无序，用于加速判断
+    HashSet<Type> ComponentTypes { set; get; } = [];
+    /// 获取T类型的Component(示例)
+    Component? GetComponent<T>()
+    {
+    return Components.Find(c => c.GetType() is T);
+    }
+    bool Has<T>()
+    {
+    return ComponentTypes.Contains(typeof(T));
+    }
 }
 ```
 
 而当我们想操作Component时，System可以像这样写:
+
 ```csharp
 void MySystem(List<GameObject> objects){
-	foreach(GameObject obj in objects){
-		if(obj.Has<MyComponent>()){
-			component = obj.GetComponent<MyComponent>();
-			// 干点啥 ¯\_(ツ)_/¯
-		}
-	}
+ foreach(GameObject obj in objects){
+  if(obj.Has<MyComponent>()){
+   component = obj.GetComponent<MyComponent>();
+   // 干点啥 ¯\_(ツ)_/¯
+  }
+ }
 }
 ```
+
 这种方法对于习惯OOP的人来说很容易接受，写起来也很舒服，且易于维护，但基本没有解决OOP的痛点，还可能导致更多性能问题。总而言之，这种方法只是一个由OOP到ECS过渡态的“杂交版”，只能起到思维上的过渡，并不推荐实际应用。
 
 ### 对象补完计划
@@ -166,12 +171,12 @@ void MySystem(List<GameObject> objects){
 
 ```csharp
 namespace Entity{
-	public struct Entity(int id)
-	{
-		// 其实Entity还应有version属性来实现复用
-		// version的实现会在后面的章节完成
-		int Id { get; } = id;
-	}
+    public struct Entity(int id)
+    {
+    // 其实Entity还应有version属性来实现复用
+    // version的实现会在后面的章节完成
+    int Id { get; } = id;
+    }
 }
 ```
 
@@ -179,31 +184,32 @@ namespace Entity{
 
 那么，不同的Component是如何绑定到Entity身上的呢？
 
-
 ```mermaid
 graph BT
-	subgraph EntityList
-		E0
-		E1
-		E2
-		E4
-	end
-	subgraph ComponentList
-		C0
-		C1
-		C2
-		C4
-	end
-	E0 --> C0
-	E1 --> C1
-	E2 --> C2
-	E4 --> C4
+ subgraph EntityList
+  E0
+  E1
+  E2
+  E4
+ end
+ subgraph ComponentList
+  C0
+  C1
+  C2
+  C4
+ end
+ E0 --> C0
+ E1 --> C1
+ E2 --> C2
+ E4 --> C4
 
 ```
 
 如图，Entity和Component都以一定的顺序排列的数组中，Entity永远位于第`Id`项，Component同理，该种数组能使Entity与Component相互链接；而不同组件的数组又由不同组件的System掌管，如此，任意$N$种Component，$M$个Entity，都可以通过$2N$个长度为$M$的数组实现将Entity作为Index访问Component。优雅而高效~
 
 这就是另一个C++ ECS框架——entityx的实现方式，而EnTT的实现方式我们将在TH2中详细介绍。
+
+同样地，管理Entity与Components之间关系的模块，我称之为Context，这部分我们会在[PR1-Context](https://linium.xin/posts/ECS-PR1初识#Context（Component-Entity的对应关系）)中详细讲解
 
 至此，我们已经初步理解了ECS的概念，正式踏上了追求高效与优雅的旅途。
 
