@@ -4,16 +4,16 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://linium.xin/',
   lang: 'zh-CN',
-  title: '霖的树屋 ο(=•ω＜=)ρ⌒☆',
+  title: '霖的小屋 ο(=•ω＜=)ρ⌒☆',
   author: {
     name: '霖',
-    avatar: 'https://avatars.githubusercontent.com/u/189501925?v=4',
-    status:{emoji: '❄️',message: '静候春天...'}
+    avatar: 'https://linium.xin/images/lin.png',
+    status:{emoji: '🔥',message: '寒假作业火烧眉毛（'}
   },
   subtitle: '',
   lastUpdated:true,
   description: '庄生晓梦迷蝴蝶',
-  favicon:'https://pic.imgdb.cn/item/675d87f2d0e0a243d4e40406.png',
+  favicon:'https://linium.xin/images/lin-favicon.png',
   comment:{
     enable:true,
   },

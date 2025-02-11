@@ -9,7 +9,7 @@ tags:
   - 笔记
 ---
 
-![对象补完计划](https://pic.imgdb.cn/item/675cee53d0e0a243d4e3c863.png)
+![对象补完计划](./对象补完计划-final.png)
 
 ## 系列介绍
 

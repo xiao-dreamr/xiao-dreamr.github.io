@@ -2,7 +2,7 @@ import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
 import { addonWaline } from 'valaxy-addon-waline'
 
-// add icons what you will need
+// add icons what you will need 
 const safelist = [
   'i-ri-home-line',
 ]
@@ -17,7 +17,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: '霖的树屋',
+      title: '霖的小屋',
       cloud:{
         enable: true,
       },
