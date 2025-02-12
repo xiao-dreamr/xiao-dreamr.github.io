@@ -33,5 +33,6 @@ export default defineSiteConfig({
     isPost:true,
     author:'霖',
   },
+  mediumZoom:{enable:true}
   
 })
