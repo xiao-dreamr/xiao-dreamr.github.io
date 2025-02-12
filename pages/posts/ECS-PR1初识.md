@@ -17,9 +17,16 @@ ECS系列的第一章实践~ 本章会直接从代码实现部分开始，不再
 
 废话不多说，直接进入正题
 
+## 本章目录
+
+本章主要实现了了ECS的基础架构
+[[toc]]
+
 <!-- more -->
 
-## Entity
+## 基础实现
+
+### Entity
 
 由TH1，Entity即为纯粹的Index，与Component一一对应，因此实现非常简单。
 
@@ -35,7 +42,7 @@ namespace Entity{
 
 当然，如果你已经对游戏开发或ECS有所了解，那么你肯定会有所疑惑：“entity的复用如何处理？” 这一部分，我们会在以后的章节中详细实现（大约在PR3？）
 
-## Component
+### Component
 
 什么？你问Component怎么实现？
 
@@ -52,7 +59,7 @@ struct Vector3(double x, double y, double z)
     public double Z = z;
 }
 
-struct FireResistance{} // 仅作为标签使用
+struct FireResistance{} // 是否抗火，仅作为标签使用
 
 enum FoodType{
     Juice,
@@ -73,11 +80,11 @@ struct Food(FoodType type, float hunger, float satiety){
 
 当然，以上实现只是个例子，记住：Component只是数据，不用携带除了数据以外的任何东西，它甚至连Id也不需要，而只是纯粹的，美好的数据。（什么奇怪的形容啊喂）
 
-## Context（Component-Entity的对应关系）
+### Component-Entity的对应关系
 
 即为我们在TH1中提到的[对象补完计划](https://linium.xin/posts/ECS-TH1初识#对象补完计划)，下面我们来试着实现它。
 
-### Pool
+#### Pool
 
 首先，我们需要一个存储Component的容器，此处命名为“Pool”，其职责有三：
 
@@ -98,42 +105,48 @@ struct Food(FoodType type, float hunger, float satiety){
 ::: code-group
 
 ```csharp [Pool.cs]
-namespace Context{
+namespace Enlinium.Context
+{
+    using Enlinium.Entity;
+    public abstract class AbstractPool
+    {;
+        public abstract bool AddTo(int Id);
+        public abstract bool Remove(int Id);
+        public abstract void Clear();
+    }
     /// <summary>
     /// 存放某种Component的Pool，以Entity.Id为索引
     /// </summary>
     /// <typeparam name="C">该Pool存放的Component类型</typeparam>
-    public class Pool<C> where C : new()
+    public class Pool<C> : AbstractPool where C : new()
     {
-        private List<C?> components = [];
-        private List<C?> freeComponents = []; // 弃用的组件存放处
+        protected List<C?[]> components = [];
+        protected List<C?> freeComponents = [];
         /// <summary>
-        /// 在Id处新建一个component
+        /// 在Id处添加一个新建的component
         /// </summary>
         /// <param name="Id">要新建组件的Id</param>
         /// <returns>添加成功则true，否则false</returns>
-        public bool Add(int Id)
+        public override bool AddTo(int Id)
         {
             if (components[Id] is not null)
             {
                 // 若此处已有对象，则不能添加
                 return false;
             }
-            C? new_component = freeComponents.Count > 0 ? freeComponents.Last() : new();
-            freeComponents.Remove(new_component);
-            // 若有空闲对象则挑出来最后一个，并移除freeComponents中对其的引用，没有就新建
-            if (Id > components.Count)
+            if (Id > components.Count * (int)Consts.ChunkSize)
             {
                 // 若超过了List上限，则先扩容再插入
-                components.AddRange(Enumerable.Repeat<C?>(default, Id - components.Count + 1));
-                components.Add(new_component);
-                return true;
+                components.AddRange(
+                    Enumerable.Repeat<C?[]>(
+                        (C?[])Enumerable.Repeat<C?>(default, (int)Consts.ChunkSize),
+                        Id / (int)Consts.ChunkSize - components.Count)
+                );
             }
-            else
-            {
-                components[Id] = new_component;
-                return true;
-            }
+            // 若有空闲对象则挑出来最后一个，没有就新建
+            components[Id / (int)Consts.ChunkSize][Id % (int)Consts.ChunkSize] = freeComponents.Count > 0 ? freeComponents[^1] : new();
+            freeComponents.RemoveAt(freeComponents.Count - 1);
+            return true;
 
         }
         /// <summary>
@@ -141,17 +154,17 @@ namespace Context{
         /// </summary>
         /// <param name="Id">要移除组件的Id</param>
         /// <returns>若移除成功则true，否则false</returns>
-        public bool Remove(int Id)
+        public override bool Remove(int Id)
         {
-            if (components[Id] is null)
+            if (Id >= components.Count * (int)Consts.ChunkSize || components[Id] is null)
             {
                 // 若此处没有对象，则不能移除
                 return false;
             }
             else
             {
-                freeComponents.Add(components[Id]);
-                components[Id] = default;
+                freeComponents.Add(components[Id / (int)Consts.ChunkSize][Id % (int)Consts.ChunkSize]);
+                components[Id / (int)Consts.ChunkSize][Id % (int)Consts.ChunkSize] = default;
                 return true;
             }
         }
@@ -160,13 +173,16 @@ namespace Context{
         /// </summary>
         /// <param name="Id">要获取组件的Id</param>
         /// <returns>该Id处的component，若没有则返回null</returns>
-        public C? Get(int Id) => components[Id];
+        public C? Get(int Id) => components[Id / (int)Consts.ChunkSize][Id % (int)Consts.ChunkSize];
         /// <summary>
         /// 清空所有component
         /// </summary>
-        public void Clear() => components.Clear();
-
-        // 此处方法均只写了其中的一个重载，其他重载略
+        public override void Clear()
+        {
+            components.Clear();
+            freeComponents.Clear();
+        }
+        // 以上所有方法只写了一个实现，其余重载略。
     }
 }
 ```
@@ -183,7 +199,7 @@ namespace Entity{
 
 :::
 
-### Context
+#### Context
 
 有了存储Components的容器Pool，接下来我们需要Context来更加方便地管理Entity与Component之间的关系——毕竟没有谁喜欢拿着完全没有封装的底层自嗨（
 
