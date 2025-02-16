@@ -1,12 +1,12 @@
 ---
-title: ECS-TH1 初识
+title: C#之ECS-TH1 初识
 icon : i-ri-stack-line
 date: 2024-12-10
 categories: ECS
 tags:
   - ECS
   - C#
-  - 笔记
+  - 理论
 ---
 
 ![对象补完计划](https://pic.imgdb.cn/item/675cee53d0e0a243d4e3c863.png)
@@ -111,9 +111,9 @@ ECS带来的最大便利，就是极致的**速度**
 
 乐高成品对应的即是OOP模式中的`GO`，以单个对象为单位，整体操作；而散落排布的积木块即是ECS中的`Component`，以单个组件为单位，精确而高效。
 
-虽然传统的OOP在绝大多数情况下都没什么大问题，依旧正常运转，但是当加载的GO数量极大时，性能开销与缓存未命中也将指数爆炸。
+虽然传统的OOP在绝大多数情况下都**没什么大问题**，依旧正常运转，但是当加载的GO数量极大时，性能开销与缓存未命中也将指数爆炸。
 
-这时，天空一声巨响，ECS闪亮登场，其准确简洁的数据结构几乎是为这种场景量身定制，效率提升十分显著。
+这时，天空一声巨响，ECS闪亮登场，其准确简洁的数据结构几乎是为这种场景量身定制，**效率提升**十分显著。
 
 >不过，在绝大多数场景中，ECS与OOP的表现**并没有明显区别**。我们在ECS中获得的最大便利实际上是一种编程范式，或者说**让代码更好维护的编程思维**。
 
@@ -150,16 +150,16 @@ abstract class GameObject
 
 ```csharp
 void MySystem(List<GameObject> objects){
- foreach(GameObject obj in objects){
-  if(obj.Has<MyComponent>()){
-   component = obj.GetComponent<MyComponent>();
-   // 干点啥 ¯\_(ツ)_/¯
-  }
- }
+    foreach(GameObject obj in objects){
+        if(obj.Has<MyComponent>()){
+            component = obj.GetComponent<MyComponent>();
+            // 干点啥 ¯\_(ツ)_/¯
+        }
+    }
 }
 ```
 
-这种方法对于习惯OOP的人来说很容易接受，写起来也很舒服，且易于维护，但基本没有解决OOP的痛点，还可能导致更多性能问题。总而言之，这种方法只是一个由OOP到ECS过渡态的“杂交版”，只能起到思维上的过渡，并不推荐实际应用。
+这种方法对于习惯OOP的人来说很容易接受，写起来也很舒服，且易于维护，但基本没有解决OOP的痛点，还可能导致更多性能问题。总而言之，这种方法只是一个由OOP到ECS过渡态的“杂交版”，只能起到思维上的过渡，并**不推荐**实际应用。
 
 ### 对象补完计划
 

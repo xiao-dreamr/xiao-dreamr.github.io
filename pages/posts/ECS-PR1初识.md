@@ -1,5 +1,5 @@
 ---
-title: ECS-PR1 初识
+title: C#之ECS-PR1 初识
 icon : i-ri-stack-line
 date: 2024-12-21
 categories: ECS
@@ -109,7 +109,8 @@ namespace Enlinium.Context
 {
     using Enlinium.Entity;
     public abstract class AbstractPool
-    {;
+    {
+        public ulong ComponentType;
         public abstract bool AddTo(int Id);
         public abstract bool Remove(int Id);
         public abstract void Clear();
@@ -122,6 +123,10 @@ namespace Enlinium.Context
     {
         protected List<C?[]> components = [];
         protected List<C?> freeComponents = [];
+        public Pool(){
+            ComponentType = ComponentFamily.Type<C>();
+            // 此处的ComponentFamily.Type马上会提到
+        }
         /// <summary>
         /// 在Id处添加一个新建的component
         /// </summary>
@@ -211,4 +216,5 @@ Context的职责有三：
 
 同样，先来梳理一下实现思路：
 
-- Pool管理：将每个Component类型编号，并将每个Component对应的Pool储存在List\<Pool>
+- Component类型编号：将每个Component类型编号，来实现类型判断
+- Pool管理：将每个Component对应的Pool储存在List\<Pool>中
