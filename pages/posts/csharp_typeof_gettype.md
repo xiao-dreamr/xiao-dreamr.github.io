@@ -3,14 +3,15 @@ title: C#中的typeof()与GetType()
 icon : i-mdi-dot-net
 date: 2024-11-17
 update: 2024-12-08
-author: Lin
 categories: C#
-excerpt_type: md
-excerpt: 关于C#中typeof()与Object.GetType()的一点小研究
 tags:
   - C#
   - 随笔
 ---
+
+关于C#中typeof()与Object.GetType()的一点小研究
+
+<!-- more -->
 
 ## 获取类型
 

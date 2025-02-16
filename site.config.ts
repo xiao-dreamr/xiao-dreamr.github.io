@@ -32,6 +32,7 @@ export default defineSiteConfig({
   frontmatter:{
     isPost:true,
     author:'霖',
+    aplayer: true
   },
   mediumZoom:{enable:true}
   
