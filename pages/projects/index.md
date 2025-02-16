@@ -11,7 +11,7 @@ projects:
         color: '#f9c8c8'
         desc: 随便做做的C# ECS框架，技术力不高，轻喷（）
         textColor: black
-        github: xiao-dreamr/Enlium
+        github: xiao-dreamr/Enlinium
         docs: https://linium.xin/posts/ECS-TH1初识
       - name: RHAE
         emoji: 🌱
