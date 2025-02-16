@@ -6,7 +6,7 @@ title: 关于站点
 
 [valaxy](https://valaxy.site/)驱动，主题为[valaxy-theme-yun](https://github.com/YunYouJun/valaxy/tree/main/packages/valaxy-theme-yun)
 
-起因是有一日突发奇想想把自己的想法记录下来，在网上偶然遇到了[云游君](https://yunyoujun.cn/)的博客，当时就被惊艳到了（
+起因是有一日突发奇想想把自己的想法记录下来，在网上偶然遇到了[云游君](https://yunyoujun.cn/)的博客，当时就真的被惊艳到了（
 
 于是就有了这个博客~不过高中节奏毕竟紧张，能投入到爱好上的时间并不多，这个博客就权当一个记录收获，发发牢骚的小树屋罢
 ο(=•ω＜=)ρ⌒☆
@@ -16,6 +16,12 @@ title: 关于站点
 ---
 
 ## 编年史
+
+### 2025
+
+#### 2月
+
+- 16日，新增全局音乐播放器和项目橱窗页面，启用了mediumZoom和LazyLoad
 
 ### 2024
 

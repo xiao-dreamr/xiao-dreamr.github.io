@@ -5,6 +5,7 @@ export default defineSiteConfig({
   url: 'https://linium.xin/',
   lang: 'zh-CN',
   title: '霖的小屋 ο(=•ω＜=)ρ⌒☆',
+  timezone: 'Asia/Shanghai',
   author: {
     name: '霖',
     avatar: 'https://linium.xin/images/lin.png',
@@ -19,13 +20,30 @@ export default defineSiteConfig({
   },
   social: [
     {
+      name: 'RSS',
+      link: '/atom.xml',
+      icon: 'i-ri-rss-line',
+      color: 'orange',
+    },
+    {
       name: 'GitHub',
       link: 'https://github.com/xiao-dreamr',
       icon: 'i-ri-github-line',
       color: '#6e5494',
     },
+    {
+      name: 'Bilibili',
+      link: 'https://space.bilibili.com/502814741',
+      icon: 'i-ri-bilibili-line',
+      color: '#fb7299',
+    }
   ],
-
+  statistics:{
+    enable:true,
+  },
+  sponsor:{
+    enable: false,
+  },
   search: {
     enable: true,
   },
@@ -34,6 +52,6 @@ export default defineSiteConfig({
     author:'霖',
     aplayer: true
   },
-  mediumZoom:{enable:true}
-  
+  mediumZoom:{enable:true},
+  vanillaLazyload:{enable:true},
 })

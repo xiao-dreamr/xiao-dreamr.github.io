@@ -1,6 +1,7 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
 import { addonWaline } from 'valaxy-addon-waline'
+import { addonMeting } from 'valaxy-addon-meting'
 
 // add icons what you will need 
 const safelist = [
@@ -36,18 +37,51 @@ export default defineValaxyConfig<UserThemeConfig>({
         api:"https://v1.hitokoto.cn?c=i&encode=json",
       }
     },
+    pages:[{
+      name:"项目橱窗",
+      url:"/projects",
+      icon:"i-ri-gallery-view",
+    },
+    ],
+    nav:[
+      {
+        text:"导航",
+        items:[
+          {
+            text:"项目橱窗",
+            link:"/projects",
+            icon:"i-ri-gallery-view",
+          },
+        ]
+      }
+    ],
     footer: {
       since: 2024,
       icon: {
         enable: false,
       },
     },
+    notice:{
+      enable:true,
+      content:"博主开学了，随缘更新(o゜▽゜)o☆",
+    }
   },
   addons:[
     addonWaline({
       serverURL:"https://comment.linium.xin/",
       comment:true,
-      pageview:true,
+    }),
+    addonMeting({
+      global:true,
+      props:{
+        server:"netease",
+        type:"album",
+        order:"random",
+        id:'255488596',
+        "list-folded": false,
+        theme:"#5092c5",
+        fixed: true,
+      }
     }),
   ],
   unocss: { safelist },
