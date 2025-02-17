@@ -8,7 +8,7 @@ projects:
     collection:
       - name: Enlinium
         emoji: 🏗️
-        color: '#f9c8c8'
+        color: '#f9a578'
         desc: 随便做做的C# ECS框架，技术力不高，轻喷（）
         textColor: black
         github: xiao-dreamr/Enlinium
