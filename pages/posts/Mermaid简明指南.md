@@ -5,7 +5,7 @@ date: 2025-02-23
 categories: Markdown
 tags:
   - Markdown
-  - 笔记
+  - 随笔
 ---
 
 本文是Mermaid基础功能教程，其实主要是因为一鸽鸽太久想不起来Mermaid怎么写，所以给自己建个备忘录（
