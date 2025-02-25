@@ -212,6 +212,24 @@ Context的职责有三：
 2. Pools的管理
 3. Entity与多种Component间的管理
 
+```mermaid
+graph TB
+    subgraph Context
+        subgraph Pool1
+            C1[Components]
+            Cf1[FreeComponents]
+        end
+        subgraph Pool2
+            C2[Components]
+            Cf2[FreeComponents]
+        end
+        E[Entity]
+        EF[freeEntities]
+    end
+    C1 -->|"**一一对应**"| E
+    C2 -->|"**一一对应**"| E
+```
+
 同样，先来梳理一下实现思路：
 
 - Component类型编号：将每个Component类型编号，来实现类型判断

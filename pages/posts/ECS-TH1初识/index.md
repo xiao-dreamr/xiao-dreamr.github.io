@@ -207,7 +207,7 @@ graph BT
 
 这就是另一个C++ ECS框架——entityx的实现方式，而EnTT的实现方式我们将在TH2中详细介绍。
 
-同样地，管理Entity与Components之间关系的模块，我称之为Context，这部分我们会在[PR1-Context](https://linium.xin/posts/ECS-PR1初识#Context（Component-Entity的对应关系）)中详细讲解
+而统一管理所有Component数组并对Entity进行编号创建的模块，我称之为`Context`。其需要实现Entity的创建与复用、Component数组内部的获取等等，也就是统领全局的“领导”角色。具体实现将会在[PR1-Context](https://linium.xin/posts/ECS-PR1初识#Context（Component-Entity的对应关系）)中详细讲解
 
 至此，我们已经初步理解了ECS的概念，正式踏上了追求高效与优雅的旅途。
 
