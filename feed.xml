@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>霖的小屋 ο(=•ω＜=)ρ⌒☆</title>
+        <link>https://linium.xin/</link>
+        <description>庄生晓梦迷蝴蝶</description>
+        <lastBuildDate>Mon, 03 Mar 2025 14:43:24 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>霖的小屋 ο(=•ω＜=)ρ⌒☆</title>
+            <url>https://linium.xin/images/lin.png</url>
+            <link>https://linium.xin/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2025 © 霖</copyright>
+        <atom:link href="https://linium.xin/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Mermaid 简明指南]]></title>
+            <link>https://linium.xin/posts/Mermaid简明指南</link>
+            <guid>https://linium.xin/posts/Mermaid简明指南</guid>
+            <pubDate>Mon, 03 Mar 2025 14:42:17 GMT</pubDate>
+            <content:encoded><![CDATA[<p>本文是Mermaid基础功能教程，其实主要是因为一鸽鸽太久想不起来Mermaid怎么写，所以给自己建个备忘录（</p>
+<h2>基础语法</h2>
+<h3>流程图</h3>
+<h4>节点</h4>
+<pre><code class="language-markdown">flo</code></pre>
+<br/><p>访问 <a href="https://linium.xin/posts/Mermaid简明指南" target="_blank">https://linium.xin/posts/Mermaid简明指南</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (霖)</author>
+        </item>
+        <item>
+            <title><![CDATA[C#中的typeof()与GetType()]]></title>
+            <link>https://linium.xin/posts/csharp_typeof_gettype</link>
+            <guid>https://linium.xin/posts/csharp_typeof_gettype</guid>
+            <pubDate>Mon, 03 Mar 2025 14:42:17 GMT</pubDate>
+            <content:encoded><![CDATA[<p>关于C#中typeof()与Object.GetType()的一点小研究</p>
+<br/><p>访问 <a href="https://linium.xin/posts/csharp_typeof_gettype" target="_blank">https://linium.xin/posts/csharp_typeof_gettype</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (霖)</author>
+        </item>
+        <item>
+            <title><![CDATA[C#之ECS-PR1 初识]]></title>
+            <link>https://linium.xin/posts/ECS-PR1初识</link>
+            <guid>https://linium.xin/posts/ECS-PR1初识</guid>
+            <pubDate>Mon, 03 Mar 2025 14:42:17 GMT</pubDate>
+            <content:encoded><![CDATA[<p>ECS系列的第一章实践~ 本章会直接从代码实现部分开始，不再提及与OOP的区别等概念。</p>
+<p>代码水平不高，如有疏漏，还请多多批评指正(￣▽￣)&quot;</p>
+<blockquote>
+<p>理论部分请看<a href="https://linium.xin/posts/ECS-TH1%E5%88%9D%E8%AF%86">ECS-TH1 初识</a></p>
+</blockquote>
+<p>废话不多说，直接进入正题</p>
+<p>本章主要实现了了ECS的基础架构<br>
+[[toc]]</p>
+<br/><p>访问 <a href="https://linium.xin/posts/ECS-PR1初识" target="_blank">https://linium.xin/posts/ECS-PR1初识</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (霖)</author>
+        </item>
+        <item>
+            <title><![CDATA[C#之ECS-TH1 初识]]></title>
+            <link>https://linium.xin/posts/ECS-TH1初识/index</link>
+            <guid>https://linium.xin/posts/ECS-TH1初识/index</guid>
+            <pubDate>Mon, 03 Mar 2025 14:42:17 GMT</pubDate>
+            <content:encoded><![CDATA[<p><img src="https://pic.imgdb.cn/item/675cee53d0e0a243d4e3c863.png" alt="对象补完计划"></p>
+<h2>系列介绍</h2>
+<p>本系列是读<a href="https://skypjack.github.io/">ECS深入浅出——EnTT作者skypjack</a>系列的笔记，并在C#中从头实现一遍，因此会包含较多的个人理解，如有疏漏，还望各位批评指正 ο(=•ω＜=)ρ⌒☆</p>
+<p>本系列将以一章理论(<strong>Th</strong>eory)，一章实践(<strong>Pr</strong>acticle)的节奏更新，实践章中一般会包含在实现过程中踩的坑与具体步骤。偶尔会在其中插入一章进阶(<strong>Ex</strong>tra)，即较难理解的技巧向章节。</p>
+<p>本章主要讲了ECS的理论基础<br>
+[[toc]]</p>
+<br/><p>访问 <a href="https://linium.xin/posts/ECS-TH1初识/index" target="_blank">https://linium.xin/posts/ECS-TH1初识/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (霖)</author>
+        </item>
+        <item>
+            <title><![CDATA[2024年末总结]]></title>
+            <link>https://linium.xin/posts/2024年末总结/index</link>
+            <guid>https://linium.xin/posts/2024年末总结/index</guid>
+            <pubDate>Mon, 03 Mar 2025 14:42:17 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>说在前面</h2>
+<p>虽然一直以来从未做过诸如此类总结，但不知怎的，临近年末，我的心态发生了一些细微的转变，或许是进入了中二期？又或者只是单纯的回归了自己本来的样子，我无从得知。不过，2024悄然流过，它又给我们<strong>留下了什么</strong>？</p>
+<p>回首这短短的366天，当我以如今的心态审视过去的我，又是另一番滋味。还没来得及细细品味此时此刻，时光便迫不及待地将你拉进下一段故事，唯有在片刻的安宁中，才能从囫囵吞枣的麻木中寻得一丝波澜。</p>
+<p>因此，与其说是年度总结，不如说是<strong>对这一年中人与事的回味</strong>，看看在日复一日的忙碌中，自己究竟<strong>遇到了什么，得到了什么</strong>，也顺便抒发一下对未来的展望罢。姑且就视作是当下心中复杂的情感在经过贫瘠的语言翻译过后的结果吧 =w=</p>
+<br/><p>访问 <a href="https://linium.xin/posts/2024年末总结/index" target="_blank">https://linium.xin/posts/2024年末总结/index</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (霖)</author>
+        </item>
+    </channel>
+</rss>
