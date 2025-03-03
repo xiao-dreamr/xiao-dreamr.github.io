@@ -9,7 +9,7 @@ projects:
       - name: Enlinium
         emoji: 🏗️
         color: '#f9a578'
-        desc: 随便做做的C# ECS框架，技术力不高，轻喷（）
+        desc: 随便做做的C# ECS框架，技术力不高，轻喷
         textColor: black
         github: xiao-dreamr/Enlinium
         docs: https://linium.xin/posts/ECS-TH1初识
@@ -20,4 +20,11 @@ projects:
         textColor: white
         github: xiao-dreamr/RHAEditor
         docs: https://www.bilibili.com/video/BV1rRPCefEAW/
+      - name: ModernTeleport
+        emoji: ⚡
+        color: '#fdd835'
+        desc: 简介小巧的传送相关指令 bukkit插件
+        textColor: black
+        github: xiao-dreamr/ModernTeleport
+        docs: https://github.com/xiao-dreamr/ModernTeleport/blob/master/README.md
 ---

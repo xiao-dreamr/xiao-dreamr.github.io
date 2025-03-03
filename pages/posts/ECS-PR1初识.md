@@ -206,25 +206,32 @@ namespace Entity{
 
 有了存储Components的容器Pool，接下来我们需要Context来更加方便地管理Entity与Component之间的关系——毕竟没有谁喜欢拿着完全没有封装的底层自嗨（
 
-Context的职责有三：
+Context的职责有二：
 
 1. Entity的创建与复用（复用部分PR3再说）
 2. Pools的管理
-3. Entity与多种Component间的管理
+
+总结成图表就是这样的：
 
 ```mermaid
 graph TB
     subgraph Context
-        subgraph Pool1
-            C1[Components]
-            Cf1[FreeComponents]
-        end
-        subgraph Pool2
-            C2[Components]
-            Cf2[FreeComponents]
-        end
-        E[Entity]
+    E[Entity]
         EF[freeEntities]
+        E <--->|复用| EF
+        subgraph Pools
+        direction LR
+            subgraph Pool1
+                C1[Components]
+                Cf1[freeComponents]
+                C1 <--->|复用| Cf1
+            end
+            subgraph Pool2
+                C2[Components]
+                Cf2[freeComponents]
+                C2 <--->|复用| Cf2
+            end
+        end
     end
     C1 -->|"**一一对应**"| E
     C2 -->|"**一一对应**"| E
@@ -232,5 +239,4 @@ graph TB
 
 同样，先来梳理一下实现思路：
 
-- Component类型编号：将每个Component类型编号，来实现类型判断
-- Pool管理：将每个Component对应的Pool储存在List\<Pool>中
+- Pool管理：将每个Component对应的Pool储存在List\<Pool>中，并实现获取Component的接口
