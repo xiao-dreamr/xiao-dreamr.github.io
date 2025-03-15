@@ -1,11 +1,10 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
 import { addonWaline } from 'valaxy-addon-waline'
-import { addonMeting } from 'valaxy-addon-meting'
 
 // add icons what you will need 
 const safelist = [
-  'i-ri-home-line',
+  'i-ri-home-line','i-ri-gallery-view'
 ]
 
 /**
@@ -70,18 +69,6 @@ export default defineValaxyConfig<UserThemeConfig>({
     addonWaline({
       serverURL:"https://comment.linium.xin/",
       comment:true,
-    }),
-    addonMeting({
-      global:true,
-      props:{
-        server:"netease",
-        type:"album",
-        order:"random",
-        id:'255488596',
-        "list-folded": false,
-        theme:"#5092c5",
-        fixed: true,
-      }
     }),
   ],
   unocss: { safelist },

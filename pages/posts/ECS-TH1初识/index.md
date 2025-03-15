@@ -1,6 +1,6 @@
 ---
 title: C#之ECS-TH1 初识
-icon : i-ri-stack-line
+icon: i-ri-stack-line
 date: 2024-12-10
 categories: ECS
 tags:

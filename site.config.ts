@@ -9,7 +9,7 @@ export default defineSiteConfig({
   author: {
     name: '霖',
     avatar: 'https://linium.xin/images/lin.png',
-    status:{emoji: '🔥',message: '寒假作业火烧眉毛（'}
+    status:{emoji: '🧊',message: '🎧THIS IS TRUE MUSIC.⚡'}
   },
   subtitle: '',
   lastUpdated:true,

@@ -8,7 +8,11 @@ tags:
   - 随笔
 ---
 
+![mermaid](https://pic1.imgdb.cn/item/67d54cb488c538a9b5bec569.png)
+
 本文是Mermaid基础功能教程，其实主要是因为一鸽鸽太久想不起来Mermaid怎么写，所以给自己建个备忘录（
+
+<!-- more -->
 
 ## 基础语法
 
@@ -32,7 +36,8 @@ flowchart LR
 flowchart TD
     A["(o゜▽゜)o☆"]
     B[I'm a word]
-    C["` This is *Markdown* `"]
+    C["` This is 
+    *Markdown* `"]
 ```
 
 ```mermaid
@@ -216,3 +221,7 @@ graph LR
     end
     GroupC --> Something
 ```
+
+## 结语
+
+以上基本足够平时写blog使用了，等后续有需要再加 =w=
