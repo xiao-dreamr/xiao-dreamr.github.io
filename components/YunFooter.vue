@@ -9,7 +9,6 @@ useScriptTag('//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js')
   <YunFooter>
     <!-- 自定义页脚内容 -->
     <div><a href="https://icp.gov.moe/?keyword=20252312" target="_blank">萌ICP备20252312号</a></div>
-    <div>本站总访问量 <span id="busuanzi_value_site_pv" /> 次</div>
-    <div>本站访客数 <span id="busuanzi_value_site_uv" /> 人次</div>
+    <div>本站总访问量 <span id="busuanzi_value_site_pv" /> 次 | 本站访客数 <span id="busuanzi_value_site_uv" />人次</div>
   </YunFooter>
 </template>

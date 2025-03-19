@@ -71,7 +71,7 @@ onMounted(() => {
   padding: 1.3rem;
   border-top: var(--va-border-width) solid var(--va-c-text-light);
   border-bottom: var(--va-border-width) solid var(--va-c-text-light);
-
+  backdrop-filter: blur(6px);
   .say-content {
     display: block;
   }

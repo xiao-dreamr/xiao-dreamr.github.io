@@ -30,9 +30,9 @@ declare module 'vue-router/auto-routes' {
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/2024年末总结/': RouteRecordInfo<'/posts/2024年末总结/', '/posts/2024年末总结', Record<never, never>, Record<never, never>>,
     '/posts/csharp_typeof_gettype': RouteRecordInfo<'/posts/csharp_typeof_gettype', '/posts/csharp_typeof_gettype', Record<never, never>, Record<never, never>>,
-    '/posts/ECS-PR1初识': RouteRecordInfo<'/posts/ECS-PR1初识', '/posts/ECS-PR1初识', Record<never, never>, Record<never, never>>,
     '/posts/ECS-TH1初识/': RouteRecordInfo<'/posts/ECS-TH1初识/', '/posts/ECS-TH1初识', Record<never, never>, Record<never, never>>,
-    '/posts/Mermaid简明指南': RouteRecordInfo<'/posts/Mermaid简明指南', '/posts/Mermaid简明指南', Record<never, never>, Record<never, never>>,
+    '/posts/Mermaid简明指南/': RouteRecordInfo<'/posts/Mermaid简明指南/', '/posts/Mermaid简明指南', Record<never, never>, Record<never, never>>,
+    '/posts/UnoCSS简明指南/': RouteRecordInfo<'/posts/UnoCSS简明指南/', '/posts/UnoCSS简明指南', Record<never, never>, Record<never, never>>,
     '/projects/': RouteRecordInfo<'/projects/', '/projects', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }

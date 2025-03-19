@@ -8,9 +8,15 @@ importers:
 
   .:
     dependencies:
+      date-fns:
+        specifier: ^4.1.0
+        version: 4.1.0
       valaxy:
         specifier: 0.20.6
         version: 0.20.6(@babel/parser@7.26.3)(@nuxt/kit@3.14.1592(rollup@4.28.1))(@types/markdown-it@14.1.2)(@types/node@22.10.1)(axios@1.7.9)(postcss@8.4.49)(rollup@4.28.1)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.2)(unhead@1.11.13)(yaml@2.6.1)
+      valaxy-addon-meting:
+        specifier: ^0.1.4
+        version: 0.1.4
       valaxy-addon-waline:
         specifier: ^0.2.0
         version: 0.2.0(typescript@5.7.2)(valaxy@0.20.6(@babel/parser@7.26.3)(@nuxt/kit@3.14.1592(rollup@4.28.1))(@types/markdown-it@14.1.2)(@types/node@22.10.1)(axios@1.7.9)(postcss@8.4.49)(rollup@4.28.1)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.2)(unhead@1.11.13)(yaml@2.6.1))
@@ -18,6 +24,9 @@ importers:
         specifier: 0.20.6
         version: 0.20.6(rollup@4.28.1)(vue@3.5.13(typescript@5.7.2))
     devDependencies:
+      '@iconify-json/mdi':
+        specifier: ^1.2.1
+        version: 1.2.3
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
@@ -513,6 +522,9 @@ packages:
 
   '@iconify-json/ant-design@1.2.3':
     resolution: {integrity: sha512-LoGrgGfRJ9iwwmTbtKnWg0FtN+87gy/C5WWErC2qUygyRuOyOMTxKJoUnl360UaXejiInDIK58o0jlJKoIVS4Q==}
+
+  '@iconify-json/mdi@1.2.3':
+    resolution: {integrity: sha512-O3cLwbDOK7NNDf2ihaQOH5F9JglnulNDFV7WprU2dSoZu3h3cWH//h74uQAB87brHmvFVxIOkuBX2sZSzYhScg==}
 
   '@iconify-json/ri@1.2.3':
     resolution: {integrity: sha512-UVKofd5xkSevGd5K01pvO4NWsu+2C9spu+GxnMZUYymUiaWmpCAxtd22MFSpm6MGf0MP4GCwhDCo1Q8L8oZ9wg==}
@@ -3294,6 +3306,9 @@ packages:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
     hasBin: true
 
+  valaxy-addon-meting@0.1.4:
+    resolution: {integrity: sha512-aTOCswBIg1/MOIC1vZ7ctaZOOEueVN99tEurAxukq15kJtqyps2/XqZw7Bjvik5LNbHtZd+TzmH+vrvhA/HF5w==}
+
   valaxy-addon-waline@0.2.0:
     resolution: {integrity: sha512-/aJ4XkMaKPVcZYdvzlJQVgbZ0KYZ24/BncJRmSdt33+rkRm8OeSvyQkwfXDnTJSyrbM3jL5qtLL9Bvl9JTHzTg==}
     peerDependencies:
@@ -3994,6 +4009,10 @@ snapshots:
       - vue
 
   '@iconify-json/ant-design@1.2.3':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/mdi@1.2.3':
     dependencies:
       '@iconify/types': 2.0.0
 
@@ -7203,6 +7222,8 @@ snapshots:
       picocolors: 1.1.1
 
   uuid@9.0.1: {}
+
+  valaxy-addon-meting@0.1.4: {}
 
   valaxy-addon-waline@0.2.0(typescript@5.7.2)(valaxy@0.20.6(@babel/parser@7.26.3)(@nuxt/kit@3.14.1592(rollup@4.28.1))(@types/markdown-it@14.1.2)(@types/node@22.10.1)(axios@1.7.9)(postcss@8.4.49)(rollup@4.28.1)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.2)(unhead@1.11.13)(yaml@2.6.1)):
     dependencies:

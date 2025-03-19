@@ -50,8 +50,9 @@ export default defineSiteConfig({
   frontmatter:{
     isPost:true,
     author:'霖',
-    aplayer: true
+    aplayer: true,
+    codeHeightLimit:400,
+    sponsor:false,
   },
   mediumZoom:{enable:true},
-  vanillaLazyload:{enable:true},
 })
