@@ -24,8 +24,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
     bg_image:{
       enable : true,
-      url:"./images/LightBackground.jpg",
-      dark:"./images/DarkBackground.jpg",   //"https://img.picui.cn/free/2024/12/11/6759b4f393e96.png"
+      url:"https://linium.xin/images/LightBackground.jpg",
+      dark:"https://linium.xin/images/DarkBackground.jpg",   //"https://img.picui.cn/free/2024/12/11/6759b4f393e96.png"
       opacity:0.75,
     },
     say:{
