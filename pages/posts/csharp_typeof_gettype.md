@@ -3,7 +3,7 @@ title: C#中的typeof()与GetType()
 icon : i-mdi-dot-net
 date: 2024-11-17
 update: 2024-12-08
-categories: C#
+categories: 笔记
 tags:
   - C#
   - 随笔

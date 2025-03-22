@@ -2,7 +2,7 @@
 title: Mermaid 简明指南
 icon : ri:markdown-line
 date: 2025-02-23
-categories: Markdown
+categories: 笔记
 tags:
   - Markdown
   - 随笔
