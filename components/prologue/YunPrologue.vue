@@ -5,7 +5,8 @@
     </div>
     <div
       flex="~ col"
-      class="justify-center items-center absolute bottom-$rect-margin left-0 right-0 visibiliy-hidden"
+      class="justify-center items-center absolute bottom-$rect-margin left-0 right-0 invisible"
+      hid
     >
       <PrologueSocialLinks/>
     </div>

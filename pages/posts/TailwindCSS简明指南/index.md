@@ -27,4 +27,4 @@ CSS——*Cascading Style Sheets（层叠样式表）*，是一种用于描述�
 
 也就是说，如果说HTML是网页的骨架和血肉，那么CSS就是骨架之上的皮肤，没有CSS的网页虽然能看，但是丑陋不堪。让网页从单纯的文本进化到对人类友好的、好看的页面，这就是CSS的任务。
 
-<Codepen class="h-400px" name="HelloHTML" id="wBvXzwO" user="xiao-dreamr"/>
+<CodePen class="h-400px" name="HelloHTML" id="wBvXzwO" user="xiao-dreamr"/>
