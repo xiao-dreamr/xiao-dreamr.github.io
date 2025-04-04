@@ -12,7 +12,7 @@ const content = ref("公告 | " + useThemeConfig().value.notice.content);
         <slot />
       </div>
     </div>
-  </template>
+</template>
   
 <style>
   .yun-notice {

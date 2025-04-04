@@ -41,6 +41,11 @@ export default defineValaxyConfig<UserThemeConfig>({
       url:"/projects",
       icon:"i-ri-gallery-view",
     },
+    {
+      name:"逆旅余音",
+      url:"/accumulations",
+      icon:"i-ri-pen-nib-fill",
+    }
     ],
     nav:[
       {
