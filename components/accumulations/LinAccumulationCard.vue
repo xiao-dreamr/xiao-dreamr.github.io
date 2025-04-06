@@ -3,6 +3,8 @@ import { AccumulationItem } from './AccumulationTypes';
 import {useMotion} from '@vueuse/motion';
 import { ref,type CSSProperties,computed} from 'vue';
 import { TinyColor } from '@ctrl/tinycolor';
+import AppLink from 'valaxy/client/components/AppLink.vue'
+//import LinAccumulationTags from './LinAccumulationTags.vue';
 
 const cubicBezier: Record<string, [number, number, number, number]> = {
   /**
@@ -17,7 +19,8 @@ const cubicBezier: Record<string, [number, number, number, number]> = {
 
 const props = defineProps<{
     i:number,
-    accumulation: AccumulationItem
+    accumulation: AccumulationItem,
+    color?:string
 }>();
 
 const cardRef = ref<HTMLElement>()
@@ -62,25 +65,40 @@ const cardStyle = computed(() => {
   return styles;
 })
 
-const content = ref(
-  props.accumulation.content.replaceAll('|','<br/>&#12288&#12288')
-)
+//.replaceAll('|','<br/>&#12288&#12288')
 
+const contents = computed(() => {
+  if(!props.accumulation.essence){
+    var content_:string
+    content_ = props.accumulation.content.replaceAll('|','<br/>&#12288&#12288')
+    return [content_]
+  }else{
+    var content_list:string[] = []
+    for(let i=0;i<props.accumulation.essence.length;i++){
+      content_list.push(props.accumulation.essence[i].replaceAll('|','<br/>&#12288&#12288'))
+    }
+    return content_list
+  }
+})
 </script>
 
 <template>
-  <div
-    ref="cardRef"
-    flex="~ col center"
-    display="inline-grid"
-    class="m-5 transform rounded shadow-md p-2 accumulations-card"
-    hover="shadow-lg translate-y-8 scale-110"
-    :style="cardStyle"
-  >
-    <div herf="content" class="m-5 text-xl accumulation-content" v-html="content"/>
-    <div v-if="props.accumulation.author" class="m-3 text-xs text-gray-500 w-full text-right accumulation-author">
-      —— <span v-if="props.accumulation.period">〔{{props.accumulation.period}}〕</span>{{ props.accumulation.author }}
-        <span v-if="props.accumulation.source"> · {{ props.accumulation.source }}</span>
+  <div v-for="content in contents" class="flex">
+    <div
+      ref="cardRef"
+      flex="~ col center"
+      display="inline-grid"
+      class="m-5 transform rounded shadow-md p-2 accumulations-card"
+      hover="shadow-lg"
+      :style="cardStyle"
+    >
+      <AppLink :to="props.accumulation.path">
+        <div herf="content" class="m-5 text-xl accumulation-content" v-html="content"/>
+      </AppLink>
+      <div v-if="props.accumulation.author" class="m-3 text-xs text-gray-500 w-full text-right accumulation-author">
+        —— <span v-if="props.accumulation.period">〔{{props.accumulation.period}}〕</span>{{ props.accumulation.author }}
+          <span v-if="props.accumulation.source"> · {{ props.accumulation.source }}</span>
+      </div>
     </div>
   </div>
 </template>
@@ -90,6 +108,7 @@ const content = ref(
 
 .accumulation-content{
   font-family: 'LXGW ZhenKai', serif;
+  color: rgb(0, 0, 0)
 }
 
 .accumulation-author{

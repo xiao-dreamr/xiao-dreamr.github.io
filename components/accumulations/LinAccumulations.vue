@@ -1,15 +1,42 @@
 <script setup lang="ts">
-import { useFrontmatter } from 'valaxy';
+import { useFrontmatter, usePageList } from 'valaxy';
 import { AccumulationItem } from './AccumulationTypes';
-import { reactive } from 'vue';
-import { ref } from 'vue';
+import { ref,computed} from 'vue';
 import LinAccumulationCard from './LinAccumulationCard.vue';
 
+/**
+ * 获取所有AccumulationItem的列表
+ */
+function useAccumulationList(params: {
+  type?: string
+} = {}) {
+  const pageList = usePageList()
+  return computed(() => {
+    const routes = pageList.value
+      .filter(i =>
+        i.path?.startsWith('/accumulations')
+        && !(i.path === '/accumulations')
+        && !i.path?.endsWith('.html')
+        && i.date
+        && (!params.type || i.type === params.type)
+        && (!i.hide || i.hide === 'index'), // hide `hide: all` posts
+      )
+
+    // 按index排序
+    const topAccmulations = routes.filter(i => i.index).sort((a,b) =>  (b.index??0)-(a.index??0) )
+    const otherAccumulations = routes.filter(i => !i.index)
+
+    return topAccmulations.concat(otherAccumulations)
+  })
+}
+
 const fm = useFrontmatter();
-const accumulations = reactive(fm.value.accumulations as AccumulationItem[]);
-accumulations.sort((a,b) =>  (b.index??0)-(a.index??0) );
-// 按index排序
+
+//const comment = ref(fm.value.comment);
+
 const notice = ref(fm.value.notice);
+
+const accumulations = useAccumulationList().value as AccumulationItem[]
 </script>
 
 <template>

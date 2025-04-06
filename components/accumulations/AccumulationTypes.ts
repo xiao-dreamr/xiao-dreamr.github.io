@@ -1,8 +1,16 @@
 export interface AccumulationItem{
     /**
+     * route路径
+     */
+    path:string
+    /**
      * 收集内容
      */
     content: string;
+    /**
+     * 精华句
+     */
+    essence?: string[];
     /**
      * 作者
      */
@@ -22,7 +30,7 @@ export interface AccumulationItem{
     /**
      * 收录日期
      */
-    date ?: string;
+    date : string | number | Date;
     /**
      * 链接
      */

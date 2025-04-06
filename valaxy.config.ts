@@ -77,4 +77,10 @@ export default defineValaxyConfig<UserThemeConfig>({
     }),
   ],
   unocss: { safelist },
+  markdown:{
+    theme: {
+      light: 'catppuccin-mocha',
+      dark: 'catppuccin-latte'
+    },
+  }
 })
