@@ -1,0 +1,74 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "霖的小屋 ο(=•ω＜=)ρ⌒☆",
+    "home_page_url": "https://linium.xin/",
+    "feed_url": "https://linium.xin/feed.json",
+    "description": "庄生晓梦迷蝴蝶",
+    "icon": "https://linium.xin/images/lin.png",
+    "author": {
+        "name": "霖",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<p>关于C#中typeof()与Object.GetType()的一点小研究</p>\n<p>由于经常用且经常三天打鱼两天晒网忘掉，故记录¯\\_(ツ)_/¯</p>\n<br/><p>访问 <a href=\"https://linium.xin/posts/csharp_typeof_gettype\" target=\"_blank\">https://linium.xin/posts/csharp_typeof_gettype</a> 阅读全文。</p>",
+            "url": "https://linium.xin/posts/csharp_typeof_gettype",
+            "title": "C#中的typeof()与GetType()",
+            "date_modified": "2024-11-17T00:00:00.000Z",
+            "date_published": "2025-04-06T14:42:43.984Z",
+            "author": {
+                "name": "霖",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p>想给博客加点花哨东西，但是笔者对前端一窍不通，是故去学TailwindCSS力（</p>\n<br/><p>访问 <a href=\"https://linium.xin/posts/TailwindCSS简明指南/index\" target=\"_blank\">https://linium.xin/posts/TailwindCSS简明指南/index</a> 阅读全文。</p>",
+            "url": "https://linium.xin/posts/TailwindCSS简明指南/index",
+            "title": "Tailwind 简明指南",
+            "date_modified": "2025-03-19T00:00:00.000Z",
+            "date_published": "2025-04-06T14:42:43.984Z",
+            "author": {
+                "name": "霖",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<p><img src=\"https://pic1.imgdb.cn/item/67d54cb488c538a9b5bec569.png\" alt=\"mermaid\"></p>\n<p>本文是Mermaid基础功能教程，其实主要是因为一鸽鸽太久想不起来Mermaid怎么写，所以给自己建个备忘录（</p>\n<br/><p>访问 <a href=\"https://linium.xin/posts/Mermaid简明指南/index\" target=\"_blank\">https://linium.xin/posts/Mermaid简明指南/index</a> 阅读全文。</p>",
+            "url": "https://linium.xin/posts/Mermaid简明指南/index",
+            "title": "Mermaid 简明指南",
+            "date_modified": "2025-02-23T00:00:00.000Z",
+            "date_published": "2025-04-06T14:42:43.983Z",
+            "author": {
+                "name": "霖",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>系列介绍</h2>\n<p>本系列是读<a href=\"https://skypjack.github.io/\">ECS深入浅出——EnTT作者skypjack</a>系列的笔记，并在C#中从头实现一遍，因此会包含较多的个人理解，</p>\n<br/><p>访问 <a href=\"https://linium.xin/posts/ECS-TH1初识/index\" target=\"_blank\">https://linium.xin/posts/ECS-TH1初识/index</a> 阅读全文。</p>",
+            "url": "https://linium.xin/posts/ECS-TH1初识/index",
+            "title": "C#之ECS-TH1 初识",
+            "date_modified": "2024-12-10T00:00:00.000Z",
+            "date_published": "2025-04-06T14:42:43.981Z",
+            "author": {
+                "name": "霖",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>说在前面</h2>\n<p>虽然一直以来从未做过诸如此类总结，但不知怎的，临近年末，我的心态发生了一些细微的转变，或许是进入了中二期？又或者只是单纯的回归了自己本来的样子，我无从得知。不过，2024悄然流过，它又给我们<strong>留下了什么</strong>？</p>\n<p>回首这短短的366天，当我以如今的心态审视过去的我，又是另一番滋味。还没来得及细细品味此时此刻，时光便迫不及待地将你拉进下一段故事，唯有在片刻的安宁中，才能从囫囵吞枣的麻木中寻得一丝波澜。</p>\n<p>因此，与其说是年度总结，不如说是<strong>对这一年中人与事的回味</strong>，看看在日复一日的忙碌中，自己究竟<strong>遇到了什么，得到了什么</strong>，也顺便抒发一下对未来的展望罢。姑且就视作是当下心中复杂的情感在经过贫瘠的语言翻译过后的结果吧 =w=</p>\n<br/><p>访问 <a href=\"https://linium.xin/posts/2024年末总结/index\" target=\"_blank\">https://linium.xin/posts/2024年末总结/index</a> 阅读全文。</p>",
+            "url": "https://linium.xin/posts/2024年末总结/index",
+            "title": "2024年末总结",
+            "date_modified": "2024-12-31T00:00:00.000Z",
+            "date_published": "2025-04-06T14:42:43.979Z",
+            "author": {
+                "name": "霖",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}
