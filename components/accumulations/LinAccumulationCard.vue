@@ -83,12 +83,11 @@ const contents = computed(() => {
 </script>
 
 <template>
-  <div v-for="content in contents" class="flex">
+  <div ref="cardRef" v-for="content in contents" class="flex">
     <div
-      ref="cardRef"
       flex="~ col center"
       display="inline-grid"
-      class="m-5 transform rounded shadow-md p-2 accumulations-card"
+      class="m-5 transform rounded shadow-md p-2 accumulation-card"
       hover="shadow-lg"
       :style="cardStyle"
     >
@@ -104,10 +103,15 @@ const contents = computed(() => {
 </template>
 
 <style lang="scss">
-@import url("https://fontsapi.zeoseven.com/2/main/result.css");
+@import url("https://fontsapi.zeoseven.com/488/main/result.css");
+
+.accumulation-card{
+  backdrop-filter: blur(var(--lin-bg-blur));
+}
 
 .accumulation-content{
-  font-family: 'LXGW ZhenKai', serif;
+  font-family: 'STDongGuanTi';
+  font-weight: normal;
   color: rgb(0, 0, 0)
 }
 

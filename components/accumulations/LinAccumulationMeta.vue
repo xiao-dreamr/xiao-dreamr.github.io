@@ -26,9 +26,10 @@ const period = fm.accumulation.period
 </template>
 
 <style lang="scss">
-@import url("https://fontsapi.zeoseven.com/2/main/result.css");
+@import url("https://fontsapi.zeoseven.com/292/main/result.css");
 
 .accumulation-content{
-  font-family: 'LXGW ZhenKai', serif;
+  font-family: "LXGW WenKai";
+  font-weight: normal;
 }
 </style>

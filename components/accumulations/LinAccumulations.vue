@@ -46,7 +46,7 @@ const accumulations = useAccumulationList().value as AccumulationItem[]
         <slot />
       </div>
     </div>
-    <div class="flex justify-center flex-wrap">
+    <div class="flex justify-center flex-wrap flex-1">
         <LinAccumulationCard v-for="accu,i in accumulations" :accumulation="accu" :i="i" />
     </div>
 </template>
