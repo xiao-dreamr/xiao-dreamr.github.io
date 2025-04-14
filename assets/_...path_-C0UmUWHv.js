@@ -1,0 +1,1 @@
+import{g as a,N as s,a as n,u as r,h as c,o as p}from"./app-Cp21bKA9.js";import{b as t}from"./route-block-B_A1xBdJ.js";const u=a({__name:"[...path]",setup(f){const o=r(),e=n();return s(()=>{e.path!=="/"&&e.path.endsWith("/")&&o.replace(e.path.slice(0,-1))}),(i,m)=>(p(),c("div"))}});typeof t=="function"&&t(u);export{u as default};
