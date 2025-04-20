@@ -13,18 +13,68 @@ tags:
 
 <!-- more -->
 
-## CSS是什么？
+## TailwindCSS是什么？
 
-想要说**CSS**，就需要先从**HTML**讲起。
+*CSS*想必读者并不陌生，但有过前端开发经验的人大概率经历过被*冗杂*且*复杂*的CSS绕的头晕眼花的时刻。
 
-HTML——*Hypertext Markup Language（富文本标记语言）*，顾名思义（完全不吧喂），就是使用形如`<p></p>`的标签对文本进行标记来描述网页的语言。
+暂且不论这样复杂的系统故障率有多高，光是编写HTML和CSS时的**割裂**体验就足够让人恼火——那么如何让网页的构建变得流畅简单？
 
-实际上，我们常用的**XML**和HTML的语法基本就是一回事，但XML并没有像`<img>`这类预制的标签，这也是两者最大的不同之处——HTML中包含很多用于描述网页的预制标签，但XML没有。
+> 只需书写 HTML 代码，无需书写 CSS，即可快速构建美观的网站。
 
-但是话又说回来了，写了这么多，**CSS**到底是啥？
+这便是TailWind官网上给出的解决方案，TailWind框架通过包含如`pt-4`、`flex`、`text-center`等工具集，使得我们可以直接在HTML元素的`class`中实现我们需要的样式。
 
-CSS——*Cascading Style Sheets（层叠样式表）*，是一种用于描述网页元素的**样式**的语言。
+多说无益，不如亮出一段分别在有无Tailwind的情境下编写的网页代码：
 
-也就是说，如果说HTML是网页的骨架和血肉，那么CSS就是骨架之上的皮肤，没有CSS的网页虽然能看，但是丑陋不堪。让网页从单纯的文本进化到对人类友好的、好看的页面，这就是CSS的任务。
+::: code-group
 
-<CodePen class="h-400px" name="HelloHTML" id="wBvXzwO" user="xiao-dreamr"/>
+```html [有Tailwind]
+<div class="abusolute w-full h-full bg-black">
+    <div 
+    class="flex abusolute w-full h-full justify-center items-center font-mono text-5xl text-white"
+    >
+        ✨Hello World!
+    </div>
+</div>
+```
+
+```html [无Tailwind]
+<div class="background">
+    <div 
+    class="greeting"
+    >
+        <div class="greeting-text">
+        ✨Hello World!
+        </div>
+    </div>
+</div>
+<style>
+
+.background{
+    position: abusolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0);
+}
+
+.greeting {
+    justify-content: center;
+    align-items: center;
+}
+
+.greeting-text{
+    font-family: "Fira code";
+    font-size: 2rem;
+    font-weight: bold;
+     color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+</style>
+```
+
+:::
+
+<CodePen class="h-300px" name="HelloWorld" id="wBvXzwO" user="xiao-dreamr" tab="html,result" />

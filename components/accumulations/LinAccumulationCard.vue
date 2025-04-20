@@ -103,8 +103,6 @@ const contents = computed(() => {
 </template>
 
 <style lang="scss">
-@import url("https://fontsapi.zeoseven.com/488/main/result.css");
-
 .accumulation-card{
   backdrop-filter: blur(var(--lin-bg-blur));
 }

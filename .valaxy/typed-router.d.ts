@@ -29,6 +29,7 @@ declare module 'vue-router/auto-routes' {
     '/accumulations/凉州词': RouteRecordInfo<'/accumulations/凉州词', '/accumulations/凉州词', Record<never, never>, Record<never, never>>,
     '/accumulations/滕王阁序': RouteRecordInfo<'/accumulations/滕王阁序', '/accumulations/滕王阁序', Record<never, never>, Record<never, never>>,
     '/accumulations/题龙阳县青草湖': RouteRecordInfo<'/accumulations/题龙阳县青草湖', '/accumulations/题龙阳县青草湖', Record<never, never>, Record<never, never>>,
+    '/accumulations/相信': RouteRecordInfo<'/accumulations/相信', '/accumulations/相信', Record<never, never>, Record<never, never>>,
     '/accumulations/一剪梅': RouteRecordInfo<'/accumulations/一剪梅', '/accumulations/一剪梅', Record<never, never>, Record<never, never>>,
     '/archives/': RouteRecordInfo<'/archives/', '/archives', Record<never, never>, Record<never, never>>,
     '/categories/': RouteRecordInfo<'/categories/', '/categories', Record<never, never>, Record<never, never>>,

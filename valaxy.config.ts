@@ -1,6 +1,7 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
 import { addonWaline } from 'valaxy-addon-waline'
+import { addonComponents } from 'valaxy-addon-components'
 
 // add icons what you will need 
 const safelist = [
@@ -75,12 +76,13 @@ export default defineValaxyConfig<UserThemeConfig>({
       serverURL:"https://comment.linium.xin/",
       comment:true,
     }),
+    addonComponents(),
   ],
   unocss: { safelist },
   markdown:{
     theme: {
       light: 'catppuccin-latte',
-      dark: 'catppuccin-mocha'
+      dark: 'catppuccin-mocha',
     },
   }
 })
