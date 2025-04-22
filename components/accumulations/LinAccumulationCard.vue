@@ -83,11 +83,12 @@ const contents = computed(() => {
 </script>
 
 <template>
-  <div ref="cardRef" v-for="content in contents" class="flex">
+  <div v-for="content in contents" class="flex">
     <div
+     ref="cardRef"
       flex="~ col center"
       display="inline-grid"
-      class="m-5 transform rounded shadow-md p-2 accumulation-card"
+      class="m-5 rounded shadow-md p-2 accumulation-card"
       hover="shadow-lg"
       :style="cardStyle"
     >

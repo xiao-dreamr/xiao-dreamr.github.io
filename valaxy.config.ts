@@ -46,6 +46,11 @@ export default defineValaxyConfig<UserThemeConfig>({
       name:"逆旅余音",
       url:"/accumulations",
       icon:"i-ri-pen-nib-fill",
+    },
+    {
+      name: "笑林新编",
+      url:"/fools",
+      icon:"i-ri-question-line",
     }
     ],
     nav:[
@@ -57,6 +62,11 @@ export default defineValaxyConfig<UserThemeConfig>({
             link:"/projects",
             icon:"i-ri-gallery-view",
           },
+          {
+            text:"逆旅余音",
+            link:"/accumulations",
+            icon:"i-ri-pen-nib-fill",
+          }
         ]
       }
     ],

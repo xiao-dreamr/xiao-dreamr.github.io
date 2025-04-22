@@ -3,7 +3,7 @@ import { AccumulationItem } from './AccumulationTypes';
 
 const fm = defineProps<{
     accumulation:AccumulationItem,
-    color?:string
+    pageTitleClass?:string
 }>()
 
 const content = (fm.accumulation.content??"").replaceAll('|','<br/>').replaceAll(')','&#12288&#12288')
@@ -21,7 +21,7 @@ const period = fm.accumulation.period
     <div 
         class="inline-flex-center text-lg accumulation-content leading-relaxed mx-9" 
         v-html="content"
-        :style="`color:${color}`"
+        :style="`color:${pageTitleClass}`"
     />
 </template>
 
