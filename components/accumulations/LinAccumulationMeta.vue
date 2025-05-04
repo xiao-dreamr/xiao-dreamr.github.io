@@ -18,7 +18,7 @@ const period = fm.accumulation.period
         <span class="text-sm text-gray-500">{{ author }}</span>
     </div>
     <div 
-        class="inline-flex-center text-lg accumulation-content leading-relaxed mx-9 text-$va-c-text" 
+        class="inline-flex-center text-lg accumulation-content leading-relaxed mx-8 text-black dark:text-white" 
         v-html="content"
     />
 </template>

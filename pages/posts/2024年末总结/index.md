@@ -5,7 +5,7 @@ icon: mdi:book-multiple-variant
 categories: 杂谈
 aplayer: true
 tags:
-  - 随笔
+  - 思考
 ---
 
 ## 说在前面
