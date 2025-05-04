@@ -26,7 +26,7 @@ function useAccumulationList(params: {
     const topAccmulations = routes.filter(i => i.index).sort((a,b) =>  (b.index??0)-(a.index??0) )
     const otherAccumulations = routes.filter(i => !i.index)
 
-    return topAccmulations.concat(otherAccumulations)
+    return topAccmulations.concat(otherAccumulations.sort(a => Math.random()))
   })
 }
 
@@ -47,22 +47,23 @@ const accumulations = useAccumulationList().value as AccumulationItem[]
       </div>
     </div>
     <div class="flex justify-center flex-wrap flex-1">
-        <LinAccumulationCard v-for="accu,i in accumulations" :accumulation="accu" :i="i" />
+        <LinAccumulationCard v-for="accu,i in accumulations" :accumulation="accu" :i="i" class="flex"/>
     </div>
 </template>
 
-<style>
-  .yun-notice {
-    border: 1px solid var(--va-c-text);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--va-font-serif);
-    font-weight: bold;
-    padding: 1rem;
-    max-width: var(--yun-post-card-max-width);
-    background-color: rgba(201, 201, 201, 0.1);
-    backdrop-filter: blur(var(--lin-bg-blur));
-  }
+<style lang="scss" scoped>
+
+.yun-notice {
+  border: 1px solid var(--va-c-text);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--va-font-serif);
+  font-weight: bold;
+  padding: 1rem;
+  max-width: var(--yun-post-card-max-width);
+  background-color: rgba(201, 201, 201, 0.1);
+  backdrop-filter: blur(var(--lin-bg-blur));
+}
 </style>

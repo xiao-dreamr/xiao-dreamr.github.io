@@ -55,7 +55,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="say">
+  <div class="say backdrop-blur-$lin-say-blur">
     <span v-if="sayContent" class="say-content animate-fade-in animate-iteration-1">「 {{ sayContent }} 」</span>
     <span v-if="sayAuthor" class="say-author">{{ sayFrom }} · {{ sayAuthor }}</span>
   </div>
@@ -68,10 +68,10 @@ onMounted(() => {
   text-align: center;
   font-family: var(--va-font-serif);
   font-weight: bold;
-  padding: 1.3rem;
-  border-top: var(--va-border-width) solid var(--va-c-text-light);
+  padding: 1.5rem;
+  // border-top: var(--va-border-width) solid var(--va-c-text-light);
   border-bottom: var(--va-border-width) solid var(--va-c-text-light);
-  backdrop-filter: blur(--lin-bg-blur);
+
   .say-content {
     display: block;
   }

@@ -19,3 +19,6 @@ node_modules
 *.psd
 
 components.d.ts
+
+# valaxy fuse
+public/valaxy-fuse-list.json

@@ -2,8 +2,7 @@
 import { AccumulationItem } from './AccumulationTypes';
 
 const fm = defineProps<{
-    accumulation:AccumulationItem,
-    pageTitleClass?:string
+    accumulation:AccumulationItem
 }>()
 
 const content = (fm.accumulation.content??"").replaceAll('|','<br/>').replaceAll(')','&#12288&#12288')
@@ -19,13 +18,12 @@ const period = fm.accumulation.period
         <span class="text-sm text-gray-500">{{ author }}</span>
     </div>
     <div 
-        class="inline-flex-center text-lg accumulation-content leading-relaxed mx-9" 
+        class="inline-flex-center text-lg accumulation-content leading-relaxed mx-9 text-$va-c-text" 
         v-html="content"
-        :style="`color:${pageTitleClass}`"
     />
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .accumulation-content{
   font-family: "LXGW WenKai";
   font-weight: normal;

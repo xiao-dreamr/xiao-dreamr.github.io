@@ -13,14 +13,15 @@
   },
   "dependencies": {
     "date-fns": "^4.1.0",
-    "valaxy": "0.20.6",
+    "unhead": "2.0.8",
+    "valaxy": "0.23.3",
     "valaxy-addon-components": "^0.1.0",
     "valaxy-addon-meting": "^0.1.4",
-    "valaxy-addon-waline": "0.2.0",
-    "valaxy-theme-yun": "0.20.6"
+    "valaxy-addon-waline": "0.2.1",
+    "valaxy-theme-yun": "0.23.3"
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.2.1",
-    "typescript": "^5.7.2"
+    "typescript": "^5.8.3"
   }
 }

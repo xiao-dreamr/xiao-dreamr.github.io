@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import type { Article } from '@unhead/schema-org'
-import { defineArticle, useSchemaOrg } from '@unhead/schema-org'
+import { defineArticle, useSchemaOrg } from '@unhead/schema-org/vue'
 import { toDate } from 'date-fns'
 import { useFrontmatter, useFullUrl, useSiteConfig } from 'valaxy'
 import { computed } from 'vue'

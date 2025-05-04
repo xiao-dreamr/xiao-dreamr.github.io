@@ -10,7 +10,7 @@ const showContent = ref(false)
 <template>
   <div
     flex="~ col"
-    class="yun-square-container items-center justify-center text-center size-$total-char-height"
+    class="yun-square-container items-center justify-center text-center max-w-2xl  backdrop-blur-$lin-bg-blur py-10 px-7 shadow-2xl bg-white/5 border-solid border-$va-c-text border-1 dark:border-[0.5px]"
   >
     <slot />
 
@@ -29,7 +29,7 @@ const showContent = ref(false)
       >
         <div
           flex="~ col"
-          class="absolute yun-square square-rotate z-1 bg-white/80"
+          class="yun-square square-rotate z-1 bg-white/80"
         >
           <LineBurstEffects
             class="absolute top-0 left-0 right-0 bottom-0 size-full scale-200"
@@ -56,27 +56,26 @@ const showContent = ref(false)
         <YunAuthorName class="mt-3" />
         <YunAuthorIntro />
 
+        <div class="py-4 md:py-5 lg:pt-6">
+          <YunAnimLineDraw />
+        </div>
         <div
           flex="~ col"
           class="gap-2 items-center justify-center"
-          my-4 md:my-5 lg:my-6
-          py-4 md:py-6
-          border="t-1px b-1px black/60 dark:white/60"
         >
           <YunSiteTitle />
           <YunSiteSubtitle />
           <YunSiteDescription />
         </div>
-        <div
-        flex="~ col"
-        class="justify-center items-center"
-      >
-            <PrologueSocialLinks />
+        <div class="scale-x--100 py-4 md:py-5 lg:pb-6">
+          <YunAnimLineDraw />
         </div>
+
+        <YunSocialLinks />
+
         <div
-          class="mt-4 flex-center w-64 md:w-100 m-auto gap-2"
+          class="mt-4 flex-center w-72 md:w-150 m-auto gap-2"
           flex="~ wrap"
-          p="x-$rect-margin"
         >
           <YunSiteLinkItem
             :page="{
@@ -111,8 +110,8 @@ const showContent = ref(false)
 
   &.enter-from {
     border-radius: 0%;
-    width: var(--total-char-height);
-    height: var(--total-char-height);
+    // width: var(--total-char-height);
+    // height: var(--total-char-height);
     transform: rotate(135deg) translateY(0%);
     box-shadow: none;
   }
@@ -123,10 +122,6 @@ const showContent = ref(false)
 
   .info-with-avatar {
     position: relative;
-
-    &.show {
-      transform: translateY(-50%);
-    }
   }
 
   .info {
@@ -137,7 +132,7 @@ const showContent = ref(false)
 
     &.show {
       opacity: 1;
-      transform: translateY(calc(50% + var(--avatar-size) / 2));
+      // transform: translateY(calc(50% + var(--avatar-size) / 2));
     }
   }
 }

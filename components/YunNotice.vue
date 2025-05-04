@@ -26,6 +26,6 @@ const content = ref("公告 | " + useThemeConfig().value.notice.content);
     padding: 1rem;
     max-width: var(--yun-post-card-max-width);
     background-color: rgba(201, 201, 201, 0.1);
-    backdrop-filter: blur(var(--lin-bg-blur));
+    backdrop-filter: blur(var(--lin-say-blur));
   }
 </style>

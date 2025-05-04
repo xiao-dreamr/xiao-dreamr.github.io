@@ -103,7 +103,7 @@ const contents = computed(() => {
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .accumulation-card{
   backdrop-filter: blur(var(--lin-bg-blur));
 }
