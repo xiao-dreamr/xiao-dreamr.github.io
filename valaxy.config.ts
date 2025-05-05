@@ -31,27 +31,33 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
     say:{
       enable:true,
-      api:"https://v1.hitokoto.cn?c=i&encode=json",
+      api:"https://v1.hitokoto.cn?c=i&c=k&c=d&encode=json",
       hitokoto:{
         enable:true,
-        api:"https://v1.hitokoto.cn?c=i&encode=json",
+        api:"https://v1.hitokoto.cn?c=i&c=k&c=d&encode=json",
       }
     },
-    pages:[{
-      name:"项目橱窗",
-      url:"/projects",
-      icon:"i-ri-gallery-view",
-    },
-    {
-      name:"逆旅余音",
-      url:"/accumulations",
-      icon:"i-ri-pen-nib-fill",
-    },
-    {
-      name: "笑林新编",
-      url:"/fools",
-      icon:"i-ri-question-line",
-    }
+    pages:[
+      {
+        name:"项目橱窗",
+        url:"/projects",
+        icon:"i-ri-code-s-slash-line",
+      },
+      {
+        name:"逆旅余音",
+        url:"/accumulations",
+        icon:"i-ri-pen-nib-line",
+      },
+      {
+        name: "笑林新编",
+        url:"/fools",
+        icon:"i-ri-question-line",
+      },
+      {
+        name: "友情链接",
+        url:"/links",
+        icon:"i-ri-planet-line"
+      }
     ],
     nav:[
       {
@@ -60,12 +66,22 @@ export default defineValaxyConfig<UserThemeConfig>({
           {
             text:"项目橱窗",
             link:"/projects",
-            icon:"i-ri-gallery-view",
+            icon:"i-ri-code-s-slash-line",
           },
           {
             text:"逆旅余音",
             link:"/accumulations",
-            icon:"i-ri-pen-nib-fill",
+            icon:"i-ri-pen-nib-line",
+          },
+          {
+            text: "笑林新编",
+            link:"/fools",
+            icon:"i-ri-question-line",
+          },
+          {
+            text: "友情链接",
+            link:"/links",
+            icon:"i-ri-planet-line"
           }
         ]
       }

@@ -33,6 +33,9 @@ importers:
       '@iconify-json/mdi':
         specifier: ^1.2.1
         version: 1.2.3
+      '@iconify/icons-akar-icons':
+        specifier: ^1.2.19
+        version: 1.2.19
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -631,6 +634,9 @@ packages:
 
   '@iconify-json/vscode-icons@1.2.20':
     resolution: {integrity: sha512-xuWqr/SrckUoFi6kpSH/NrNGK+CuZ8LNnBY8qkRdkQvHmhirXvwsLfTKHoFndTsOlxfsHahlOLVCCb523kdqMA==}
+
+  '@iconify/icons-akar-icons@1.2.19':
+    resolution: {integrity: sha512-q5gOZ+qFh1winAZ6M2Bcz06y5+/sKCbwzMbYVus62JmxURxIE1MKxJyklpTnQc+ZRZ0k12/+2ysPtSEpH6777w==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -4326,6 +4332,10 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify-json/vscode-icons@1.2.20':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify/icons-akar-icons@1.2.19':
     dependencies:
       '@iconify/types': 2.0.0
 

@@ -3,8 +3,8 @@ title: 霖的项目
 layout: projects
 projects:
   game:
-    title: 游戏
-    emoji: 🎮
+    title: 工具
+    emoji: ⛏️
     collection:
       - name: Enlinium
         emoji: 🏗️
@@ -20,11 +20,15 @@ projects:
         textColor: white
         github: xiao-dreamr/RHAEditor
         docs: https://www.bilibili.com/video/BV1rRPCefEAW/
+  minecraft:
+    title: MC
+    emoji: ⛺
+    collection:
       - name: ModernTeleport
         emoji: ⚡
         color: "#fdd835"
-        desc: 简介小巧的传送相关指令 bukkit插件
+        desc: 简洁小巧的传送相关Bukkit插件
         textColor: black
         github: xiao-dreamr/ModernTeleport
-        docs: https://github.com/xiaodreamr/ModernTeleport/blob/master/README.md
+        docs: https://github.com/xiao-dreamr/ModernTeleport/blob/master/README.md
 ---

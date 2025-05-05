@@ -1,5 +1,5 @@
 ---
-title: 病友
+title: 喵？喵！
 keywords: 链接
 description: 病友
 links: https://linium.xin/friends/links.json

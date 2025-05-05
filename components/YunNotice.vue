@@ -2,7 +2,7 @@
 import { useThemeConfig } from 'valaxy-theme-yun/composables/index.ts'
 import { ref } from 'vue';
 
-const content = ref("公告 | " + useThemeConfig().value.notice.content);
+const content = ref(useThemeConfig().value.notice.content);
 </script>
 
 <template>

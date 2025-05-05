@@ -55,7 +55,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="say backdrop-blur-$lin-say-blur">
+  <div class="say backdrop-blur-$lin-say-blur bg-white/5">
     <span v-if="sayContent" class="say-content animate-fade-in animate-iteration-1">「 {{ sayContent }} 」</span>
     <span v-if="sayAuthor" class="say-author">{{ sayFrom }} · {{ sayAuthor }}</span>
   </div>
