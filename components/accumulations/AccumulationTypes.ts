@@ -28,14 +28,6 @@ export interface AccumulationItem{
      */
     region ?: string;
     /**
-     * 收录日期
-     */
-    date : string | number | Date;
-    /**
-     * 链接
-     */
-    link ?: string;
-    /**
      * 文字排列方向（纵向/横向）
      */
     align ?: "horizontal-tb" | "vertical-rl" | "vertical-lr" | "sideways-rl" | "sideways-lr";
@@ -51,13 +43,5 @@ export interface AccumulationItem{
      * 标签
      */
     tags ?: string[];
-    /**
-     * 主颜色
-     */
-    color ?: string;
-    /**
-     * 渐变色
-     */
-    gradient ?: string;
 }
 

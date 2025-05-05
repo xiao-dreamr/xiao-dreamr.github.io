@@ -1,11 +1,10 @@
 ---
-title: Mermaid 简明指南
+title: 【Mermaid】简明指南
 icon : ri:markdown-line
 date: 2025-02-23
-categories: 笔记
+categories: 随笔
 tags:
   - Markdown
-  - 随笔
 ---
 
 ![mermaid](https://pic1.imgdb.cn/item/67d54cb488c538a9b5bec569.png)

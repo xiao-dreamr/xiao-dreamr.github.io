@@ -1,8 +1,8 @@
 ---
-title: C#之ECS-TH1 初识
+title: 【ECS】TH1-初识
 icon: i-ri-stack-line
 date: 2024-12-10
-categories: 笔记
+categories: 随笔
 cover: https://pic.imgdb.cn/item/675cee53d0e0a243d4e3c863.png
 excerpt: 什么是ECS(Entity Component System)喵？怎么用C#实现喵？
 tags:

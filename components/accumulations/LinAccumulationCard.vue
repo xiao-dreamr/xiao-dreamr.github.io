@@ -2,7 +2,6 @@
 import { AccumulationItem } from './AccumulationTypes';
 import {useMotion} from '@vueuse/motion';
 import { ref,type CSSProperties,computed} from 'vue';
-import { TinyColor } from '@ctrl/tinycolor';
 import AppLink from 'valaxy/client/components/AppLink.vue'
 //import LinAccumulationTags from './LinAccumulationTags.vue';
 
@@ -45,17 +44,9 @@ const cardStyle = computed(() => {
   const styles: CSSProperties={
     writingMode: props.accumulation.align,
   }
-  if (props.accumulation.color && (typeof props.accumulation.gradient === 'undefined' || props.accumulation.gradient)) {
-    const color = new TinyColor(props.accumulation.color)
-    styles['--un-gradient-stops'] = `${color.spin(55).toHexString()}, ${props.accumulation.color}`
-    if (!styles.color)
-      styles.color = color.isDark() ? 'white' : 'black'
-  }
-  else {
-    styles.backgroundColor = props.accumulation.color || 'rgba(255,255,255,0.9)'
-    if (!styles.color)
-      styles.color = 'black'
-  }
+  styles.backgroundColor = 'rgba(255,255,255,0.9)'
+  if (!styles.color)
+    styles.color = 'black'
   if(!props.accumulation.align){
     styles.writingMode = 'vertical-rl'
     styles.letterSpacing = '0.2em'

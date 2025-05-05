@@ -8,7 +8,10 @@ const content = ref(useThemeConfig().value.notice.content);
 <template>
     <div class="w-full px-4 flex-center">
       <div class="yun-notice w-full">
-        <span v-html="content" />
+        <span
+        class="i-mdi-bullhorn-outline pt-10 inline float-left -rotate-16"
+        text="black dark:white 2xl"
+        /><span v-html="content" class="inline"/>
         <slot />
       </div>
     </div>

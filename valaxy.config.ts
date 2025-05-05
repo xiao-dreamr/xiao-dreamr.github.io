@@ -16,6 +16,9 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   theme: 'yun',
   themeConfig: {
+    colors:{
+      primary:"#3fa8e0",
+    },
     banner: {
       enable: true,
       title: '霖的小屋',
@@ -51,7 +54,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       {
         name: "笑林新编",
         url:"/fools",
-        icon:"i-ri-question-line",
+        icon:"i-ri-lightbulb-flash-line",
       },
       {
         name: "友情链接",
@@ -76,7 +79,7 @@ export default defineValaxyConfig<UserThemeConfig>({
           {
             text: "笑林新编",
             link:"/fools",
-            icon:"i-ri-question-line",
+            icon:"i-ri-lightbulb-flash-line",
           },
           {
             text: "友情链接",
@@ -110,5 +113,8 @@ export default defineValaxyConfig<UserThemeConfig>({
       light: 'catppuccin-latte',
       dark: 'catppuccin-mocha',
     },
+  },
+  groupIcons:{
+    customIcon:{}
   }
 })

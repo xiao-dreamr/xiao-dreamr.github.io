@@ -1,9 +1,9 @@
 ---
-title: Tailwind 入门小记
+title: 【Tailwind】入门小记
 icon : i-mdi:tailwind
 date: 2025-03-19
 update: 2025-05-05
-categories: 笔记
+categories: 随笔
 codepen: true
 end: true
 tags:
