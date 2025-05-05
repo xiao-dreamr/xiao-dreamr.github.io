@@ -24,9 +24,9 @@ function useAccumulationList(params: {
 
     // 按index排序
     const topAccmulations = routes.filter(i => i.index).sort((a,b) =>  (b.index??0)-(a.index??0) )
-    const otherAccumulations = routes.filter(i => !i.index)
+    const otherAccumulations = routes.filter(i => !i.index).sort(() => Math.random()-0.5)
 
-    return topAccmulations.concat(otherAccumulations.sort(a => Math.random()))
+    return topAccmulations.concat(otherAccumulations)
   })
 }
 

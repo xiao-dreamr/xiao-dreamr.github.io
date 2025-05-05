@@ -30,5 +30,13 @@
         "blog":"-西柿's Blog-",
         "desc":"折枝的树也能开花",
         "color":"#ff66b2"
+    },
+    {
+        "url":"https://lwekdj.github.io/",
+        "avatar":"https://avatars.githubusercontent.com/u/209656811",
+        "name":"Lwek",
+        "blog":"Lwek",
+        "desc":"责人之心责己，恕已之心恕人。",
+        "color":"#03a9f4"
     }
 ]
