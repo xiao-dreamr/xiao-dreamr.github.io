@@ -10,7 +10,7 @@ const showContent = ref(false)
 <template>
   <div
     flex="~ col"
-    class="yun-square-container items-center justify-center text-center max-w-2xl  backdrop-blur-$lin-bg-blur py-10 px-7 shadow-2xl bg-white/5 border-solid border-$va-c-text border-1 dark:border-[0.5px]"
+    class="yun-square-container items-center justify-center text-center max-w-2xl  backdrop-blur-$lin-bg-blur py-10 px-7 shadow-2xl bg-white/5 border-solid border-$va-c-text border-1 dark:border-[0.5px] -z-1"
   >
     <slot />
 

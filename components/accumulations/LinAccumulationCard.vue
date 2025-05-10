@@ -79,8 +79,8 @@ const contents = computed(() => {
      ref="cardRef"
       flex="~ col center"
       display="inline-grid"
-      class="m-5 rounded shadow-md p-2 accumulation-card"
-      hover="shadow-lg"
+      class="m-5 rounded shadow-lg p-2 accumulation-card"
+      hover="shadow-xl"
       :style="cardStyle"
     >
       <AppLink :to="props.accumulation.path">

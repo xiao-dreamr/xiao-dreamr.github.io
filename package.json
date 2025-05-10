@@ -12,6 +12,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@iconify-json/catppuccin": "^1.2.11",
     "date-fns": "^4.1.0",
     "unhead": "2.0.8",
     "valaxy": "0.23.3",

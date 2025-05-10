@@ -1,8 +1,8 @@
 ---
 title: 关于我
 ---
-
-<img src="https://avatars.githubusercontent.com/u/189501925?v=4" alt="头像" class="align-middle rounded-full border-solid border-white border-6 shadow-lg scale-30">
+<div>
+<img src="https://avatars.githubusercontent.com/u/189501925?v=4" alt="头像" class="text-align-left rounded-full border-solid border-white border-6 shadow-lg scale-30"></div>
 
 一个无所事事的高二学生，喜欢到码头整点薯条 (?)
 

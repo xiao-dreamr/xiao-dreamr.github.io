@@ -16,8 +16,12 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   theme: 'yun',
   themeConfig: {
+    fireworks:{
+      enable:true,
+      colors:["#e040fb","#9c27b0","#2979ff"]
+    },
     colors:{
-      primary:"#3fa8e0",
+      primary:"#b47cf7",
     },
     banner: {
       enable: true,
@@ -49,12 +53,12 @@ export default defineValaxyConfig<UserThemeConfig>({
       {
         name:"逆旅余音",
         url:"/accumulations",
-        icon:"i-ri-pen-nib-line",
+        icon:"i-ri-quill-pen-line",
       },
       {
         name: "笑林新编",
         url:"/fools",
-        icon:"i-ri-lightbulb-flash-line",
+        icon:"i-ri-lightbulb-line",
       },
       {
         name: "友情链接",
@@ -74,12 +78,12 @@ export default defineValaxyConfig<UserThemeConfig>({
           {
             text:"逆旅余音",
             link:"/accumulations",
-            icon:"i-ri-pen-nib-line",
+            icon:"ri:quill-pen-line",
           },
           {
             text: "笑林新编",
             link:"/fools",
-            icon:"i-ri-lightbulb-flash-line",
+            icon:"i-ri-lightbulb-line",
           },
           {
             text: "友情链接",
@@ -115,6 +119,17 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
   },
   groupIcons:{
-    customIcon:{}
+    customIcon:{
+      cs:"catppuccin-csharp",
+      js:"catppuccin-javascript",
+      ts:"catppuccin-typescript",
+      tsconfig:"catppuccin-typescript-config",
+      unocss:"catppuccin-unocss",
+      py:"catppuccin-python",
+      html:"catppuccin-html",
+      css:"catppuccin-css",
+      md:"catppuccin-markdown",
+      vue:"catppuccin-vue",
+    }
   }
 })

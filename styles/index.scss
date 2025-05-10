@@ -1,8 +1,9 @@
-@import url("https://fontsapi.zeoseven.com/442/main/result.css"); // MapleMono
-@import url("https://fontsapi.zeoseven.com/488/main/result.css"); // 上图东观体 STDongGuanTi
-@import url("https://fontsapi.zeoseven.com/292/main/result.css"); // 霞鹜文楷 LXGW WenKai
+@import url("https://fontsapi.zeoseven.com/442/main/result.css"); // MapleMono "Maple Mono NF CN"
+@import url("https://fontsapi.zeoseven.com/488/main/result.css"); // 上图东观体 "STDongGuanTi"
+@import url("https://fontsapi.zeoseven.com/292/main/result.css"); // 霞鹜文楷 "LXGW WenKai"
 
 :root{
     --lin-bg-blur: 9px;
     --lin-say-blur: 5px;
+    --va-font-mono: "Maple Mono NF CN", monospace;
 }

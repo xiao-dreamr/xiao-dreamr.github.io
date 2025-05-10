@@ -33,7 +33,7 @@ tags:
 
 ::: code-group
 
-```html [有Tailwind]
+```html [有Tailwind.html]
 <div class="abusolute w-full h-full bg-black">
     <div 
     class="flex abusolute w-full h-full justify-center items-center font-mono text-5xl text-white"
@@ -43,7 +43,7 @@ tags:
 </div>
 ```
 
-```html [无Tailwind]
+```html [无Tailwind.html]
 <div class="background">
     <div 
     class="greeting"
@@ -91,11 +91,11 @@ tags:
 
 ### VScode 插件
 
-推荐使用[UnoCss](https://marketplace.visualstudio.com/items?itemName=antfu.unocss)插件
+推荐使用[UnoCSS](https://marketplace.visualstudio.com/items?itemName=antfu.unocss)插件
 
 启用插件需要当前根目录下存在`unocss.config.ts`文件，该文件默认配置如下即可
 
-```ts
+```ts [unocss.config.ts]
 import {
     defineConfig,
     presetAttributify,
@@ -150,7 +150,7 @@ export default defineConfig({
 
 ::: code-group
 
-```html [有Attributify]
+```html [有Attributify.html]
 <div position="absolute" bg="black" class="w-full h-full">
     <div 
     flex
@@ -163,7 +163,7 @@ export default defineConfig({
 </div>
 ```
 
-```html [无Attributify]
+```html [无Attributify.html]
 <div class="abusolute w-full h-full bg-black">
     <div 
     class="flex abusolute w-full h-full justify-center items-center font-mono text-5xl text-white"
@@ -193,7 +193,7 @@ export default defineConfig({
 
 当然，多个选择器可以相互叠加，如`hover:dark:bg-sky-500`。
 
-```html
+```html [example.html]
 <blockquote class="text-center text-2xl font-semibold text-gray-900 italic dark:text-white">
   When you look
   <span class="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-pink-500">
@@ -220,12 +220,12 @@ export default defineConfig({
 默认存在五种分类，根据常见的设备分辨率设置，如下：
 
 |前缀|最小宽度|
-|----|--------|
-|`sm` |40 rem  |
-|`md` |48 rem  |
-|`lg` |64 rem  |
-|`xl` |80 rem  |
-|`2xl`|96 rem  |
+|-----|--------|
+|`sm` |`40 rem`|
+|`md` |`48 rem`|
+|`lg` |`64 rem`|
+|`xl` |`80 rem`|
+|`2xl`|`96 rem`|
 
 ### 颜色相关
 

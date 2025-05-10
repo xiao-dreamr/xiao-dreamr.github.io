@@ -8,7 +8,7 @@ tags:
   - C#
 ---
 
-关于C#中typeof()与Object.GetType()的一点小研究
+关于C#中`typeof()`与`Object.GetType()`的一点小研究
 
 由于经常用且经常三天打鱼两天晒网忘掉，故记录¯\\\_(ツ)_/¯
 
@@ -29,7 +29,7 @@ tags:
 
 在实际应用中经常使用`Object.GetType()`方法获取实例的类型
 
-```csharp
+```csharp [example.cs]
 Foo Foo1 = new Foo();
 Console.WriteLine($"GetType():  {Foo1.GetType()}");
 Console.WriteLine($"typeof(): {typeof(Foo)}"); //正确
@@ -52,7 +52,7 @@ typeof(GetType()): *报错* // [!code error]
 
 主要使用`is`运算符进行判断，`is`运算符可以判断对象是否是某个类型或派生自某个类型或接口。
 
-```csharp
+```csharp [example.cs]
 Foo Foo1 = new Foo();
 Console.WriteLine($"Foo1 is IFoo: {Foo1 is IFoo}");
 Console.WriteLine($"Foo1 is Foo: {Foo1 is Foo}");
@@ -68,6 +68,6 @@ Foo1 is IFoo: True
 Foo1 is Foo: True
 ```
 
-> 值得注意的是，泛型类的实例在GetType()后的返回值形如MyClass`1\[T]，T不同时，GetType()的结果亦不同
-
-比如：A\<B>与A\<C>不会被认为是同一个类
+> 值得注意的是，泛型类的实例在`GetType()`后的返回值形如``MyClass`1[T]``，`T`不同时，`GetType()`的结果亦不同
+>
+> 比如：A\<B>与A\<C>不会被认为是同一个类

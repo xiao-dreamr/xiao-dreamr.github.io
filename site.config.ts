@@ -48,12 +48,13 @@ export default defineSiteConfig({
     enable: true,
   },
   frontmatter:{
-    isPost:true,
-    author:'霖',
+    isPost: true,
+    author: '霖',
     aplayer: true,
-    toc:true,
-    codeHeightLimit:300,
-    sponsor:false,
+    toc: true,
+    codeHeightLimit: 400,
+    sponsor: false,
   },
   mediumZoom:{enable:true},
+  codeHeightLimit: 500,
 })
