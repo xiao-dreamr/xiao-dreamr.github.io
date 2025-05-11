@@ -21,7 +21,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       colors:["#e040fb","#9c27b0","#2979ff"]
     },
     colors:{
-      primary:"#b47cf7",
+      primary: "#1b8bf2"
     },
     banner: {
       enable: true,

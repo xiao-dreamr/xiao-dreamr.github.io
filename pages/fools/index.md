@@ -209,11 +209,11 @@ $N$ 为从最高点开始计时，并记为第一次，经过最高点的次数
 
 离子方程式
 
-$$\rm 2 MnO_4^{-} + HC≡CH + 6H^{+} \rightarrow 2CO_2 + 4H_2O + 2Mn^{2+}$$
+$$\rm 2 MnO_4^{-} + HC{\equiv}CH + 6H^{+} \rightarrow 2CO_2 + 4H_2O + 2Mn^{2+}$$
 
 化学方程式
 
-$$\rm 2KMnO4 + HC≡CH + 3H_2SO_4 \rightarrow 2CO_2 + 4H_2O + 2MnSO_4 + K_2SO_4$$
+$$\rm 2KMnO4 + HC{\equiv}CH + 3H_2SO_4 \rightarrow 2CO_2 + 4H_2O + 2MnSO_4 + K_2SO_4$$
 
 ### 计量
 
