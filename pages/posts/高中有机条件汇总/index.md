@@ -11,9 +11,9 @@ tags:
 
 顺便推荐一下人教官方的 [高中化学选必三电子课本](https://book.pep.com.cn/1442001133201/mobile/index.html) (o゜▽゜)o☆
 
-注：由于 $\LaTeX$ 限制，下文苯环均写为 $\rm Ph$
+注：由于 $\KaTeX$ 限制，下文苯环均写为 $\rm Ph$
 
-不知不觉也要进入高三了啊...
+不知不觉也要进入高三了啊...╮（╯＿╰）╭
 
 <!-- more -->
 
@@ -34,6 +34,36 @@ $$\rm R{-}CHO + 2[Ag(NH_3)_2]OH \xrightarrow{\Delta} R{-}COONH_4 + 2Ag\downarrow
 新制 $\rm Cu(OH)_2$ （斐林试剂）
 
 $$\rm R{-}CHO + 2Cu(OH)_2 + NaOH \xrightarrow{\Delta} R{-}COONa + Cu_2O \downarrow + 3H_2O$$
+
+#### 酯的彻底水解（含皂化）
+
+以乙酸乙酯为例
+
+$$\rm CH_3COOCH_2CH_3 + NaOH \xrightarrow{\Delta} CH_3COONa + CH_3CH_2OH$$
+
+以苯酚甲酯为例：
+
+$$\rm Ph{-}OOCH + 2NaOH \xrightarrow{\Delta} Ph{-}ONa + CHOONa + H_2O$$
+
+皂化反应书写过于复杂，此处不做赘述
+
+#### 酰胺水解
+
+以乙酰胺为例，酸性条件下：
+
+$$\rm CH_3CONH_2 + HCl + H_2O \xrightarrow{\Delta} CH_3COOH + NH_4Cl$$
+
+碱性条件下：
+
+$$\rm CH_3CONH_2 + NaOH \xrightarrow{\Delta} CH_3COONa + NH_3\uparrow$$
+
+### 加热+稀硫酸
+
+仅有酯的不完全水解，以乙酸乙酯为例
+
+$$\rm CH_3COOCH_2CH_3 + H_2O \xrightleftharpoons[\Delta]{\text{稀硫酸}} CH_3COOH + CH_3CH_2OH$$
+
+油脂同理，此处不做展开
 
 ### 加热+浓硫酸
 
@@ -77,11 +107,11 @@ $$\rm CH_3CH_2Br + NaOH \xrightarrow[\Delta]{C_2H_5OH} H_2C{=}CH_2\uparrow +NaBr
 
 ### 加热+催化剂
 
-#### 烯炔一般加成
+#### 烯炔含氢加成
 
-烯烃一般加成包括：与 $\rm HX$、$\rm H_2$ 加成
+烯炔含氢加成包括：与 $\rm HX$、$\rm H_2$、$\rm HCN$ 加成
 
-炔烃还包括与 $\rm H_2O$ 加成生成**醛**
+炔烃还包括与 $\rm H_2O$ 加成生成**醛**，但烯烃不行
 
 $$\rm CH_2{=}CH_2 + H_2 \xrightarrow[\Delta]{\text{催化剂}} CH_3CH_3$$
 
@@ -89,7 +119,7 @@ $$\rm CH_2{=}CH_2 + HBr \xrightarrow[\Delta]{\text{催化剂}} CH_3CH_2Br$$
 
 $$\rm CH{\equiv}CH + 2H_2 \xrightarrow[\Delta]{\text{催化剂}} CH_3CH_3$$
 
-$$\rm CH{\equiv}CH + HBr \xrightarrow[\Delta]{\text{催化剂}} CH_2{=}CHBr$$
+$$\rm CH{\equiv}CH + HCN \xrightarrow[\Delta]{\text{催化剂}} CH_2{=}CHCN$$
 
 $$\rm CH{\equiv}CH + H_2O \xrightarrow[\Delta]{\text{催化剂}} CH_3CHO$$
 
@@ -173,6 +203,10 @@ $$\rm CH_3COOH + NaOH \longrightarrow CH_3COONa + H_2O$$
 
 $$\rm Ph{-}OH + NaOH \longrightarrow Ph{-}ONa + H_2O$$
 
+### 胺与酸
+
+$$\rm CH_3CH_2NH_2 + HCl \longrightarrow CH_2CH_2NH_3Cl$$
+
 ### 酚与浓溴水
 
 $$\rm Ph{-}OH + 3Br_2 \longrightarrow Ph{-}OH({-}Br)_3 \downarrow + 3HBr$$
@@ -185,8 +219,8 @@ $$\rm CH_3CHO + Br_2 + H_2O \longrightarrow CH_3COOH + 2HBr$$
 
 烯炔、苯环上的烃基（且与苯环相连的碳上含氢）、醇、酚、醛、草酸均可使 $\rm KMnO_4/H^{+}$ 褪色
 
-其中醇还可使 $\rm K_2Cr_2O_7$ 从<span class="text-amber">橙色</span>变为<span class="text-cyan-800">灰绿色</span>
+其中醇还可使 $\rm K_2Cr_2O_7$ 从<span class="text-amber-500">● 橙色</span> 变为<span class="text-cyan-800">● 灰绿色</span>
 
 ## 显色
 
-仅有苯酚遇 $\rm FeCl_3$ 变<span class="text-purple-800">紫色</span>，在空气中变<span class="text-pink">粉红色</span>
+仅有苯酚遇 $\rm FeCl_3$ 变<span class="text-purple-800">● 紫色</span>，在空气中变<span class="text-pink">● 粉红色</span>
