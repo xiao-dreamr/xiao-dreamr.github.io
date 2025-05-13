@@ -31,7 +31,7 @@ $$\rm Ph + H_2SO_4 \xrightleftharpoons[(70\sim80\degree C)]{\Delta} Ph{-}SO_3H +
 
 $$\rm R{-}CHO + 2[Ag(NH_3)_2]OH \xrightarrow{\Delta} R{-}COONH_4 + 2Ag\downarrow + 3NH_3 + H_2O$$
 
-新制 $\rm Cu(OH)_2$ （斐林试剂）
+新制 $\rm Cu(OH)_2$ （斐林试剂） （由<span class="text-blue-5">● 蓝色</span> 变为）<span class="text-orange-7">● 砖红色</span> 沉淀
 
 $$\rm R{-}CHO + 2Cu(OH)_2 + NaOH \xrightarrow{\Delta} R{-}COONa + Cu_2O \downarrow + 3H_2O$$
 
