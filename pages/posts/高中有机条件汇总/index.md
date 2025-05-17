@@ -57,6 +57,12 @@ $$\rm CH_3CONH_2 + HCl + H_2O \xrightarrow{\Delta} CH_3COOH + NH_4Cl$$
 
 $$\rm CH_3CONH_2 + NaOH \xrightarrow{\Delta} CH_3COONa + NH_3\uparrow$$
 
+#### D-A反应
+
+即1,4加成
+
+$$\rm CH_2{=}CHCH{=}CH_2 + CH_2{=}CH_2 \xrightarrow{\Delta} \text{六元环（画不出来）}$$
+
 ### 加热+稀硫酸
 
 仅有酯的不完全水解，以乙酸乙酯为例
@@ -167,9 +173,15 @@ $$\rm C_8H_18 \xrightarrow{\text{催化剂}} C_4H_{10} + C_4H_8$$
 
 $$\rm nCH_2{=}CH_2 \xrightarrow{\text{催化剂}}\space {[\mathllap{-}CH_2{-}CH_2\mathrlap{-}]}_n$$
 
-### 氢氰酸延长
+### 醛的延长
+
+醛+氢氰酸：
 
 $$\rm CH_3CHO + HCN \xrightarrow{\text{催化剂}} CH_3CH(OH)CN$$
+
+羟醛缩合：
+
+$$\rm 2CH_3CHO \xrightarrow{\text{催化剂}} CH_3\overset{\beta}{C}H(OH)\overset{\alpha}{C}H_2CHO$$
 
 ## 高温
 
@@ -217,7 +229,7 @@ $$\rm CH_3CHO + Br_2 + H_2O \longrightarrow CH_3COOH + 2HBr$$
 
 ## 强氧化剂
 
-烯炔、苯环上的烃基（且与苯环相连的碳上含氢）、醇、酚、醛、草酸均可使 $\rm KMnO_4/H^{+}$ 褪色
+烯炔、苯环上的烃基（且与苯环相连的碳上含氢）、醇、酚、醛、草酸均可使 $\rm KMnO_4/H^{+}$ 褪色，其中烯烃和苯的氧化经常被用作所短碳链。
 
 其中醇还可使 $\rm K_2Cr_2O_7$ 从<span class="text-amber-500">● 橙色</span> 变为<span class="text-cyan-800">● 灰绿色</span>
 

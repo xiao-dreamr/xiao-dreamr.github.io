@@ -102,7 +102,7 @@ $$\frac{111}{66} = \frac{37}{22}$$
 
 > 典例：
 >
-> $A=\left\{x|-2\le x \le 5, x\in \R\right\}; B=\left\{x|1-m\le x \le 2m+1, x\in\R\right\}$，若 $B\subsetneqq A$，求 $m$ 的范围
+> $A=\left\{x| -2\le x \le 5, x\in \R\right\}; B=\left\{x|1-m\le x \le 2m+1, x\in\R\right\}$，若 $B\subsetneqq A$，求 $m$ 的范围
 >
 > 答案：
 >
