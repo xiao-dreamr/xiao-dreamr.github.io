@@ -61,7 +61,7 @@ $$\rm CH_3CONH_2 + NaOH \xrightarrow{\Delta} CH_3COONa + NH_3\uparrow$$
 
 即1,4加成
 
-$$\rm CH_2{=}CHCH{=}CH_2 + CH_2{=}CH_2 \xrightarrow{\Delta} \text{六元环（画不出来）}$$
+$$\rm CH_2{=}CHCH{=}CH_2 + CH_2{=}CH_2 \xrightarrow{\Delta} \mathop{C_6H_{10}}\limits_{\text{环己烯}}$$
 
 ### 加热+稀硫酸
 
@@ -79,7 +79,7 @@ $$\rm Ph + HNO_3 \xrightarrow[55\sim60\degree C]{\text{浓硫酸}} Ph{-}NO_2 + H
 
 #### 制备TNT（甲苯硝化）
 
-$$\rm Ph{-}CH_3 + 3HNO_3 \xrightarrow[\Delta]{\text{浓硫酸}} Ph{-}CH_3({-}NO_2)_3 + 3H_2O$$
+$$\rm Ph{-}CH_3 + 3HNO_3 \xrightarrow[\Delta]{\text{浓硫酸}} \mathop{Ph{-}CH_3({-}NO_2)_3}\limits_{\text{2,4,6{-}三硝基甲苯}} + 3H_2O$$
 
 #### 醇的卤代
 
@@ -91,9 +91,13 @@ $$\rm CH_3CH_2OH + HBr \xrightarrow[\Delta]{\text{浓硫酸}} CH_3CH_2Br + H_2O$
 
 $$\rm CH_3CH_2OH \xrightarrow[170\degree C]{\text{浓硫酸}} H_2C{=}CH_2\uparrow + H_2O$$
 
+> 当反应物为乙醇时，**必须**标注 $\rm 170\degree C$，但其余醇类不需要
+
 #### 醇的成醚
 
 $$\rm 2CH_3CH_2OH \xrightarrow[140\degree C]{\text{浓硫酸}} C_2H_5OC_2H_5 + H_2O$$
+
+> 当反应物为乙醇时，**必须**标注 $\rm 140\degree C$，但其余醇类不需要
 
 #### 酯化反应
 
@@ -117,7 +121,7 @@ $$\rm CH_3CH_2Br + NaOH \xrightarrow[\Delta]{C_2H_5OH} H_2C{=}CH_2\uparrow +NaBr
 
 烯炔含氢加成包括：与 $\rm HX$、$\rm H_2$、$\rm HCN$ 加成
 
-炔烃还包括与 $\rm H_2O$ 加成生成**醛**，但烯烃不行
+> 炔烃还包括与 $\rm H_2O$ 加成生成**醛**，但烯烃不行
 
 $$\rm CH_2{=}CH_2 + H_2 \xrightarrow[\Delta]{\text{催化剂}} CH_3CH_3$$
 
@@ -133,7 +137,7 @@ $$\rm CH{\equiv}CH + H_2O \xrightarrow[\Delta]{\text{催化剂}} CH_3CHO$$
 
 生成环己烯
 
-$$\rm Ph + 3H_2O \xrightarrow[\Delta]{Pt/Ni} (CH_2)_6$$
+$$\rm Ph + 3H_2 \xrightarrow[\Delta]{Pt/Ni} \mathop{(CH_2)_6}\limits_{\text{环己烷}}$$
 
 #### Cu/Ag—醇的催化氧化
 
@@ -147,11 +151,21 @@ $$\rm CH_3CHO + H_2 \xrightarrow[\Delta]{\text{催化剂}} CH_2CH_2OH$$
 
 $$\rm 2CH_3CHO + O_2 \xrightarrow[\Delta]{\text{催化剂}} 2CH_2CHOOH$$
 
+#### Ag—环氧乙烷
+
+$$\rm 2CH_2{=}CH_2 + O_2 \xrightarrow[\Delta]{Ag} 2\mathop{C_2H_4O}\limits_{\text{环氧乙烷}}$$
+
 ### 加热+加压+催化剂
 
-仅有烯烃的水化（工业制乙醇）
+工业反应一般条件都较为复杂
+
+#### 工业制乙醇
 
 $$\rm CH_2{=}CH_2 + H_2O \xrightarrow[\Delta,\space\text{加压}]{\text{催化剂}} CH_3CH_2OH$$
+
+#### 工业制乙二醇
+
+$$\rm \mathop{C_2H_4O}\limits_{\text{环氧乙烷}} + H_2O \xrightarrow[\Delta,\space\text{加压}]{\text{催化剂}} \mathop{CH_2OHCH_2OH}\limits_{\text{乙二醇}}$$
 
 ## 光照
 
@@ -163,11 +177,13 @@ $$\rm CH_4 + Cl_2 \xrightarrow{\text{光照}} CH_3Cl + HCl$$
 
 ### 苯环卤代
 
-$$\rm Ph + Br_2 \xrightarrow{FeBr_3} Ph{-}Br + HBr$$
+$$\rm Ph + Br_2 \xrightarrow{FeBr_3} Ph{-}Br + HBr \uparrow$$
+
+此处 $\rm Br_2$ 为纯液溴，$\rm Fe$ 与 $\rm Br_2$ 反应时会放出大量热，故无需加热便可进行。
 
 ### 石油裂化
 
-$$\rm C_8H_18 \xrightarrow{\text{催化剂}} C_4H_{10} + C_4H_8$$
+$$\rm C_8H_{18} \xrightarrow{\text{催化剂}} C_4H_{10} + C_4H_8$$
 
 ### 加聚反应
 
