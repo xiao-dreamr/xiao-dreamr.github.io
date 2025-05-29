@@ -87,7 +87,14 @@ tags:
 
 1. adj. 学术的、学业的、学院的
 2. n. 学者、学士、大学生
-3. **[写作]** study $\xrightarr
+3. **[写作]** study $\xrightarrow{替换}$ academic performance
+
+#### accelerate
+
+1. vi. 加速 = speed up
+2. vt. 使加速、促进
+3. acceleration n. (物)加速度 $\vec{a}$，油门
+4. **[写作]** improve $\xrightarrow{替换}$ promote=fortify=enhance=facilitate=accelerate
 
 #### accent
 
@@ -110,11 +117,13 @@ tags:
    2. 易理解的、易懂的
    3. 平易近人的
 3. have access to... 能进入...
+4. **[写作]** 让...更易懂 more easy to understand $\xrightarrow{替换}$ more accessible
 
 #### accommodate
 
 1. vt. 为...提供食宿、提供工作场所、接济
 2. accommodation n. 食宿
+3. 常考完型
 
 #### accomplish
 
