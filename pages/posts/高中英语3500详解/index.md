@@ -87,14 +87,14 @@ tags:
 
 1. adj. 学术的、学业的、学院的
 2. n. 学者、学士、大学生
-3. **[写作]** study $\xrightarrow{替换}$ academic performance
+3. **[写作]** study $\xrightarrow{\text{替换}}$ academic performance
 
 #### accelerate
 
 1. vi. 加速 = speed up
 2. vt. 使加速、促进
 3. acceleration n. (物)加速度 $\vec{a}$，油门
-4. **[写作]** improve $\xrightarrow{替换}$ promote=fortify=enhance=facilitate=accelerate
+4. **[写作]** improve $\xrightarrow{\text{替换}}$ promote=fortify=enhance=facilitate=accelerate
 
 #### accent
 
@@ -117,7 +117,7 @@ tags:
    2. 易理解的、易懂的
    3. 平易近人的
 3. have access to... 能进入...
-4. **[写作]** 让...更易懂 more easy to understand $\xrightarrow{替换}$ more accessible
+4. **[写作]** 让...更易懂 more easy to understand $\xrightarrow{\text{替换}}$ more accessible
 
 #### accommodate
 
@@ -125,6 +125,39 @@ tags:
 2. accommodation n. 食宿
 3. 常考完型
 
+#### accompany
+
+1. vt. 陪伴
+2. company n. 陪伴；公司
+3. 常考完型
+
 #### accomplish
 
-未完待续...
+1. vt. 完成、达到、做到 = achieve = get through = make it
+2. **[写作]** 做到 did $\xrightarrow{\text{替换}}$ achieve = accomplish
+
+#### account
+
+1. n.
+   1. 账户
+   2. 描述
+   3. 解释、诠释
+2. 开户：open an account；销户：close an account
+3. on account of 由于、因为
+4. **account for...** （非常重要！）
+   1. 解释、诠释...
+   2. 是...的原因
+   3. 占比... (e.g. account for 80 percent)
+   4. 导致 = [lead/contribute] to = bring about = result in
+
+#### accumulate
+
+1. v. 增加、积累、积蓄，类似“积土成山”的意思（喂
+2. accumulation n. 积累
+3. **[写作]** “积累集” accumulated collection，可用于如“学习方法”“读书方法”等类型的题目中
+
+#### accurate
+
+1. adj. 精确的、精准的 = precise
+2. accurately adv. ~
+3. 可形容具体事物，如“射箭”“枪法”，也可以指抽象的精准，如“切题”“精准剖析”
