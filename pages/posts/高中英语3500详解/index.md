@@ -43,7 +43,7 @@ tags:
 #### absent
 
 1. adj. 缺席的、不在场的
-2. **[反义]** present adj. 在场的(后置定语)；目前的
+2. **【反义】** present adj. 在场的(后置定语)；目前的
 3. absent-minded 走神的、神游的
 
 #### absolute
@@ -51,7 +51,7 @@ tags:
 1. adj. 绝对的、一定的、肯定的 = definite = certain
 2. n. （数）绝对值 $\left|x\right|$ ，常写作 $abs(x)$
 3. absolutely adv. ~
-4. **[写作]** You'll absolutely ...  你一定会...
+4. **【写作】** You'll absolutely ...  你一定会...
 
  常考完型
 
@@ -66,7 +66,7 @@ tags:
 #### abstract
 
 1. adj. 抽象的、纯理论的、深奥的
-2. **[反义]** practical adj. 实际的、实用的、实践的
+2. **【反义】** practical adj. 实际的、实用的、实践的
 
 #### abuse
 
@@ -87,14 +87,14 @@ tags:
 
 1. adj. 学术的、学业的、学院的
 2. n. 学者、学士、大学生
-3. **[写作]** study $\xrightarrow{\text{替换}}$ academic performance
+3. **【写作】** study $\xrightarrow{\text{替换}}$ academic performance
 
 #### accelerate
 
 1. vi. 加速 = speed up
 2. vt. 使加速、促进
 3. acceleration n. (物)加速度 $\vec{a}$，油门
-4. **[写作]** improve $\xrightarrow{\text{替换}}$ promote=fortify=enhance=facilitate=accelerate
+4. **【写作】** improve $\xrightarrow{\text{替换}}$ promote=fortify=enhance=facilitate=accelerate
 
 #### accent
 
@@ -117,7 +117,7 @@ tags:
    2. 易理解的、易懂的
    3. 平易近人的
 3. have access to... 能进入...
-4. **[写作]** 让...更易懂 more easy to understand $\xrightarrow{\text{替换}}$ more accessible
+4. **【写作】** 让...更易懂 more easy to understand $\xrightarrow{\text{替换}}$ more accessible
 
 #### accommodate
 
@@ -134,7 +134,7 @@ tags:
 #### accomplish
 
 1. vt. 完成、达到、做到 = achieve = get through = make it
-2. **[写作]** 做到 did $\xrightarrow{\text{替换}}$ achieve = accomplish
+2. **【写作】** 做到 did $\xrightarrow{\text{替换}}$ achieve = accomplish
 
 #### account
 
@@ -154,10 +154,48 @@ tags:
 
 1. v. 增加、积累、积蓄，类似“积土成山”的意思（喂
 2. accumulation n. 积累
-3. **[写作]** “积累集” accumulated collection，可用于如“学习方法”“读书方法”等类型的题目中
+3. **【写作】** “积累集” accumulated collection，可用于如“学习方法”“读书方法”等类型的题目中
 
 #### accurate
 
 1. adj. 精确的、精准的 = precise
 2. accurately adv. ~
 3. 可形容具体事物，如“射箭”“枪法”，也可以指抽象的精准，如“切题”“精准剖析”
+4. **【反义】** approximate adj. 大约的，近似的 ≈ rough adj. 粗糙的、大约的
+
+#### accuse
+
+1. vt. 指控
+2. accusation n. ~
+3. accuse sb. **of** sth.
+4. 用法相同（xxx sb. of sth.）的还有：remind提醒、suspect怀疑、warn警告、rid去除、rob抢劫等，后面还会重复
+
+#### achieve
+
+1. vt. 达成、做到、成就 = accomplish = get through = make it
+2. achievement n. 成就、成功
+3. **【写作】** success $\xrightarrow{\text{替换}}$ achievement<br/>
+   e.g. His **achievement** inspired a thorough generation of teenagers to shoulder the magenificant responsibility for great revival of China.
+
+#### acclaim
+
+1. vt./n. 赞扬、赞誉
+2. 常用作被动，主动较少见，如She is acclaimed as a remarkable physicist.
+
+#### acknowledge
+
+1. vt.
+   1. 承认，认可
+   2. 公开鸣谢
+   3. “收到！”
+2. acknowledgement n. ~
+3. 常考完型
+4. **【写作】** As is universally acknowledged, ... 众所周知，...（可用作话题类作文开头）<br/>
+   e.g. **As is universally acknowledged**, the development of artificial intelligence has been accelerating sharply recently.
+
+#### acquire
+
+1. vt. 获得、获取
+2. 常指“通过学习”获取知识，日常不做区分
+3. **【写作】** get $\xrightarrow{\text{替换}}$ obtain = attain = gain = acquire<br/>
+   e.g. ..., in return, via which we are capable of **acquiring** a more profound insight into the distinctness between Chinese and western culture.

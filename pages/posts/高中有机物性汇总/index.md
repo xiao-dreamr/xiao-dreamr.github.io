@@ -3,7 +3,7 @@ title: 【高中化学】有机物理性质汇总
 icon: i-ri-flask-line
 date: 2025-05-16
 categories: 随笔
-draft: true
+hide: true
 tags:
   - 学业
 ---
