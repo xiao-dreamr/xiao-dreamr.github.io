@@ -13,6 +13,8 @@ tags:
 
 <!-- more -->
 
+下文所有 $\mathop{\text{to}}\limits_{\Delta}$ 表示“介词词性的to”
+
 ## A
 
 ### ab-
@@ -111,12 +113,12 @@ tags:
 1. n.
    1. 通道、路径
    2. 进入权、许可权
-   3. \+ to
+   3. \+ $\mathop{\text{to}}\limits_{\Delta}$
 2. **accessible** adj.
    1. 可达到的
    2. 易理解的、易懂的
    3. 平易近人的
-3. have access to... 能进入...
+3. have access $\mathop{\text{to}}\limits_{\Delta}$ ... 能进入...
 4. **【写作】** 让...更易懂 more easy to understand $\xrightarrow{\text{替换}}$ more accessible
 
 #### accommodate
@@ -199,3 +201,89 @@ tags:
 2. 常指“通过学习”获取知识，日常不做区分
 3. **【写作】** get $\xrightarrow{\text{替换}}$ obtain = attain = gain = acquire<br/>
    e.g. ..., in return, via which we are capable of **acquiring** a more profound insight into the distinctness between Chinese and western culture.
+
+#### accustom
+
+1. vt. 使习惯于
+2. accustomed adj. 习惯的、通常的 + $\mathop{\text{to}}\limits_{\Delta}$
+3. 常考单选词义辨析
+
+### ad-
+
+#### adapt
+
+1. vt. 改编、使适应、调整 ≈ adjust vt. 调节、调整
+2. adapt $\mathop{\text{to}}\limits_{\Delta}$ 适应... = adjust $\mathop{\text{to}}\limits_{\Delta}$
+3. adapt 小说 **for** 电影<br/>adapt 电影 **from** 小说
+
+#### add
+
+1. vt. 添加...
+2. vi. 补充道、添加
+3. add sth. $\mathop{\text{to}}\limits_{\Delta}$
+4. addon n. 插件 ≈ plugin
+5. addition n. 添加物
+6. 阅读中常见“'some words', xxx added, 'other words'”<br/>此时一定不要忽略说的后半句话，答案很有可能与后半句有紧密联系
+7. **【写作】** In addition 除此之外（一般做两句之间通用连接词）<br/>
+  如**In addition**, what *definitely* deserves probing into is the harmonious and optimistic characteristic of Tianjin, intoxicating you in the positive atomsphere where you are capable of pursuing your target more ambitiously.
+
+#### addict
+
+1. vt. 使上瘾
+2. n. 瘾君子
+3. addiction n. 上瘾物、痴迷之事
+4. addictive adj. 令人上瘾的
+5. addicted adj. (人)上瘾的
+6. be addicted $\mathop{\text{to}}\limits_{\Delta}$ 对...上瘾
+7. **【反义】** detox v. 脱瘾、戒毒、戒掉
+8. 常考单选词义辨析
+
+#### address
+
+1. vt.
+   1. 写地址
+   2. 致辞、发表（演讲）
+   3. **解决、处理** = tackle = cope with = approach = make out = figure out
+2. n. 地址
+3. address $\mathop{\text{to}}\limits_{\Delta}$ sb. 写信给某人
+
+#### adjust
+
+1. vt. 调整、调节 ≈ adapt
+2. adjustable adj. 可调节的
+3. adjust $\mathop{\text{to}}\limits_{\Delta}$ ... 适应...<br/>
+   adjust ... $\mathop{\text{to}}\limits_{\Delta}$ ... 调整...以适应...
+
+#### administrate
+
+1. vt. 管理
+2. administer n. 管理员
+3. 不在高考考纲，但阅读偶尔会出现，认识即可，日常生活倒是常用。
+
+#### admire
+
+1. vt.
+   1. 钦佩
+   2. 赞赏
+   3. 羡慕 $\neq$ envy v. 嫉妒
+2. admirable adj. 令人钦佩的、令人赞赏的
+3. **【写作】** 形容某事“好”的通用词汇之一，还有<br/>
+   extraordinary、distinguished、remarkable、excellent、preeminent、prominent、breathtaking、incredible、superb、splendid...
+
+#### admit
+
+1. vt.
+   1. 承认
+   2. 录取进入、批准进入
+2. admit doing 承认做过
+3. be admitted to/into 被录取进.../被批准进...
+
+#### adopt
+
+1. vt.
+   1. 收养、领养
+   2. 采纳、接受
+2. adoptable adj. 可采纳的
+3. adoption n. ~
+4. **【写作】** “建议”类型的结尾常用adopt，如<br/>
+   I would *appreciate* it if you can **adopt** my efficient strategies.
