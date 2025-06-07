@@ -1,3 +1,7 @@
+---
+hide: true
+---
+
 常用符号：
 
 介to $\mathop{\text{to}}\limits_{\Delta}$

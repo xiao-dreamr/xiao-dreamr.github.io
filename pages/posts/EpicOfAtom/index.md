@@ -1,6 +1,6 @@
 ---
 title: 【高中物理】原子物理史话
-icon: mdi-atom
+icon: i-mdi-atom
 date: 2025-05-31
 categories: 随笔
 cover: https://pic1.imgdb.cn/item/683aac9058cb8da5c81e937b.png

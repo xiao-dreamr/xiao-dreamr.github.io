@@ -11,6 +11,9 @@ importers:
       '@iconify-json/catppuccin':
         specifier: ^1.2.11
         version: 1.2.11
+      '@iconify/icons-mdi':
+        specifier: ^1.2.48
+        version: 1.2.48
       date-fns:
         specifier: ^4.1.0
         version: 4.1.0
@@ -643,6 +646,9 @@ packages:
 
   '@iconify/icons-akar-icons@1.2.19':
     resolution: {integrity: sha512-q5gOZ+qFh1winAZ6M2Bcz06y5+/sKCbwzMbYVus62JmxURxIE1MKxJyklpTnQc+ZRZ0k12/+2ysPtSEpH6777w==}
+
+  '@iconify/icons-mdi@1.2.48':
+    resolution: {integrity: sha512-1Tiq+iX1d2MzrdDiw45Tc9HuhNgg8H4vvaKNV+kF+jmr/kPG+YyeLMyXUKp4bwv+gheIAgNpZPjuqAPRkmMieA==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -4346,6 +4352,10 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify/icons-akar-icons@1.2.19':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify/icons-mdi@1.2.48':
     dependencies:
       '@iconify/types': 2.0.0
 
