@@ -287,3 +287,43 @@ tags:
 3. adoption n. ~
 4. **【写作】** “建议”类型的结尾常用adopt，如<br/>
    I would *appreciate* it if you can **adopt** my efficient strategies.
+
+#### advance
+
+1. v. 发展、进展、进步
+2. advanced
+   1. adj. 高级的、进阶的
+   2. adj. 先进的、前沿的
+3. in advance 提前 = ahead of [time/schedule]
+4. $\uparrow$ 常考单选词义辨析
+
+#### advertise
+
+1. vt. 给...打广告
+2. advertisement n. 广告，常缩写为AD
+3. A篇最后一题问出处有可能会考（
+
+#### advocate
+
+1. vt. 倡议、倡导、主张
+2. n. 辩护律师、倡导者
+3. advocate doing 倡导做...
+
+### af-
+
+#### affect
+
+1. vt. 影响 = impact
+2. effect n. 影响 = impact (impact动词名词一样) + on
+3. affection n. 爱慕、挚爱
+4. affective adj. 爱慕的、挚爱的
+5. effective adj. 有效的、立竿见影
+6. efficient adj. 高效的
+7. **【写作】** 可用于“提建议”类，提供一些“高效”的学习方法之类的<br/>
+  e.g. Therefore, I'm sincerely writing to extend my **efficient** *academic* strategies to you.
+
+#### affirm
+
+1. vt. 申明、证实、承认
+2. reaffirm vt. 重申、再次强调
+3. affirmative adj. 赞成的、同意的

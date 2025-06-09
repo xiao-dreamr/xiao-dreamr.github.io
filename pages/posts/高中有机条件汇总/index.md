@@ -2,6 +2,7 @@
 title: 【高中化学】有机条件汇总
 icon: i-ri-flask-line
 date: 2025-05-11
+update: 2025-05-31
 categories: 随笔
 tags:
   - 学业
