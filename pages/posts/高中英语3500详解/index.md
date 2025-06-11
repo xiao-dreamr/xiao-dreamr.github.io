@@ -327,3 +327,36 @@ tags:
 1. vt. 申明、证实、承认
 2. reaffirm vt. 重申、再次强调
 3. affirmative adj. 赞成的、同意的
+
+#### affair
+
+1. n. 事务、公共事务、东西
+2. 常考词义辨析
+
+### ag-
+
+#### agenda
+
+1. n. 议程表、日程 = schedule = plan
+2. 高考不考，认识即可，作文可以代替plan
+
+#### agent
+
+1. n. 代理人、经纪人、中介
+2. agency n. 代理机构、xx局
+3. 阅读中常出现，认识即可
+
+#### aggressive
+
+1. adj. $\downarrow$ 两褒两贬
+   1. 冒犯的 = offensive
+   2. 侵略性的 = invasive
+   3. 有上进心的、进取的 = enterprising ≈ ambitious $\rightarrow$ 雄心壮志的
+   4. 争强好胜的、好斗的
+2. **【写作】** “进取的”常用**enterprising**，aggressive由于略带贬义所以一般作文不用。
+3. （很适合与ambitious类比，都是两褒两贬，含义也相近，等回来讲到am-再放个跳转在这里，先挖个坑）
+
+#### agile
+
+1. adj. 灵敏的、灵活的、迅捷的 = swift
+2. **【写作】** fast $\xrightarrow{\text{替换}}$ swift/agile
