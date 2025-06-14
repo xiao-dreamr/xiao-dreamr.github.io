@@ -320,7 +320,7 @@ tags:
 5. effective adj. 有效的、立竿见影
 6. efficient adj. 高效的
 7. **【写作】** 可用于“提建议”类，提供一些“高效”的学习方法之类的<br/>
-  e.g. Therefore, I'm sincerely writing to extend my **efficient** *academic* strategies to you.
+  e.g. Therefore, I'm sincerely writing to extend my **efficient** [academic](#academic) strategies to you.
 
 #### affirm
 
@@ -360,3 +360,49 @@ tags:
 
 1. adj. 灵敏的、灵活的、迅捷的 = swift
 2. **【写作】** fast $\xrightarrow{\text{替换}}$ swift/agile
+
+#### agriculture
+
+1. n. 农业
+2. 有时用于话题类作文，如果考试碰上不会写就是背刺，倒也不难背（
+
+#### agree
+
+1. v. 同意，赞成、适宜
+2. agree on sth. 同意某事
+3. agree with sb. 同意某人
+4. **【反义】** disagree vi. 不同意 + with 某事
+5. **【易错】** 名/定从常考引导词用where！<br/>
+  例题：This is _____ we disagree.<br/>
+  答案：where，因为disagree **with**，是不及物动词，故不可用what做disagree的宾语
+
+### ai-
+
+#### aim
+
+1. v. 瞄准；以...为目标、旨在；打算 = target
+2. n. 靶子 = target
+3. aim [at .../to do ...] 打算...
+4. aim high 好高骛远（褒）、志向远大
+5. **【写作】** 当涉及“某活动是为了...”时，很适合做前分词解释，及Aiming to do..., ...或Targeting to do..., ...，当然，换成at也可以，to do换成动名词就行，有时用being done还更有价值。<br/>
+  e.g. Targeting at intoxicating the students in the exceptional atomsphere where they could focus on [academic performance](#academic) dedicatedly, the Reading Day will assists us to reconstruct the bound between us and the literally text in this fast-paced and exhausting information era.
+
+#### alarm
+
+1. n. 警报；惊恐；闹钟
+2. vt. 警醒，使担心 ≈ warn
+3. **【写作】** 很适合在“保护自然”“沉迷屏幕”等社会话题中说明现状不好，或是在图表类中解释数据，更多用法随意开发，意思恰当即可<br/>
+  Urgently alarming that we are on the edge of being thoroughly absorbed in phone, the precise statistic revealed that we are in magnificant demand to escape the control of screen and regain the passion for reality life.
+
+#### alert
+
+1. v./n. 警戒、警告、警钟、戒备
+2. adj. 机警的、戒备的
+3. <span class="text-red-6 text-size-1.5rem font-1000 text-stroke-amber-4 text-stroke-[0.6px]">RED ☭ ALERT</span> 红警（无端）
+4. **【写作】** 用法可以参照[alarm](#alarm)，此处不做赘述
+
+#### allergic
+
+#### ally
+
+#### alternative
