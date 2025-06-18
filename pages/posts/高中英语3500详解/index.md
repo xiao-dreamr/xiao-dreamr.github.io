@@ -354,7 +354,7 @@ tags:
    3. 有上进心的、进取的 = enterprising ≈ ambitious $\rightarrow$ 雄心壮志的
    4. 争强好胜的、好斗的
 2. **【写作】** “进取的”常用**enterprising**，aggressive由于略带贬义所以一般作文不用。
-3. （很适合与ambitious类比，都是两褒两贬，含义也相近，等回来讲到am-再放个跳转在这里，先挖个坑）
+3. 与[ambitious](#ambitious)相似处很多
 
 #### agile
 
@@ -403,6 +403,42 @@ tags:
 
 #### allergic
 
+1. adj. 过敏的
+2. be allergic $\mathop{\text{to}}\limits_{\Delta}$ 对...过敏，和sensitive（敏感）用法一致，含义相近
+
 #### ally
 
+1. vt. 结盟、同盟
+2. allied adj. 同盟的、同盟国（WWⅡ）的
+3. 认识即可，有时阅读涉及到二战的可能有
+
 #### alternative
+
+1. adj. 替代的、替补的
+2. n. 替换物、代替品、替补
+3. **单选**超级常考！通常在环保语境中指可替代能源。
+4. **【写作】** 比如“戒掉网瘾”之类的，让你提出其他放松身心的方法时，就可以说：<br/>
+   What alternative approach is it that can relieve our [academic](#academic) exhaustion?
+
+（话说academic好万金油啊（
+
+### am-
+
+#### ambitious
+
+1. adj.
+   1. 野心勃勃的
+   2. 艰巨的
+   3. 雄心壮志的
+   4. 宏伟的
+2. ambition n. 宏图伟志、目标、理想
+3. **【写作】** 一切的“目标”都可以换成ambition！相当好用。
+
+#### ambiguous
+
+1. adj. 模糊的、含糊的、暧昧的
+2. **【近义】**
+   1. faintly adv. 模糊不清的、微弱的
+   2. vague adj. 模糊的
+   3. misty adj. 多雾的、模糊的、朦胧的（常形容**泪眼模糊**）
+3. 完型/阅读中很生动的表达形式，决定一个角色的感情，很可能作为出题点。如果看不懂为什么"眼睛里有雾"就坏了（
