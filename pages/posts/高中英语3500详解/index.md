@@ -392,7 +392,7 @@ tags:
 1. n. 警报；惊恐；闹钟
 2. vt. 警醒，使担心 ≈ warn
 3. **【写作】** 很适合在“保护自然”“沉迷屏幕”等社会话题中说明现状不好，或是在图表类中解释数据，更多用法随意开发，意思恰当即可<br/>
-  Urgently alarming that we are on the edge of being thoroughly absorbed in phone, the precise statistic revealed that we are in magnificant demand to escape the control of screen and regain the passion for reality life.
+  Urgently alarming that we are on the edge of being thoroughly [absorbed](#absorb) in phone, the precise statistic revealed that we are in magnificant demand to escape the control of screen and regain the passion for reality life.
 
 #### alert
 
@@ -442,3 +442,38 @@ tags:
    2. vague adj. 模糊的
    3. misty adj. 多雾的、模糊的、朦胧的（常形容**泪眼模糊**）
 3. 完型/阅读中很生动的表达形式，决定一个角色的感情，很可能作为出题点。如果看不懂为什么"眼睛里有雾"就坏了（
+
+#### amount
+
+1. n. 数量
+2. 主要考**主谓一致**<br/>
+   An amount of $\rightarrow$ 单数<br/>
+   Amounts of $\rightarrow$ 复数
+
+#### amuse
+
+1. v. 娱乐、逗笑
+2. amusement n. 娱乐 = entertainment = recreation
+3. amusement park 游乐园
+
+### an-
+
+#### analyze
+
+1. v. 分析
+2. analysis n. ~
+3. **【写作】** 科技题材可用，如AI可以帮助**分析**数据<br/>
+   e.g. What can assist(挖个坑) us to attain(再挖一个) a comprehensive preception of the statistic of our [academic](#academic) performance is the remarkable capacity of **analyzing** the specific big data of AI.
+
+#### anniversary
+
+1. n. 周年纪念日
+2. annually adv. 年度的、每年的 = yearly
+3. 常考阅读中同义替换 every year $\iff$ yearly $\iff$ annually
+
+#### announce
+
+1. vt. 宣布
+2. announcement n. 宣布、公告
+3. 常考情态动词“Shall”——规章制度、合同公告、公共标识中的“必须”<br/>
+   同样地，还有sign、law、rules、regulations、contract、agreement等一系列经约定的东西。
