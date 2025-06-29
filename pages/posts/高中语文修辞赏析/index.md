@@ -4,7 +4,6 @@ icon: i-ri-quill-pen-line
 date: 2025-06-29
 update: 2025-06-29
 categories: 随笔
-draft: true
 tags:
   - 学业
 ---
