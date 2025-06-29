@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { AccumulationItem } from './AccumulationTypes';
-import {useMotion} from '@vueuse/motion';
+import { useMotion} from '@vueuse/motion';
 import { ref,type CSSProperties,computed} from 'vue';
 import AppLink from 'valaxy/client/components/AppLink.vue'
 //import LinAccumulationTags from './LinAccumulationTags.vue';
@@ -22,8 +22,8 @@ const props = defineProps<{
     color?:string
 }>();
 
-const cardRef = ref<HTMLElement>()
-useMotion(cardRef, {
+const card = ref<HTMLElement>()
+useMotion(card, {
   initial: {
     opacity: 0,
     y: 50,
@@ -74,13 +74,32 @@ const contents = computed(() => {
 </script>
 
 <template>
-  <div v-for="content in contents" class="flex">
+  <div v-for="(content, index) in contents" class="flex">
     <div
-     ref="cardRef"
+      v-motion
+      :initial="{
+        opacity: 0,
+        y: 80,
+        scale: 0.9
+      }"
+      :visible="{
+        opacity: 1,
+        y: 0,
+        scale: 1,
+      transition: {
+          type: 'spring',
+          stiffness: 250,
+          damping: 20,
+          mass: 1.3,
+          delay: index * 200
+        }
+      }"
+      :hovered="{
+        scale: 1.05
+      }"
       flex="~ col center"
       display="inline-grid"
       class="m-5 rounded shadow-lg p-2 accumulation-card"
-      hover="shadow-xl"
       :style="cardStyle"
     >
       <AppLink :to="props.accumulation.path">

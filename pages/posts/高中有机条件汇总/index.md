@@ -156,6 +156,18 @@ $$\rm 2CH_3CHO + O_2 \xrightarrow[\Delta]{\text{催化剂}} 2CH_2CHOOH$$
 
 $$\rm 2CH_2{=}CH_2 + O_2 \xrightarrow[\Delta]{Ag} 2\mathop{C_2H_4O}\limits_{\text{环氧乙烷}}$$
 
+#### 酚醛树脂
+
+> 酚醛树脂的制备分为**酸性**条件下的和**碱性**条件下的，但高中阶段只含有**酸性**条件的反应方程式。
+
+该反应可以分为两步。
+
+$$\tag{1}\rm Ph{-}OH + HCHO \xrightarrow[\Delta]{H^{+}} \mathop{Ph{(-OH)}{-CH_2OH}}\limits_{\text{邻羟基苯甲醇}}$$
+
+$$\tag{2}\rm n\mathop{Ph{(-OH)}{-CH_2OH}}\limits_{\text{邻羟基苯甲醇}} \xrightarrow[\Delta]{H^{+}} H\space{[\mathllap{-}Ph{(-OH)}{-}CH_2\mathrlap{-}]}_nOH + (n-1)\space H_2O$$
+
+在碱性条件下，第 $(1)$ 步可能会生成**多元**羟甲基苯酚，第 $(2)$ 步生成的往往是**网状**结构的酚醛树脂。
+
 ### 加热+加压+催化剂
 
 工业反应一般条件都较为复杂

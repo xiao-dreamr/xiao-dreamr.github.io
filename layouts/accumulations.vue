@@ -4,7 +4,7 @@ import LinAccumulations from "~/components/accumulations/LinAccumulations.vue";
 
 <template>
     <YunLayoutWrapper>
-        <div flex="~ col">
+        <div flex="~ col" class="pt-0 lg:px-5rem md:px-3rem sm:px-0">
             <LinAccumulations />
         </div>
     </YunLayoutWrapper>

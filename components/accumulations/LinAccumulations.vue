@@ -40,7 +40,7 @@ const accumulations = useAccumulationList().value as AccumulationItem[]
 </script>
 
 <template>
-    <div class="w-full px-4 flex-center m-3">
+    <div class="w-full px-4 flex-center m-1.5rem">
       <div class="yun-notice w-full">
         <span v-html="notice" />
         <slot />
