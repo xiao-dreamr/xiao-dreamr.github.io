@@ -387,6 +387,8 @@ tags:
 5. **【写作】** 当涉及“某活动是为了...”时，很适合做前分词解释，及Aiming to do..., ...或Targeting to do..., ...，当然，换成at也可以，to do换成动名词就行，有时用being done还更有价值。<br/>
   e.g. Targeting at intoxicating the students in the exceptional atomsphere where they could focus on [academic performance](#academic) dedicatedly, the Reading Day will assists us to reconstruct the bound between us and the literally text in this fast-paced and exhausting information era.
 
+### al-
+
 #### alarm
 
 1. n. 警报；惊恐；闹钟
@@ -477,3 +479,49 @@ tags:
 2. announcement n. 宣布、公告
 3. 常考情态动词“Shall”——规章制度、合同公告、公共标识中的“必须”<br/>
    同样地，还有sign、law、rules、regulations、contract、agreement等一系列经约定的东西。
+
+#### anticipate
+
+1. v. 预期、预测、估计 = estimate
+2. anticipation n. ~ = estimate（v/n都是）
+3. -ticipate还有啥？<br/>
+   participate——v. 参加、参与+in，作文代替join，后面会又专场，挖坑坑（
+
+### ap-
+
+#### apart
+
+1. adv. 分开的、分隔的、碎的
+2. apart from 除了
+   1. =besides（相加）
+   2. =except（相减）
+   3. 根据语义判断，一般不强调
+3. 常常跟在各种动词后，考察从没见过的动词词组<br/>
+   通常只需要把动词含义+apart即可，比如fall apart
+
+#### apparent
+
+1. adj. 显然的、看起来的、貌似的
+2. apparently adv. 显然、貌似
+3. **【写作】** 当你觉得句子缺点东西的时候，在前面加个Apparently总不会错的（
+
+#### appetite
+
+1. n.
+   1. 食欲
+   2. 欲望、渴望
+   3. 嗜好、**爱好**
+2. have an appetite **for**
+3. **【写作】** 可以写某人有强烈的愿望要做什么，不过前文的[ambitious](#ambitious)更好，若避免重复可作为备选替换。
+
+#### apply
+
+1. v.
+   1. 应用、使用 = use
+   2. 申请
+2. 词组们
+   1. apply (sb.) for sth. (向xx)申请...
+   2. apply (sth.) to... (把...)应用到...
+   3. apply oneself to... 专心于...，这里的用法和devote系列一致
+3. application n. 申请；应用（即app）
+4. **【写作】** apply $\xrightarrow{\text{替换}}$ use，一切“use”都可以替换成“apply”，很好用且高级的替换词。
