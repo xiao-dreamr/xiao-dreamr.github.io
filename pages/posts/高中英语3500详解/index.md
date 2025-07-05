@@ -163,7 +163,7 @@ tags:
 1. adj. 精确的、精准的 = precise
 2. accurately adv. ~
 3. 可形容具体事物，如“射箭”“枪法”，也可以指抽象的精准，如“切题”“精准剖析”
-4. **【反义】** approximate adj. 大约的，近似的 ≈ rough adj. 粗糙的、大约的
+4. **【反义】** [approximate](#approximate) adj. 大约的，近似的 ≈ rough adj. 粗糙的、大约的
 
 #### accuse
 
@@ -525,3 +525,42 @@ tags:
    3. apply oneself to... 专心于...，这里的用法和devote系列一致
 3. application n. 申请；应用（即app）
 4. **【写作】** apply $\xrightarrow{\text{替换}}$ use，一切“use”都可以替换成“apply”，很好用且高级的替换词。
+
+#### appoint
+
+1. vt.
+   1. 任命、委托
+   2. 约定、约会
+2. appointment n. ~
+3. 类似于assign（掘地三尺）（喂）
+
+#### appreciate
+
+1. vt.
+   1. 欣赏、鉴赏
+   2. 感激
+2. appreciation n. ~
+3. **特殊用法**：I would appreciate **it** if ...<br/>
+   在appreciate后会有一个形宾“it”，高中阶段需要加形宾的有且仅有**rely**系列、**appreciate**和**feel**系列<br/>
+   （滔天大坑）
+4. **【写作】** 感谢信题材中，可以做“感激”用；提建议题材中，可以写“若你采纳了我的建议，我将不胜感激”。<br/>
+   感谢信开头：I'm earnestly writing to extend my gratitude/**appreciation** to you.<br/>
+   建议信结尾：I would **appreciate** it if my proposals are adopted.
+
+#### approve
+
+1. v. 支持、赞成、同意、批准
+2. approval adj. 赞成的 $\approx$ favorable，常见于阅读的**作者态度**
+3. approve (of) sth. 赞成$\cdots$
+
+#### appropriate
+
+1. adj. 合适的、恰当的、适量、酌情 = apt = suitable
+2. 单选题词义辨析常考
+
+#### approximate
+
+1. adj. 大约的、近似的 = rough
+2. v. 大约、约等于
+3. 经常在阅读C篇干扰阅读（什）
+4. **【反义】** [accurate](#accurate) （本篇第一个双向链接的词出现了✧(=‿=✿) ）
