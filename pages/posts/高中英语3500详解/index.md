@@ -28,6 +28,15 @@ tags:
 
 此处quit一般指放弃“工作”，而“withdraw”一般指“退出、撤出”
 
+#### [NEW] abnormal
+
+1. adj. 反常的、不正常的
+2. **【反义】** 显而易见，是normal（
+3. 关于normal、common和ordinary
+   1. normal：指“正常的”，比如“他每天都骑车上班，但是今天没有”，在这里骑车是“正常的”
+   2. common：指“普遍的、共有的”，比如“他的长相很普通”，主要是强调“不出众”
+   3. ordinary：指“平凡的”，比如“日常生活”“平凡的一天”，强调“无特殊之事发生”
+
 #### abolish
 
 1. vt./n.
@@ -70,6 +79,11 @@ tags:
 1. adj. 抽象的、纯理论的、深奥的
 2. **【反义】** practical adj. 实际的、实用的、实践的
 
+#### [NEW] absurd
+
+1. adj. 荒唐的、荒谬的 = ridiculous
+2. 和[absorb](#absorb)长的很像，注意区分。
+
 #### abuse
 
 1. vt./n.
@@ -108,15 +122,15 @@ tags:
 1. v. 接受、同意 ≈ acknowledge
 2. acceptable adj. 可接受的
 
-#### access
+#### [SUP] access
 
 1. n.
    1. 通道、路径
    2. 进入权、许可权
    3. \+ $\mathop{\text{to}}\limits_{\Delta}$
 2. **accessible** adj.
-   1. 可达到的
-   2. 易理解的、易懂的
+   1. 可达到的、无障碍的
+   2. 易理解的、易懂的 = transparent
    3. 平易近人的
 3. have access $\mathop{\text{to}}\limits_{\Delta}$ ... 能进入...
 4. **【写作】** 让...更易懂 more easy to understand $\xrightarrow{\text{替换}}$ more accessible
@@ -296,6 +310,13 @@ tags:
    2. adj. 先进的、前沿的
 3. in advance 提前 = ahead of [time/schedule]
 4. $\uparrow$ 常考单选词义辨析
+
+#### [NEW] adversity
+
+1. n. 逆境、困难 = dilemma = predicament = diffculty
+2. **【写作】** diffculty $\xrightarrow{\text{替换}}$ adversity/dilemma/predicament，简单好用的替换词
+3. *Per Aspera, Ad Astra* 循此苦旅，终抵繁星（拉丁），貌似adversity和这句话有点渊源<br/>
+   虽然没什么用，但是这句话真的很美（
 
 #### advertise
 
@@ -480,11 +501,12 @@ tags:
 3. 常考情态动词“Shall”——规章制度、合同公告、公共标识中的“必须”<br/>
    同样地，还有sign、law、rules、regulations、contract、agreement等一系列经约定的东西。
 
-#### anticipate
+#### [FIX] anticipate
 
-1. v. 预期、预测、估计 = estimate
-2. anticipation n. ~ = estimate（v/n都是）
-3. -ticipate还有啥？<br/>
+1. v. 预期、预测、估计 = expect
+2. anticipation n. ~ = expection
+3. anticipate 只加 **DOING**，不加to do
+4. -ticipate还有啥？<br/>
    participate——v. 参加、参与+in，作文代替join，后面会又专场，挖坑坑（
 
 ### ap-
@@ -499,10 +521,10 @@ tags:
 3. 常常跟在各种动词后，考察从没见过的动词词组<br/>
    通常只需要把动词含义+apart即可，比如fall apart
 
-#### apparent
+#### [SUP] apparent
 
 1. adj. 显然的、看起来的、貌似的
-2. apparently adv. 显然、貌似
+2. apparently adv. 显然、貌似 = obviously = clearly = transparently
 3. **【写作】** 当你觉得句子缺点东西的时候，在前面加个Apparently总不会错的（
 
 #### appetite
