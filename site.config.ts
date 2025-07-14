@@ -13,7 +13,7 @@ export default defineSiteConfig({
   },
   subtitle: '',
   lastUpdated:true,
-  description: '✨Per aspera, Ad astra.',
+  description: 'Per aspera, Ad astra.',
   favicon:'https://linium.xin/images/lin-favicon.png',
   comment:{
     enable:true,

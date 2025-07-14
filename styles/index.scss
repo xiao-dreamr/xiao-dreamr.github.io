@@ -2,6 +2,13 @@
 @import url("https://fontsapi.zeoseven.com/488/main/result.css"); // 上图东观体 "STDongGuanTi"
 @import url("https://fontsapi.zeoseven.com/292/main/result.css"); // 霞鹜文楷 "LXGW WenKai"
 
+@font-face {
+    font-family: "ZSFT-486";
+    src: url("https://fontsapi.zeoseven.com/486/main.woff2") format('woff2'),
+        url("https://fontsapi-storage.zeoseven.com/486/main.woff2") format('woff2');
+    font-display: swap;
+}  // 英文草书 ZSFT-486
+
 :root{
     --lin-bg-blur: 9px;
     --lin-say-blur: 5px;

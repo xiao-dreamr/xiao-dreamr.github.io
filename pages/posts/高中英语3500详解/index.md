@@ -586,3 +586,48 @@ tags:
 2. v. 大约、约等于
 3. 经常在阅读C篇干扰阅读（什）
 4. **【反义】** [accurate](#accurate) （本篇第一个双向链接的词出现了✧(=‿=✿) ）
+
+### ar-
+
+#### architect
+
+1. n. 建筑师
+2. architecture n. 建筑
+3. **【写作】** building $\xrightarrow{\text{替换}}$ architecture 在介绍学校、介绍地区的时候好用
+
+#### arise
+
+1. vi.（坏事儿）产生
+2. 关于rise、raise、[arouse](#arouse)和arise
+   1. rise——vi. 升起=go up
+   2. raise——vt. 使升起、举起；抚养；提出
+   3. [arouse](#arouse)——vt. 激发（可用作文）
+   4. arise——vi. （坏事儿）产生
+   5. 以上四个每次遇到都会重复一遍加强记忆（
+
+#### arouse
+
+1. vt. 激发
+2. 关于rise、raise、arouse和[arise](#arise)
+   1. rise——vi. 升起=go up
+   2. raise——vt. 使升起、举起；抚养；提出
+   3. arouse——vt. 激发（可用作文）
+   4. [arise](#arise)——vi. （坏事儿）产生
+   5. 以上四个每次遇到都会重复一遍加强记忆（为什么这么快就遇到了啊喂）
+3. **【写作】** 激发某人兴趣？ arouse one's [ passion for ... / enthusiasm about ... ]
+
+太晚了例句明天一块加记得提醒我（
+
+#### arrange
+
+1. vt. 安排、排列、装潢、布置
+2. n. arrangement ~
+3. arrange **FOR** sb. to do ... 安排xx做...
+4. be arranged to do 被安排做...
+5. 最重要的就是for 的词组，考单选
+
+#### arrest
+
+1. v./n. 逮捕、拘留；（极强地）吸引
+2. arrest sb. for sth. 因...而拘留xx
+3. **【写作】** 当写“某事非常吸引人”的时候，便可以使用..., by which my concentration is thoroughly arrested.
