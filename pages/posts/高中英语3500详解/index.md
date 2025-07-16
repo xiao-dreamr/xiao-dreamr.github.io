@@ -28,7 +28,7 @@ tags:
 
 此处quit一般指放弃“工作”，而“withdraw”一般指“退出、撤出”
 
-#### [NEW] abnormal
+#### abnormal
 
 1. adj. 反常的、不正常的
 2. **【反义】** 显而易见，是normal（
@@ -79,7 +79,7 @@ tags:
 1. adj. 抽象的、纯理论的、深奥的
 2. **【反义】** practical adj. 实际的、实用的、实践的
 
-#### [NEW] absurd
+#### absurd
 
 1. adj. 荒唐的、荒谬的 = ridiculous
 2. 和[absorb](#absorb)长的很像，注意区分。
@@ -122,7 +122,7 @@ tags:
 1. v. 接受、同意 ≈ acknowledge
 2. acceptable adj. 可接受的
 
-#### [SUP] access
+#### access
 
 1. n.
    1. 通道、路径
@@ -311,7 +311,7 @@ tags:
 3. in advance 提前 = ahead of [time/schedule]
 4. $\uparrow$ 常考单选词义辨析
 
-#### [NEW] adversity
+#### adversity
 
 1. n. 逆境、困难 = dilemma = predicament = diffculty
 2. **【写作】** diffculty $\xrightarrow{\text{替换}}$ adversity/dilemma/predicament，简单好用的替换词
@@ -501,7 +501,7 @@ tags:
 3. 常考情态动词“Shall”——规章制度、合同公告、公共标识中的“必须”<br/>
    同样地，还有sign、law、rules、regulations、contract、agreement等一系列经约定的东西。
 
-#### [FIX] anticipate
+#### anticipate
 
 1. v. 预期、预测、估计 = expect
 2. anticipation n. ~ = expection
@@ -521,7 +521,7 @@ tags:
 3. 常常跟在各种动词后，考察从没见过的动词词组<br/>
    通常只需要把动词含义+apart即可，比如fall apart
 
-#### [SUP] apparent
+#### apparent
 
 1. adj. 显然的、看起来的、貌似的
 2. apparently adv. 显然、貌似 = obviously = clearly = transparently
@@ -556,6 +556,12 @@ tags:
 2. appointment n. ~
 3. 类似于assign（掘地三尺）（喂）
 
+#### appraise
+
+1. v. 评价、评估、鉴定
+2. n. appraisal
+3. **【同义】** estimate（偏重“估”）、[assess](#assess)、appraise、evaluate
+
 #### appreciate
 
 1. vt.
@@ -568,6 +574,14 @@ tags:
 4. **【写作】** 感谢信题材中，可以做“感激”用；提建议题材中，可以写“若你采纳了我的建议，我将不胜感激”。<br/>
    感谢信开头：I'm earnestly writing to extend my gratitude/**appreciation** to you.<br/>
    建议信结尾：I would **appreciate** it if my proposals are adopted.
+
+#### [NEW] approach
+
+1. v. 接近、靠近、迫近
+2. n. 方法、途径
+3. approach $\mathop{\text{to}}\limits_{\Delta}$ ... 做...的方法
+4. sth. is approaching 某事即将发生 = sth. is around the connor = sth. is drawing near.
+5. 常见于单选辨析，“方法”加to的只有两个——**solution和approach**
 
 #### approve
 
@@ -598,14 +612,14 @@ tags:
 #### arise
 
 1. vi.（坏事儿）产生
-2. 关于rise、raise、[arouse](#arouse)和arise
+2. 关于rise、raise、arouse和arise
    1. rise——vi. 升起=go up
    2. raise——vt. 使升起、举起；抚养；提出
-   3. [arouse](#arouse)——vt. 激发（可用作文）
+   3. arouse——vt. 激发（可用作文）
    4. arise——vi. （坏事儿）产生
    5. 以上四个每次遇到都会重复一遍加强记忆（
 
-#### arouse
+#### [SUP] arouse
 
 1. vt. 激发
 2. 关于rise、raise、arouse和[arise](#arise)
@@ -614,9 +628,8 @@ tags:
    3. arouse——vt. 激发（可用作文）
    4. [arise](#arise)——vi. （坏事儿）产生
    5. 以上四个每次遇到都会重复一遍加强记忆（为什么这么快就遇到了啊喂）
-3. **【写作】** 激发某人兴趣？ arouse one's [ passion for ... / enthusiasm about ... ]
-
-太晚了例句明天一块加记得提醒我（
+3. **【写作】** 激发某人兴趣？ arouse one's [ passion for ... / enthusiasm about ... ]<br/>
+   Frankly speaking, it's the appealing writing techniques ranging from exaggeration to metaphor displayed by the reading seminar that arouses the students' enthusiasm about probing into *the Dream of Red Chamber*, a renowned conventional Chinese masterpieces.
 
 #### arrange
 
@@ -631,3 +644,29 @@ tags:
 1. v./n. 逮捕、拘留；（极强地）吸引
 2. arrest sb. for sth. 因...而拘留xx
 3. **【写作】** 当写“某事非常吸引人”的时候，便可以使用..., by which my concentration is thoroughly arrested.
+
+#### artificial
+
+1. adj. 人工的、人造的
+2. artificial intelligence 人工智能（即AI），涉及AI的作文里可以写一两个全拼免重复。
+3. **【反义】** automatic adj. 自动的、自动化的，或者 natural adj.自然的、天生的
+
+#### as
+
+1. 超级重要的语法考点，具体如下：
+2. 做**定从**引导词，此时As一定做主/宾语
+   1. 正如——As is universally [acknowledged](#acknowledge), ...
+   2. 固定搭配such/the same——He is such a person as is very famous.
+3. 做**状从**引导词
+   1. 因为——As she feels uncomfortable, she is allowed to have a rest.
+   2. 尽管——Devoted as he was, he failed to make it eventually.<br/>
+      注意：**As 做虽然尽管时，核心词提前**（比如这里He was devoted变成了Devoted as he was，核心词就是你想强调的部分，可以是任何东西）
+4. 随着——As time goes, ...
+
+### as-
+
+#### assess
+
+1. v. 评价、评估
+2. assessment n. ~
+3. **【同义】** estimate（偏重“估”）、assess、[appraise](#appraise)、evaluate
