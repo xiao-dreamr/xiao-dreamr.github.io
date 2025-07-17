@@ -18,7 +18,7 @@ random: true
     "avatar":"https://linium.xin/images/lin.png",
     "name":"霖",
     "blog":"霖的小屋",
-    "desc":"庄生晓梦迷蝴蝶",
+    "desc":"Per aspera, ad astra.",
     "color":"#b47cf7"
 }
 ```

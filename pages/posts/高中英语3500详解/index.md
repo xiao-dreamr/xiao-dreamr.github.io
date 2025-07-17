@@ -435,12 +435,13 @@ tags:
 2. allied adj. 同盟的、同盟国（WWⅡ）的
 3. 认识即可，有时阅读涉及到二战的可能有
 
-#### alternative
+#### [SUP] alternative
 
 1. adj. 替代的、替补的
 2. n. 替换物、代替品、替补
-3. **单选**超级常考！通常在环保语境中指可替代能源。
-4. **【写作】** 比如“戒掉网瘾”之类的，让你提出其他放松身心的方法时，就可以说：<br/>
+3. alter v. 改变 = change = transform = convert
+4. **单选**超级常考！通常在环保语境中指可替代能源。
+5. **【写作】** 比如“戒掉网瘾”之类的，让你提出其他放松身心的方法时，就可以说：<br/>
    What alternative approach is it that can relieve our [academic](#academic) exhaustion?
 
 （话说academic好万金油啊（
@@ -499,7 +500,7 @@ tags:
 1. vt. 宣布
 2. announcement n. 宣布、公告
 3. 常考情态动词“Shall”——规章制度、合同公告、公共标识中的“必须”<br/>
-   同样地，还有sign、law、rules、regulations、contract、agreement等一系列经约定的东西。
+   同样地，还有sign、law、rules、regulations、contract、[agreement](#agree)等一系列经约定的东西。
 
 #### anticipate
 
@@ -526,6 +527,15 @@ tags:
 1. adj. 显然的、看起来的、貌似的
 2. apparently adv. 显然、貌似 = obviously = clearly = transparently
 3. **【写作】** 当你觉得句子缺点东西的时候，在前面加个Apparently总不会错的（
+
+#### [NEW] appeal
+
+1. v. 吸引；呼吁
+2. appealing adj. 吸引人的、有吸引力的 = attractive（坑） = absorbing = stunning = striking = charming
+3. appeal $\mathop{\text{to}}\limits_{\Delta}$ sb. to do 呼吁xx做...
+4. appeal $\mathop{\text{to}}\limits_{\Delta}$ sb. 吸引xx，一定不要忘记to！<br/>
+   e.g. The splendid landscape of Tianjin appeals to me very much.
+5. **【写作】** 同属于修饰“好”的形容词，比如当你想介绍一个活动但语言略显苍白时，可以加一个如上的形容词，起到润色的作用。
 
 #### appetite
 
@@ -556,7 +566,7 @@ tags:
 2. appointment n. ~
 3. 类似于assign（掘地三尺）（喂）
 
-#### appraise
+#### [NEW] appraise
 
 1. v. 评价、评估、鉴定
 2. n. appraisal
@@ -629,7 +639,7 @@ tags:
    4. [arise](#arise)——vi. （坏事儿）产生
    5. 以上四个每次遇到都会重复一遍加强记忆（为什么这么快就遇到了啊喂）
 3. **【写作】** 激发某人兴趣？ arouse one's [ passion for ... / enthusiasm about ... ]<br/>
-   Frankly speaking, it's the appealing writing techniques ranging from exaggeration to metaphor displayed by the reading seminar that arouses the students' enthusiasm about probing into *the Dream of Red Chamber*, a renowned conventional Chinese masterpieces.
+   e.g. Frankly speaking, it's the appealing writing techniques ranging from exaggeration to metaphor displayed by the reading seminar that arouses the students' enthusiasm about probing into *the Dream of Red Chamber*, a renowned conventional Chinese masterpieces.
 
 #### arrange
 
@@ -651,6 +661,8 @@ tags:
 2. artificial intelligence 人工智能（即AI），涉及AI的作文里可以写一两个全拼免重复。
 3. **【反义】** automatic adj. 自动的、自动化的，或者 natural adj.自然的、天生的
 
+### as-
+
 #### as
 
 1. 超级重要的语法考点，具体如下：
@@ -662,8 +674,6 @@ tags:
    2. 尽管——Devoted as he was, he failed to make it eventually.<br/>
       注意：**As 做虽然尽管时，核心词提前**（比如这里He was devoted变成了Devoted as he was，核心词就是你想强调的部分，可以是任何东西）
 4. 随着——As time goes, ...
-
-### as-
 
 #### assess
 

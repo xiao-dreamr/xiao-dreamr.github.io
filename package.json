@@ -15,7 +15,7 @@
     "@iconify-json/catppuccin": "^1.2.11",
     "@iconify/icons-mdi": "^1.2.48",
     "date-fns": "^4.1.0",
-    "unhead": "2.0.8",
+    "unhead": "2.0.12",
     "valaxy": "0.23.3",
     "valaxy-addon-components": "^0.1.0",
     "valaxy-addon-meting": "^0.1.4",
@@ -23,7 +23,7 @@
     "valaxy-theme-yun": "0.23.3"
   },
   "devDependencies": {
-    "@iconify-json/mdi": "^1.2.1",
+    "@iconify-json/mdi": "^1.2.3",
     "@iconify/icons-akar-icons": "^1.2.19",
     "typescript": "^5.8.3"
   }

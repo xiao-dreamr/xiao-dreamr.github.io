@@ -67,31 +67,26 @@ export default defineValaxyConfig<UserThemeConfig>({
       }
     ],
     nav:[
-      {
-        text:"导航",
-        items:[
-          {
-            text:"项目橱窗",
-            link:"/projects",
-            icon:"i-ri-code-s-slash-line",
-          },
-          {
-            text:"逆旅余音",
-            link:"/accumulations",
-            icon:"ri:quill-pen-line",
-          },
-          {
-            text: "笑林新编",
-            link:"/fools",
-            icon:"i-ri-lightbulb-line",
-          },
-          {
-            text: "友情链接",
-            link:"/links",
-            icon:"i-ri-planet-line"
-          }
-        ]
-      }
+        {
+          text:"项目橱窗",
+          link:"/projects",
+          icon:"i-ri-code-s-slash-line",
+        },
+        {
+          text:"逆旅余音",
+          link:"/accumulations",
+          icon:"ri:quill-pen-line",
+        },
+        {
+          text: "笑林新编",
+          link:"/fools",
+          icon:"i-ri-lightbulb-line",
+        },
+        {
+          text: "友情链接",
+          link:"/links",
+          icon:"i-ri-planet-line"
+        }
     ],
     footer: {
       since: 2024,
@@ -101,7 +96,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
     notice:{
       enable:true,
-      content:"博主开学了，随缘更新(o゜▽゜)o☆",
+      content:"博主放假了，但是还是随缘更新 ✧(=‿=✿)",
     }
   },
   addons:[
@@ -118,18 +113,5 @@ export default defineValaxyConfig<UserThemeConfig>({
       dark: 'catppuccin-mocha',
     },
   },
-  groupIcons:{
-    customIcon:{
-      cs:"catppuccin-csharp",
-      js:"catppuccin-javascript",
-      ts:"catppuccin-typescript",
-      tsconfig:"catppuccin-typescript-config",
-      unocss:"catppuccin-unocss",
-      py:"catppuccin-python",
-      html:"catppuccin-html",
-      css:"catppuccin-css",
-      md:"catppuccin-markdown",
-      vue:"catppuccin-vue",
-    }
-  }
+  groupIcons:{}
 })
