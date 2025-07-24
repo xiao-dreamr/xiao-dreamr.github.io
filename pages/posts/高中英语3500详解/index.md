@@ -435,7 +435,16 @@ tags:
 2. allied adj. 同盟的、同盟国（WWⅡ）的
 3. 认识即可，有时阅读涉及到二战的可能有
 
-#### [SUP] alternative
+#### [NEW] allow
+
+1. v. 允许 = permit
+2. **allowance** n. 津贴，阅读会出现，一定要认识
+3. 用法相同的三个：allow、permit、forbid
+   1. 直接 + doing
+   2. + sb. + to do
+   3. 被动 + to do
+
+#### alternative
 
 1. adj. 替代的、替补的
 2. n. 替换物、代替品、替补
@@ -528,7 +537,7 @@ tags:
 2. apparently adv. 显然、貌似 = obviously = clearly = transparently
 3. **【写作】** 当你觉得句子缺点东西的时候，在前面加个Apparently总不会错的（
 
-#### [NEW] appeal
+#### appeal
 
 1. v. 吸引；呼吁
 2. appealing adj. 吸引人的、有吸引力的 = attractive（坑） = absorbing = stunning = striking = charming
@@ -566,7 +575,7 @@ tags:
 2. appointment n. ~
 3. 类似于assign（掘地三尺）（喂）
 
-#### [NEW] appraise
+#### appraise
 
 1. v. 评价、评估、鉴定
 2. n. appraisal
@@ -585,7 +594,7 @@ tags:
    感谢信开头：I'm earnestly writing to extend my gratitude/**appreciation** to you.<br/>
    建议信结尾：I would **appreciate** it if my proposals are adopted.
 
-#### [NEW] approach
+#### approach
 
 1. v. 接近、靠近、迫近
 2. n. 方法、途径
@@ -629,7 +638,7 @@ tags:
    4. arise——vi. （坏事儿）产生
    5. 以上四个每次遇到都会重复一遍加强记忆（
 
-#### [SUP] arouse
+#### arouse
 
 1. vt. 激发
 2. 关于rise、raise、arouse和[arise](#arise)
@@ -675,8 +684,37 @@ tags:
       注意：**As 做虽然尽管时，核心词提前**（比如这里He was devoted变成了Devoted as he was，核心词就是你想强调的部分，可以是任何东西）
 4. 随着——As time goes, ...
 
+#### [NEW] assert
+
+1. v. 断言、坚决认为
+2. 认识即可
+3. 多用于编程条件检验（跑题
+
 #### assess
 
 1. v. 评价、评估
 2. assessment n. ~
 3. **【同义】** estimate（偏重“估”）、assess、[appraise](#appraise)、evaluate
+
+#### assign
+
+1. v.
+   1. 指派、分配、分工 ≈ [appoint](#appoint)
+   2. 指定、认定
+2. assign ... to ... 把...分配到...
+3. be assigned to do 被安排做
+4. assignment n. 任务 = task = duty
+
+#### assist
+
+1. vt. 帮助 = help
+2. assistance n. ~
+3. assistant n. 助理、帮手
+4. assist sb. to do ...
+5. **【写作】** help $\xrightarrow{\text{替换}}$ assist，可以当成help随便用，所有涉及到“帮助你...”的都能用
+
+#### assume
+
+1. v. 假想、假定、假说、猜
+2. assumption n. ~
+3. I assume that it would work. 俺寻思能行（
