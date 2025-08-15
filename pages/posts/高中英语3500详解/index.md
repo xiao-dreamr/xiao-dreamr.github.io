@@ -213,7 +213,7 @@ tags:
 
 1. vt. 获得、获取
 2. 常指“通过学习”获取知识，日常不做区分
-3. **【写作】** get $\xrightarrow{\text{替换}}$ obtain = attain = gain = acquire<br/>
+3. **【写作】** get $\xrightarrow{\text{替换}}$ obtain = [attain](#attain) = gain = acquire<br/>
    e.g. ..., in return, via which we are capable of **acquiring** a more profound insight into the distinctness between Chinese and western culture.
 
 #### accustom
@@ -435,7 +435,7 @@ tags:
 2. allied adj. 同盟的、同盟国（WWⅡ）的
 3. 认识即可，有时阅读涉及到二战的可能有
 
-#### [NEW] allow
+#### allow
 
 1. v. 允许 = permit
 2. **allowance** n. 津贴，阅读会出现，一定要认识
@@ -684,7 +684,7 @@ tags:
       注意：**As 做虽然尽管时，核心词提前**（比如这里He was devoted变成了Devoted as he was，核心词就是你想强调的部分，可以是任何东西）
 4. 随着——As time goes, ...
 
-#### [NEW] assert
+#### assert
 
 1. v. 断言、坚决认为
 2. 认识即可
@@ -713,8 +713,42 @@ tags:
 4. assist sb. to do ...
 5. **【写作】** help $\xrightarrow{\text{替换}}$ assist，可以当成help随便用，所有涉及到“帮助你...”的都能用
 
+#### [NEW] associate
+
+1. vt. 使...联系
+2. association n. 联系；协会、联盟<br/>
+   比如 NBA: national basketball **association**
+3. associate A with B 把A与B联系到一起
+
 #### assume
 
 1. v. 假想、假定、假说、猜
 2. assumption n. ~
 3. I assume that it would work. 俺寻思能行（
+
+#### astonish
+
+1. vt. 使吃惊、使惊讶
+2. astonished adj. （人）吃惊的 = shocked = surprised = amazed = thrilled（多指负面）
+3. astonishing adj.（事）令人~ = 同理
+4. **【写作】** 形容某事“令人震惊”，比如某个活动举办的成果令人惊叹
+
+#### attach
+
+1. vt.
+   1. 粘、贴、附、系...（将一个东西和另一个东西绑定在一块的都行）
+   2. 赋予...（意义、重要性）
+2. attachment n. 依恋、爱慕、附着
+3. attach importance/significance to ... 重点强调了...
+
+#### attack
+
+1. v./n.
+   1. （军队）进攻、攻占
+   2. （自然灾害）袭击
+2. hreat attack 突发心脏病
+
+#### attain
+
+1. v. 得到、获得 = get = obtain = [acquire](#acquire)
+2. **【写作】** 见[acquire](#acquire)处，重复不再赘述。
