@@ -58,6 +58,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/csharp_typeof_gettype': RouteRecordInfo<'/posts/csharp_typeof_gettype', '/posts/csharp_typeof_gettype', Record<never, never>, Record<never, never>>,
     '/posts/ECS-TH1初识/': RouteRecordInfo<'/posts/ECS-TH1初识/', '/posts/ECS-TH1初识', Record<never, never>, Record<never, never>>,
     '/posts/EpicOfAtom/': RouteRecordInfo<'/posts/EpicOfAtom/', '/posts/EpicOfAtom', Record<never, never>, Record<never, never>>,
+    '/posts/GetRIME/': RouteRecordInfo<'/posts/GetRIME/', '/posts/GetRIME', Record<never, never>, Record<never, never>>,
     '/posts/Mermaid简明指南/': RouteRecordInfo<'/posts/Mermaid简明指南/', '/posts/Mermaid简明指南', Record<never, never>, Record<never, never>>,
     '/posts/TailwindCSS入门小记/': RouteRecordInfo<'/posts/TailwindCSS入门小记/', '/posts/TailwindCSS入门小记', Record<never, never>, Record<never, never>>,
     '/projects/': RouteRecordInfo<'/projects/', '/projects', Record<never, never>, Record<never, never>>,
