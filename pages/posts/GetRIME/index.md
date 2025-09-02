@@ -1,6 +1,6 @@
 ---
 title: 【RIME】小狼毫入门指南
-icon : ri:keyboard-box-line
+icon : i-ri-keyboard-box-line
 date: 2025-08-31
 categories: 随笔
 cover: https://pic1.imgdb.cn/item/68b4487458cb8da5c8673b62.png
@@ -13,7 +13,7 @@ tags:
 
 小狼毫解决了我在使用微软输入法时很多的痛点，并且能进行随心所欲的**自定义**，对于一个爱折腾的人来说，可谓是**金风玉露一相逢**(✿◡‿◡)
 
-但是小狼毫的优点也恰好是其缺点，过高的自定义程度反而让入手这款输入法成为了一项**难题**，因此，笔者便闲来无事记载一下自己构造这个独属于自己的输入法的**折腾过程**罢¯\\\_(ツ)_/¯
+但是小狼毫的优点也恰好是其缺点，过高的自定义程度反而让入手这款输入法成为了一项**难题**，因此，咱便闲来无事记载一下自己构造这个独属于自己的输入法的**折腾过程**罢
 
 （顺便提一嘴，微软在输入法上属实是落后太多，诗词等古文输入困难暂且不提，连白天/黑夜的模式切换也无法自动实现，实在难受(╯‵□′)╯︵┻━┻
 
@@ -35,13 +35,13 @@ tags:
 
 ### 自带
 
-小狼毫下载后自带的输入法有朙月拼音、双拼等，其中**朙月拼音·简化字**是最接近我们日常使用的全拼输入法的一款。
+小狼毫下载后自带的输入法有朙月拼音、双拼、仓颉五笔等，其中**朙月拼音·简化字**是最接近我们日常使用的全拼输入法的一款。
 
-但自带的输入法对于现在的互联网来说还是略显落后，那么如何获得更好的输入体验呢？
+但自带的输入法词库对于2025年的互联网来说还是略显落后，那么如何获得更好的输入体验呢？
 
 ### 雾凇拼音
 
-**雾凇拼音**是在Github上Star数最多且持续维护的一款输入方案，也是笔者目前正在使用的一款输入法。
+**雾凇拼音**是在Github上Star数最多且持续维护的一款输入方案，也是咱目前正在使用的一款输入法。
 
 只须从[其GitHub Release](https://github.com/iDvel/rime-ice/releases)界面下载，选择Assets中的`full.zip`即可覆盖我们日常的大多数使用场景。
 
@@ -49,11 +49,18 @@ tags:
 
 通常情况下，小狼毫的用户文件夹位于`C:\Users\<你的账户名>\AppData\Roaming\Rime`路径下。
 
-![右键菜单](https://pic1.imgdb.cn/item/68b44c6a58cb8da5c8674a16.png)
-
 最后，只需在**输入法设定**选项中，选中雾凇拼音即可。（居然还是河南人的说）
 
-![设置菜单](https://pic1.imgdb.cn/item/68b44cf258cb8da5c8674cb6.png)
+<div flex="~ col" justify-center items-center>
+  <div flex grid-cols-2>
+    <div>
+      <img src="https://pic1.imgdb.cn/item/68b44c6a58cb8da5c8674a16.png" alt="右键菜单"/>
+    </div>
+    <div>
+      <img src="https://pic1.imgdb.cn/item/68b44cf258cb8da5c8674cb6.png" alt="设置菜单"/>
+    </div>
+  </div>
+</div>
 
 其他更多输入法建议读者自行到Github上搜寻，五笔、双拼等一应俱全~
 
@@ -241,25 +248,25 @@ patch:
     name: Windows10
     shadow_color: 0x4DFDFDFD
     text_color: 0x000000
-  "style/capture_by_click": true #这里之后的引号可有可无，我改的时候没删，控制鼠标选词
-  "style/color_scheme": win10
-  "style/font_point": 14
-  "style/horizontal": true
-  "style/inline_preedit": true
-  "style/label_font_point": 14
-  "style/label_format": "%s"
-  "style/layout/border_width": 2 #边框线粗细
-  "style/layout/candidate_spacing": 50 
-  "style/layout/corner_radius": 10 #高亮框圆角
-  "style/layout/hilite_padding": 18
-  "style/layout/hilite_spacing": 17 #候选词和序号之间的距离，没找到能控制高亮框的长度的，导致高亮框右侧边距有点小
-  "style/layout/margin_x": 17
-  "style/layout/margin_y": 17
-  "style/layout/round_corner": 10 #候选框圆角
-  "style/layout/shadow_offset_x": 5
-  "style/layout/shadow_offset_y": 4
-  "style/layout/shadow_radius": 10
-  "style/mark_text": " ​​" 
+    style/capture_by_click: true
+    style/color_scheme: win10
+    style/font_point: 14
+    style/horizontal: true
+    style/inline_preedit: true
+    style/label_font_point: 14
+    style/label_format: "%s"
+    style/layout/border_width: 2 #边框线粗细
+    style/layout/candidate_spacing: 50 
+    style/layout/corner_radius: 10 #高亮框圆角
+    style/layout/hilite_padding: 18
+    style/layout/hilite_spacing: 17 #候选词和序号之间的距离，没找到能控制高亮框的长度的，导致高亮框右侧边距有点小
+    style/layout/margin_x: 17
+    style/layout/margin_y: 17
+    style/layout/round_corner: 10 #候选框圆角
+    style/layout/shadow_offset_x: 5
+    style/layout/shadow_offset_y: 4
+    style/layout/shadow_radius: 10
+    style/mark_text: " ​​" 
 ```
 
 ### 使用
@@ -274,23 +281,13 @@ patch:
 
 ![主题](https://pic1.imgdb.cn/item/68b4546558cb8da5c86762ae.png)
 
-### 黑/白切换
-
-和[#使用](#使用)一样，在`weasel.custom.yaml`文件中的`patch`项目下，新增`color_scheme`和`color_scheme_dark`两个选项，就可以实现输入法皮肤随系统自动切换啦
-
-示例：
-
-```yaml
-patch:
-  color_scheme: win11light
-  color_scheme_dark: win11dark
-```
-
 ### 更多自定义
 
 更多自定义皮肤内容详见[官网Wiki](https://github.com/rime/weasel/wiki/Weasel-%E5%AE%9A%E5%88%B6%E5%8C%96#weaselyaml)，已经非常详尽直观，此处不再赘述。
 
 ## 调教
+
+### 自定义词典
 
 这一过程可以使小狼毫真正变成**独属于你**的输入法~
 
@@ -306,13 +303,72 @@ patch:
 
 不仅如此，你还可以将自己的邮箱绑定到`youxiang`这个拼音上，从而实现快速输入个人信息。像这样的奇妙功能完全可以自行按需开发，十分有趣
 
+![自定义词典](https://pic1.imgdb.cn/item/68b6b23e58cb8da5c872887b.png)
+
 至于图片中“中”的输入法状态显示，是一个名为[InputTip](https://github.com/abgox/InputTip)的小工具，具体可以查阅[该视频](https://www.bilibili.com/video/BV17veBzkEU9)，不在此赘述了。
+
+### 黑/白切换
+
+和[章节#使用](#使用)一样，在`weasel.custom.yaml`文件中的`patch`项目下，新增`color_scheme`和`color_scheme_dark`两个项目，就可以实现输入法皮肤随系统自动切换啦
+
+示例：
+
+```yaml
+patch:
+  color_scheme: win11light
+  color_scheme_dark: win11dark
+```
+
+### 中英图标
+
+小狼毫自带的中英文切换图标显得略有些年代感了，由于咱已经习惯了微软输入法的状态栏，便索性将其改为微软同款~ （顺带将字体改为了HarmonyOS Sans）
+
+小狼毫需要的图标格式是256x的*.ico文件，我们通过简单的作图便可得到这两个图标。
+
+（图标文字是白色的，浅色模式下可能会看不到）
+
+<div flex="~ col" justify-center items-center>
+  <div flex grid-cols-2>
+    <div>
+      <img src="https://pic1.imgdb.cn/item/68b6a3fa58cb8da5c8722095.png" alt="中" width="50%" height="50%"/>
+    </div>
+    <div>
+      <img src="https://pic1.imgdb.cn/item/68b6a3fa58cb8da5c8722096.png" alt="英" width="50%" height="50%">
+    </div>
+  </div>
+</div>
+
+[点我下载同款ico图标喵（蓝奏云）](https://wwiz.lanzouu.com/iv5hb357jykj)
+
+获得图标之后，我们需要找到正在使用的输入法对应的yaml，由于咱使用的是雾凇拼音，所以找到`rime_ice.schema.yaml`文件即可。
+
+然后，在该文件的`schema`项目下添加`icon`和`ascii_icon`两个项目，前者为中文图标，后者为英文图标
+
+```yaml{8,9} [rime_ice.schema.yaml]
+# 方案说明
+schema:
+  schema_id: rime_ice
+  name: 雾凇拼音
+  version: "2025-03-30"
+  author:
+    - Dvel
+  icon: "zh-cn.ico"
+  ascii_icon: "en.ico"
+  description: |
+    雾凇拼音
+    https://github.com/iDvel/rime-ice
+  dependencies:
+    - melt_eng        # 英文输入，作为次翻译器挂载到拼音方案
+    - radical_pinyin  # 部件拆字，反查及辅码
+```
+
+最后，我们打开小狼毫的**程序文件夹**，将这两个图标粘贴到`<用户文件夹>/data`下即可看到效果
 
 ## 结语
 
-在折腾完RIME后，心血来潮就写了这篇文章，不得不说，RIME的输入体验完全不输给目前大厂的输入法（微软你到底做了个什么玩意啊喂）
+在折腾完RIME后，咱心血来潮就写了这篇文章，不得不说，RIME的输入体验完全不输给目前大厂的输入法（微软你到底做了个什么玩意啊喂）
 
-而隐私保护也是个老生常谈的话题了，RIME作为一款开源软件，在这方面的保护还是毋庸置疑的，也能让笔者用的很舒心~
+而隐私保护也是个老生常谈的话题了，RIME作为一款开源软件，在这方面的保护还是毋庸置疑的，也能让咱用的很舒心~
 
 最后，还是要说一句
 
