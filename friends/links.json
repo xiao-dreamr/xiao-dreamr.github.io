@@ -1,0 +1,42 @@
+[
+    {
+        "url": "https://yuumi.link",
+        "avatar": "https://cdn.yuumi.link/images/settings/favicon.png",
+        "name": "Yuumi",
+        "blog": "-Yuumi's Blog-",
+        "desc": "続きを鳴らそう——",
+        "color": "#D69B54"
+    },
+    {
+        "url": "https://yunyoujun.cn/",
+        "avatar": "https://yunyoujun.cn/images/avatar.jpg",
+        "name": "云游君",
+        "blog": "云游君的小站",
+        "desc": "希望能成为一个有趣的人",
+        "color": "#108cff"
+    },
+    {
+        "url":"https://www.aimiliy.top/",
+        "avatar":"https://cdn.aimiliy.top/avatar/202504256.webp",
+        "name":"MuXiaoChen",
+        "blog":"MuXiaoChen🍊",
+        "desc":"No pains, no gains. 🌱🔥🚀",
+        "color":"#39c5bb"
+    },
+    {
+        "url":"https://remsait.com/",
+        "avatar":"https://cloudflare.remsait.com/img/QQ图片20240908121531.jpg",
+        "name":"西柿",
+        "blog":"-西柿's Blog-",
+        "desc":"折枝的树也能开花",
+        "color":"#ff66b2"
+    },
+    {
+        "url":"https://lwek.world/",
+        "avatar":"https://avatars.githubusercontent.com/u/209656811",
+        "name":"Lwek",
+        "blog":"Lwek",
+        "desc":"责人之心责己，恕已之心恕人。",
+        "color":"#03a9f4"
+    }
+]
