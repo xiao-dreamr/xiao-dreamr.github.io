@@ -96,7 +96,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
     notice:{
       enable:true,
-      content:"博主放假了，但是还是随缘更新 ✧(=‿=✿)",
+      content:"博主开学了，所以随缘更新 ✧(≖‿≖✿)",
     }
   },
   addons:[
