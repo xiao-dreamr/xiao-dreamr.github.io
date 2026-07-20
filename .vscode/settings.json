@@ -12,21 +12,5 @@
   "files.associations": {
     "*.css": "postcss"
   },
-  "svg.preview.background": "editor",
-  "frontMatter.framework.id": "hexo",
-  "frontMatter.preview.host": "http://localhost:4000",
-  "frontMatter.content.publicFolder": "source/images",
-  "[markdown]": {
-    "editor.fontSize": 14,
-    "editor.lineHeight": 26,
-    "editor.wordWrap": "on",
-    "editor.wordWrapColumn": 64,
-    "editor.lineNumbers": "on",
-    "editor.quickSuggestions": {
-      "comments": "off",
-      "strings": "off",
-      "other": "off"
-    },
-    "editor.minimap.enabled": false
-  }
+  "svg.preview.background": "editor"
 }

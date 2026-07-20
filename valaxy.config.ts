@@ -51,16 +51,6 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon:"i-ri-code-s-slash-line",
       },
       {
-        name:"逆旅余音",
-        url:"/accumulations",
-        icon:"i-ri-quill-pen-line",
-      },
-      {
-        name: "笑林新编",
-        url:"/fools",
-        icon:"i-ri-lightbulb-line",
-      },
-      {
         name: "友情链接",
         url:"/links",
         icon:"i-ri-planet-line"
@@ -71,16 +61,6 @@ export default defineValaxyConfig<UserThemeConfig>({
           text:"项目橱窗",
           link:"/projects",
           icon:"i-ri-code-s-slash-line",
-        },
-        {
-          text:"逆旅余音",
-          link:"/accumulations",
-          icon:"ri:quill-pen-line",
-        },
-        {
-          text: "笑林新编",
-          link:"/fools",
-          icon:"i-ri-lightbulb-line",
         },
         {
           text: "友情链接",
@@ -96,7 +76,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
     notice:{
       enable:true,
-      content:"博主开学了，所以随缘更新 ✧(≖‿≖✿)",
+      content:"由于小屋过于陈旧，正在升级改造，<br/>顺便填一些之前没有填上的坑，部分入口和特性暂时关闭~",
     }
   },
   addons:[

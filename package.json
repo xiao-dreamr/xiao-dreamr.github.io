@@ -1,5 +1,5 @@
 {
-  "name": "blogs",
+  "name": "lins-blog",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -12,19 +12,20 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@iconify-json/catppuccin": "^1.2.11",
+    "@iconify-json/catppuccin": "^1.2.17",
+    "@iconify-json/mdi": "^1.2.3",
+    "@iconify-json/ri": "^1.2.10",
     "@iconify/icons-mdi": "^1.2.48",
-    "date-fns": "^4.1.0",
-    "unhead": "2.0.12",
-    "valaxy": "0.23.3",
+    "@vueuse/core": "^14.3.0",
+    "unocss": "^66.7.5",
+    "valaxy": "0.28.11",
     "valaxy-addon-components": "^0.1.0",
-    "valaxy-addon-meting": "^0.1.4",
-    "valaxy-addon-waline": "0.2.1",
-    "valaxy-theme-yun": "0.23.3"
+    "valaxy-addon-meting": "^0.2.0",
+    "valaxy-addon-waline": "^0.2.1",
+    "valaxy-theme-yun": "0.28.11",
+    "vue": "^3.5.40"
   },
   "devDependencies": {
-    "@iconify-json/mdi": "^1.2.3",
-    "@iconify/icons-akar-icons": "^1.2.19",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.3"
   }
 }
