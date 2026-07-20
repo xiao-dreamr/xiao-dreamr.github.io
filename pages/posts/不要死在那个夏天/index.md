@@ -1,5 +1,6 @@
 ---
 title: 不要死在那个夏天
+cover: https://pic1.imgdb.cn/i/033snGGtaewCkzfJ6Df5dm.jpg
 date: 2026-6-5
 icon: mdi:book-multiple-variant
 categories: 杂谈
