@@ -12,12 +12,12 @@ tags:
 
 <!-- more -->
 
-<meting-js
+<MetingJs
  id="2134872913"
  server="netease"
  type="song"
  theme="#e2b4a9">
-</meting-js>
+</MetingJs>
 
 夜晚和歌曲往往最能调动人心中感性的部分——夜晚的歌曲更是如此。
 

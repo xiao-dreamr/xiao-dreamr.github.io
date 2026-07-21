@@ -9,12 +9,11 @@ tags:
   - 思考
 ---
 
-<meting-js
+<MetingJs
  id="3317183055"
  server="netease"
  type="song"
- theme="#5092c5">
-</meting-js>
+ theme="#5092c5"/>
 
 2026年6月5日，星期五，**我毕业了**。
 

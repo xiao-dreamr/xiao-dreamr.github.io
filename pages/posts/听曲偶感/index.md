@@ -13,12 +13,12 @@ tags:
 
 <!-- more -->
 
-<meting-js
+<MetingJs
  id="28265159"
  server="netease"
  type="song"
  theme="#9d70b8">
-</meting-js>
+</MetingJs>
 
 “别急，让子弹飞一会”这句看似毫不相干的话却又格外切合。与初中同窗分别后已过半载，我才在这个夜晚猛地惊醒：**往日不再**。
 

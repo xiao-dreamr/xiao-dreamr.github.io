@@ -4,7 +4,9 @@ title: 关于站点
 
 <ValaxyLogo />
 
-[valaxy](https://valaxy.site/)驱动，主题为[valaxy-theme-yun](https://github.com/YunYouJun/valaxy/tree/main/packages/valaxy-theme-yun)
+[valaxy](https://valaxy.site/)驱动，主题为[valaxy-theme-yun](https://github.com/YunYouJun/valaxy/tree/main/packages/valaxy-theme-yun)，有部分个性化修改。
+
+日后应该会自己再魔改一下主题，现在先这么用着喵。
 
 起因是有一日突发奇想想把自己的想法记录下来，在网上偶然遇到了[云游君](https://yunyoujun.cn/)的博客，当时就真的被惊艳到了（
 

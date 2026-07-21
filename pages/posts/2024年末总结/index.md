@@ -18,12 +18,11 @@ tags:
 
 <!-- more -->
 
-<meting-js
+<MetingJs
  id="2145269432"
  server="netease"
  type="song"
- theme="#5092c5">
-</meting-js>
+ theme="#5092c5"/>
 
 > 正是因为无法成为**他人**的**我**  
 > 算是GBC中最喜欢的歌了（小声）

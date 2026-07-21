@@ -10,8 +10,15 @@ const showContent = ref(false)
 <template>
   <div
     flex="~ col"
-    class="yun-square-container items-center justify-center text-center max-w-2xl  backdrop-blur-$lin-bg-blur py-10 px-7 shadow-2xl bg-white/5 border-solid border-$va-c-text border-1 dark:border-[0.5px] -z-1"
+    class="yun-square-container items-center justify-center text-center max-w-2xl  backdrop-blur-$lin-bg-blur py-10 px-7 shadow-2xl bg-white/5 -z-1 relative"
   >
+    <!-- Border drawing animation: four edges extend clockwise from each corner -->
+    <div class="yun-border-lines pointer-events-none absolute inset-0 z-0">
+      <div class="border-line line-top" />
+      <div class="border-line line-right" />
+      <div class="border-line line-bottom" />
+      <div class="border-line line-left" />
+    </div>
     <slot />
 
     <div
@@ -115,6 +122,74 @@ const showContent = ref(false)
     transform: rotate(135deg) translateY(0%);
     box-shadow: none;
   }
+}
+
+.yun-border-lines {
+  .border-line {
+    position: absolute;
+    background-color: var(--va-c-text);
+
+    // Light mode: slightly thicker
+    &.line-top,
+    &.line-bottom {
+      height: 1px;
+    }
+    &.line-right,
+    &.line-left {
+      width: 1px;
+    }
+
+    // Dark mode: thinner
+    @media (prefers-color-scheme: dark) {
+      &.line-top,
+      &.line-bottom {
+        height: 0.5px;
+      }
+      &.line-right,
+      &.line-left {
+        width: 0.5px;
+      }
+    }
+
+    // Top edge: starts from top-left, extends right
+    &.line-top {
+      top: 0;
+      left: 0;
+      width: 0;
+      animation: yun-border-extend-w 1.2s map.get($cubic-bezier, 'ease-in') 0.2s forwards;
+    }
+
+    // Right edge: starts from top-right, extends down
+    &.line-right {
+      top: 0;
+      right: 0;
+      height: 0;
+      animation: yun-border-extend-h 1.2s map.get($cubic-bezier, 'ease-in') 0.2s forwards;
+    }
+
+    // Bottom edge: starts from bottom-right, extends left
+    &.line-bottom {
+      bottom: 0;
+      right: 0;
+      width: 0;
+      animation: yun-border-extend-w 1.2s map.get($cubic-bezier, 'ease-in') 0.2s forwards;
+    }
+
+    // Left edge: starts from bottom-left, extends up
+    &.line-left {
+      bottom: 0;
+      left: 0;
+      height: 0;
+      animation: yun-border-extend-h 1.2s map.get($cubic-bezier, 'ease-in') 0.2s forwards;
+    }
+  }
+}
+
+@keyframes yun-border-extend-w {
+  to { width: 100%; }
+}
+@keyframes yun-border-extend-h {
+  to { height: 100%; }
 }
 
 .yun-square-container {

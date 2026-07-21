@@ -1,12 +1,5 @@
 [
-    {
-        "url": "https://yuumi.link",
-        "avatar": "https://cdn.yuumi.link/images/settings/favicon.png",
-        "name": "Yuumi",
-        "blog": "-Yuumi's Blog-",
-        "desc": "続きを鳴らそう——",
-        "color": "#D69B54"
-    },
+    
     {
         "url": "https://yunyoujun.cn/",
         "avatar": "https://yunyoujun.cn/images/avatar.jpg",
@@ -15,14 +8,7 @@
         "desc": "希望能成为一个有趣的人",
         "color": "#108cff"
     },
-    {
-        "url":"https://www.aimiliy.top/",
-        "avatar":"https://cdn.aimiliy.top/avatar/202504256.webp",
-        "name":"MuXiaoChen",
-        "blog":"MuXiaoChen🍊",
-        "desc":"No pains, no gains. 🌱🔥🚀",
-        "color":"#39c5bb"
-    },
+    
     {
         "url":"https://remsait.com/",
         "avatar":"https://cloudflare.remsait.com/img/QQ图片20240908121531.jpg",
@@ -41,7 +27,7 @@
     },
     {
         "url":"https://me.moe5200.com",
-        "avatar":"https://me.moe5200.com/wp-content/uploads/2026/05/20260509181132749-1778261599576a6a3c5511f40f0fc703959d7be1830da7ee26b05ea25e0cb6661f244ae838937.0.webp",
+        "avatar":"https://q1.qlogo.cn/g?b=qq&nk=3097998179&s=100",
         "name":"殇恋",
         "blog":"殇恋社区",
         "desc":"殇有归期·恋有朝夕",
