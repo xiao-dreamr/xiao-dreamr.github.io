@@ -1,0 +1,12 @@
+diff --git a/package.json b/package.json
+index 9cd0bca36a2642f052c6306373c2150679583ab1..62aeb0bc1c932072fea687019cc58638b72a41ad 100644
+--- a/package.json
++++ b/package.json
+@@ -11,6 +11,7 @@
+     "waline"
+   ],
+   "exports": {
++    ".": "./index.ts",
+     "./*": "./*"
+   },
+   "main": "index.ts",

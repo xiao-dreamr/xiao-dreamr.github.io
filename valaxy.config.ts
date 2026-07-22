@@ -2,6 +2,7 @@ import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
 import { addonWaline } from 'valaxy-addon-waline'
 import { addonComponents } from 'valaxy-addon-components'
+import { addonMeting } from 'valaxy-addon-meting'
 
 // add icons what you will need 
 const safelist = [
@@ -85,6 +86,11 @@ export default defineValaxyConfig<UserThemeConfig>({
       comment:true,
     }),
     addonComponents(),
+    addonMeting({
+      options:{
+        animationIn:true
+      }
+    }),
   ],
   unocss: { safelist },
   markdown:{

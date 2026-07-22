@@ -2,3 +2,5 @@ allowBuilds:
   '@parcel/watcher': false
   esbuild: false
   vue-demi: false
+patchedDependencies:
+  valaxy-addon-waline: patches/valaxy-addon-waline.patch
