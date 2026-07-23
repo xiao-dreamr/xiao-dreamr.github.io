@@ -227,86 +227,16 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/不要死在那个夏天/': RouteRecordInfo<
-      '/posts/不要死在那个夏天/',
-      '/posts/%E4%B8%8D%E8%A6%81%E6%AD%BB%E5%9C%A8%E9%82%A3%E4%B8%AA%E5%A4%8F%E5%A4%A9',
+    '/posts/2024AnnualSummary/': RouteRecordInfo<
+      '/posts/2024AnnualSummary/',
+      '/posts/2024AnnualSummary',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/听曲偶感/': RouteRecordInfo<
-      '/posts/听曲偶感/',
-      '/posts/%E5%90%AC%E6%9B%B2%E5%81%B6%E6%84%9F',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/高中数学数据分析/': RouteRecordInfo<
-      '/posts/高中数学数据分析/',
-      '/posts/%E9%AB%98%E4%B8%AD%E6%95%B0%E5%AD%A6%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/高中有机条件汇总/': RouteRecordInfo<
-      '/posts/高中有机条件汇总/',
-      '/posts/%E9%AB%98%E4%B8%AD%E6%9C%89%E6%9C%BA%E6%9D%A1%E4%BB%B6%E6%B1%87%E6%80%BB',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/高中有机燃烧计算/': RouteRecordInfo<
-      '/posts/高中有机燃烧计算/',
-      '/posts/%E9%AB%98%E4%B8%AD%E6%9C%89%E6%9C%BA%E7%87%83%E7%83%A7%E8%AE%A1%E7%AE%97',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/高中有机物性汇总/': RouteRecordInfo<
-      '/posts/高中有机物性汇总/',
-      '/posts/%E9%AB%98%E4%B8%AD%E6%9C%89%E6%9C%BA%E7%89%A9%E6%80%A7%E6%B1%87%E6%80%BB',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/高中英语3500详解/A': RouteRecordInfo<
-      '/posts/高中英语3500详解/A',
-      '/posts/%E9%AB%98%E4%B8%AD%E8%8B%B1%E8%AF%AD3500%E8%AF%A6%E8%A7%A3/A',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/高中英语3500详解/B': RouteRecordInfo<
-      '/posts/高中英语3500详解/B',
-      '/posts/%E9%AB%98%E4%B8%AD%E8%8B%B1%E8%AF%AD3500%E8%AF%A6%E8%A7%A3/B',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/高中英语3500详解/tools': RouteRecordInfo<
-      '/posts/高中英语3500详解/tools',
-      '/posts/%E9%AB%98%E4%B8%AD%E8%8B%B1%E8%AF%AD3500%E8%AF%A6%E8%A7%A3/tools',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/高中语文修辞赏析/': RouteRecordInfo<
-      '/posts/高中语文修辞赏析/',
-      '/posts/%E9%AB%98%E4%B8%AD%E8%AF%AD%E6%96%87%E4%BF%AE%E8%BE%9E%E8%B5%8F%E6%9E%90',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/2024年末总结/': RouteRecordInfo<
-      '/posts/2024年末总结/',
-      '/posts/2024%E5%B9%B4%E6%9C%AB%E6%80%BB%E7%BB%93',
-      Record<never, never>,
-      Record<never, never>,
-      | never
-    >,
-    '/posts/2025年末总结/': RouteRecordInfo<
-      '/posts/2025年末总结/',
-      '/posts/2025%E5%B9%B4%E6%9C%AB%E6%80%BB%E7%BB%93',
+    '/posts/2025AnnualSummary/': RouteRecordInfo<
+      '/posts/2025AnnualSummary/',
+      '/posts/2025AnnualSummary',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -332,9 +262,9 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/ECS-TH1初识/': RouteRecordInfo<
-      '/posts/ECS-TH1初识/',
-      '/posts/ECS-TH1%E5%88%9D%E8%AF%86',
+    '/posts/ECS-TH1/': RouteRecordInfo<
+      '/posts/ECS-TH1/',
+      '/posts/ECS-TH1',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -346,9 +276,72 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/FeelingsViaMusic/': RouteRecordInfo<
+      '/posts/FeelingsViaMusic/',
+      '/posts/FeelingsViaMusic',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/GetRIME/': RouteRecordInfo<
       '/posts/GetRIME/',
       '/posts/GetRIME',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/HSChemOrganicBurnCompute/': RouteRecordInfo<
+      '/posts/HSChemOrganicBurnCompute/',
+      '/posts/HSChemOrganicBurnCompute',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/HSChemOrganicPhysicalAttributes/': RouteRecordInfo<
+      '/posts/HSChemOrganicPhysicalAttributes/',
+      '/posts/HSChemOrganicPhysicalAttributes',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/HSChemOrganicReactionCondition/': RouteRecordInfo<
+      '/posts/HSChemOrganicReactionCondition/',
+      '/posts/HSChemOrganicReactionCondition',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/HSChineseHetorical/': RouteRecordInfo<
+      '/posts/HSChineseHetorical/',
+      '/posts/HSChineseHetorical',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/HSEnglish3500/A': RouteRecordInfo<
+      '/posts/HSEnglish3500/A',
+      '/posts/HSEnglish3500/A',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/HSEnglish3500/B': RouteRecordInfo<
+      '/posts/HSEnglish3500/B',
+      '/posts/HSEnglish3500/B',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/HSEnglish3500/tools': RouteRecordInfo<
+      '/posts/HSEnglish3500/tools',
+      '/posts/HSEnglish3500/tools',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/HSMathStatistic/': RouteRecordInfo<
+      '/posts/HSMathStatistic/',
+      '/posts/HSMathStatistic',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -360,16 +353,23 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/Mermaid简明指南/': RouteRecordInfo<
-      '/posts/Mermaid简明指南/',
-      '/posts/Mermaid%E7%AE%80%E6%98%8E%E6%8C%87%E5%8D%97',
+    '/posts/MermaidBeginner/': RouteRecordInfo<
+      '/posts/MermaidBeginner/',
+      '/posts/MermaidBeginner',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/TailwindCSS入门小记/': RouteRecordInfo<
-      '/posts/TailwindCSS入门小记/',
-      '/posts/TailwindCSS%E5%85%A5%E9%97%A8%E5%B0%8F%E8%AE%B0',
+    '/posts/TailwindCSSBeginner/': RouteRecordInfo<
+      '/posts/TailwindCSSBeginner/',
+      '/posts/TailwindCSSBeginner',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/YouthLivesForever/': RouteRecordInfo<
+      '/posts/YouthLivesForever/',
+      '/posts/YouthLivesForever',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -625,97 +625,17 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'pages/posts/不要死在那个夏天/index.md': {
+    'pages/posts/2024AnnualSummary/index.md': {
       routes:
-        | '/posts/不要死在那个夏天/'
+        | '/posts/2024AnnualSummary/'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/听曲偶感/index.md': {
+    'pages/posts/2025AnnualSummary/index.md': {
       routes:
-        | '/posts/听曲偶感/'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/高中数学数据分析/index.md': {
-      routes:
-        | '/posts/高中数学数据分析/'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/高中有机条件汇总/index.md': {
-      routes:
-        | '/posts/高中有机条件汇总/'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/高中有机燃烧计算/index.md': {
-      routes:
-        | '/posts/高中有机燃烧计算/'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/高中有机物性汇总/index.md': {
-      routes:
-        | '/posts/高中有机物性汇总/'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/高中英语3500详解/A.md': {
-      routes:
-        | '/posts/高中英语3500详解/A'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/高中英语3500详解/B.md': {
-      routes:
-        | '/posts/高中英语3500详解/B'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/高中英语3500详解/tools.md': {
-      routes:
-        | '/posts/高中英语3500详解/tools'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/高中语文修辞赏析/index.md': {
-      routes:
-        | '/posts/高中语文修辞赏析/'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/2024年末总结/index.md': {
-      routes:
-        | '/posts/2024年末总结/'
-      views:
-        | never
-      pathParamNames:
-        | never
-    }
-    'pages/posts/2025年末总结/index.md': {
-      routes:
-        | '/posts/2025年末总结/'
+        | '/posts/2025AnnualSummary/'
       views:
         | never
       pathParamNames:
@@ -745,9 +665,9 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'pages/posts/ECS-TH1初识/index.md': {
+    'pages/posts/ECS-TH1/index.md': {
       routes:
-        | '/posts/ECS-TH1初识/'
+        | '/posts/ECS-TH1/'
       views:
         | never
       pathParamNames:
@@ -761,9 +681,81 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
+    'pages/posts/FeelingsViaMusic/index.md': {
+      routes:
+        | '/posts/FeelingsViaMusic/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
     'pages/posts/GetRIME/index.md': {
       routes:
         | '/posts/GetRIME/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/HSChemOrganicBurnCompute/index.md': {
+      routes:
+        | '/posts/HSChemOrganicBurnCompute/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/HSChemOrganicPhysicalAttributes/index.md': {
+      routes:
+        | '/posts/HSChemOrganicPhysicalAttributes/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/HSChemOrganicReactionCondition/index.md': {
+      routes:
+        | '/posts/HSChemOrganicReactionCondition/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/HSChineseHetorical/index.md': {
+      routes:
+        | '/posts/HSChineseHetorical/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/HSEnglish3500/A.md': {
+      routes:
+        | '/posts/HSEnglish3500/A'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/HSEnglish3500/B.md': {
+      routes:
+        | '/posts/HSEnglish3500/B'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/HSEnglish3500/tools.md': {
+      routes:
+        | '/posts/HSEnglish3500/tools'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/HSMathStatistic/index.md': {
+      routes:
+        | '/posts/HSMathStatistic/'
       views:
         | never
       pathParamNames:
@@ -777,17 +769,25 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'pages/posts/Mermaid简明指南/index.md': {
+    'pages/posts/MermaidBeginner/index.md': {
       routes:
-        | '/posts/Mermaid简明指南/'
+        | '/posts/MermaidBeginner/'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/TailwindCSS入门小记/index.md': {
+    'pages/posts/TailwindCSSBeginner/index.md': {
       routes:
-        | '/posts/TailwindCSS入门小记/'
+        | '/posts/TailwindCSSBeginner/'
+      views:
+        | never
+      pathParamNames:
+        | never
+    }
+    'pages/posts/YouthLivesForever/index.md': {
+      routes:
+        | '/posts/YouthLivesForever/'
       views:
         | never
       pathParamNames:

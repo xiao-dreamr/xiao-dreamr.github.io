@@ -22,7 +22,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       colors:["#e040fb","#9c27b0","#2979ff"]
     },
     colors:{
-      primary: "#2e5da8"
+      primary: "#4183ed"
     },
     banner: {
       enable: true,
@@ -77,7 +77,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
     notice:{
       enable:true,
-      content:"由于小屋过于陈旧，正在升级改造，<br/>顺便填一些之前没有填上的坑，部分入口和特性暂时关闭~",
+      content:"由于小屋过于陈旧，正在升级改造，<br/>顺便填一些之前没有填上的坑，部分入口和特性暂时关闭~<br/>拥有伊蕾娜的美貌，胜利是必然的（小声（？",
     }
   },
   addons:[
