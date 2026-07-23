@@ -413,9 +413,9 @@ useSchemaOrg(
 
 ## 成品展示
 
-![展示](./demo1.png)
+![展示](./demo1.webp)
 
-![展示2](./demo2.png)
+![展示2](./demo2.webp)
 
 本文叙述可能并不详尽，等回来有空了再补补（
 

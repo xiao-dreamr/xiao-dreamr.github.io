@@ -29,7 +29,7 @@ tags:
 
 在找到对应的版本后，直接从GitHub Release界面下载最新稳定版安装包，按照流程进行安装即可。
 
-![官网](https://pic1.imgdb.cn/item/68b4487458cb8da5c8673b62.png)
+![官网](./officialpage.webp)
 
 ## 选择输入法
 
@@ -78,7 +78,7 @@ tags:
 
 #### 竖排-天圆地方
 
-![竖-天圆地方](https://pic1.imgdb.cn/item/68b44fe458cb8da5c867540d.png)
+![竖-天圆地方](./RoundedVer.webp)
 
 ```yaml [weasel.custom.yaml]
 # weasel.custom.yaml
@@ -105,7 +105,7 @@ patch:
 
 #### 横排-天圆地方
 
-![横-天圆地方](https://pic1.imgdb.cn/item/68b4504758cb8da5c8675537.png)
+![横-天圆地方](./RoundedHor.webp)
 
 ```yaml [weasel.custom.yaml]
 # weasel.custom.yaml
@@ -134,7 +134,7 @@ patch:
 
 #### 仿Win11 白/黑
 
-![仿win11](https://pic1.imgdb.cn/item/68b450b458cb8da5c86756f7.png)
+![仿win11](./Win11.webp)
 
 ```yaml [weasel.custom.yaml]
 # weasel.custom.yaml
@@ -183,9 +183,50 @@ patch:
       shadow_color: 0x20000000
 ```
 
+#### 仿win10
+
+![仿win10](./win10.webp)
+
+作者：[luminosara](https://github.com/luminosara)
+
+```yaml [weasel.custom.yaml]
+patch:
+  "preset_color_schemes/win10":
+    author: luminosara
+    back_color: 0xF3F3F3
+    border_color: 0xDBDCDC
+    candidate_text_color: 0x000000
+    hilited_candidate_back_color: 0xFFD8A6 #取色来自win10默认，有需要自己调一下，记得是BGR
+    hilited_label_color: 0x6F6F6F
+    hilited_mark_color: 0x00000000
+    label_color: 0x6F6F6F
+    name: Windows10
+    shadow_color: 0x4DFDFDFD
+    text_color: 0x000000
+    style/capture_by_click: true
+    style/color_scheme: win10
+    style/font_point: 14
+    style/horizontal: true
+    style/inline_preedit: true
+    style/label_font_point: 14
+    style/label_format: "%s"
+    style/layout/border_width: 2 #边框线粗细
+    style/layout/candidate_spacing: 50 
+    style/layout/corner_radius: 10 #高亮框圆角
+    style/layout/hilite_padding: 18
+    style/layout/hilite_spacing: 17 #候选词和序号之间的距离，没找到能控制高亮框的长度的，导致高亮框右侧边距有点小
+    style/layout/margin_x: 17
+    style/layout/margin_y: 17
+    style/layout/round_corner: 10 #候选框圆角
+    style/layout/shadow_offset_x: 5
+    style/layout/shadow_offset_y: 4
+    style/layout/shadow_radius: 10
+    style/mark_text: " ​​" 
+```
+
 #### 仿微信
 
-![仿微信](https://pic1.imgdb.cn/item/68b450fe58cb8da5c867580d.png)
+![仿微信](./Wechat.webp)
 
 ```yaml [weasel.custom.yaml]
 # weasel.custom.yaml
@@ -228,47 +269,6 @@ patch:
       shadow_color: 0x20000000
 ```
 
-#### 仿win10
-
-![仿win10](https://pic1.imgdb.cn/item/68b4521b58cb8da5c8675b6d.png)
-
-作者：[luminosara](https://github.com/luminosara)
-
-```yaml [weasel.custom.yaml]
-patch:
-  "preset_color_schemes/win10":
-    author: luminosara
-    back_color: 0xF3F3F3
-    border_color: 0xDBDCDC
-    candidate_text_color: 0x000000
-    hilited_candidate_back_color: 0xFFD8A6 #取色来自win10默认，有需要自己调一下，记得是BGR
-    hilited_label_color: 0x6F6F6F
-    hilited_mark_color: 0x00000000
-    label_color: 0x6F6F6F
-    name: Windows10
-    shadow_color: 0x4DFDFDFD
-    text_color: 0x000000
-    style/capture_by_click: true
-    style/color_scheme: win10
-    style/font_point: 14
-    style/horizontal: true
-    style/inline_preedit: true
-    style/label_font_point: 14
-    style/label_format: "%s"
-    style/layout/border_width: 2 #边框线粗细
-    style/layout/candidate_spacing: 50 
-    style/layout/corner_radius: 10 #高亮框圆角
-    style/layout/hilite_padding: 18
-    style/layout/hilite_spacing: 17 #候选词和序号之间的距离，没找到能控制高亮框的长度的，导致高亮框右侧边距有点小
-    style/layout/margin_x: 17
-    style/layout/margin_y: 17
-    style/layout/round_corner: 10 #候选框圆角
-    style/layout/shadow_offset_x: 5
-    style/layout/shadow_offset_y: 4
-    style/layout/shadow_radius: 10
-    style/mark_text: " ​​" 
-```
-
 ### 使用
 
 首先，和安装输入法的流程一样，打开用户文件夹。找到`weasel.custom.yaml`文件，如果没有就自己创建一个。
@@ -279,7 +279,7 @@ patch:
 
 顺带一提，进入主题选择界面需要在**输入法**选择界面点击**中**，很奇怪的设定（
 
-![主题](https://pic1.imgdb.cn/item/68b4546558cb8da5c86762ae.png)
+![主题](./theme.webp)
 
 ### 更多自定义
 
@@ -297,13 +297,13 @@ patch:
 
 通过这个特性，我们可以实现很多非常好玩的趣味小功能，比如：
 
-![明矾](https://pic1.imgdb.cn/item/68b4556258cb8da5c8676622.png)
+![明矾](./mingfan.webp)
 
-![IAA](https://pic1.imgdb.cn/item/68b4563458cb8da5c8676867.png)
+![IAA](./IAA.webp)
 
 不仅如此，你还可以将自己的邮箱绑定到`youxiang`这个拼音上，从而实现快速输入个人信息。像这样的奇妙功能完全可以自行按需开发，十分有趣
 
-![自定义词典](https://pic1.imgdb.cn/item/68b6b23e58cb8da5c872887b.png)
+![自定义词典](./custom.webp)
 
 至于图片中“中”的输入法状态显示，是一个名为[InputTip](https://github.com/abgox/InputTip)的小工具，具体可以查阅[该视频](https://www.bilibili.com/video/BV17veBzkEU9)，不在此赘述了。
 

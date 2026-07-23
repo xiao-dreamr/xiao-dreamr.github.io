@@ -174,4 +174,4 @@ $$\rm {}^4_2He + {}^{14}_7N \longrightarrow {}^{17}_8O + {}^1_1H$$
 >
 > ——《人类群星闪耀时》
 
-![1927年索尔维会议](https://pic1.imgdb.cn/item/683ad41f58cb8da5c81ea8f1.jpg)
+![1927年索尔维会议](./solvay.webp)
