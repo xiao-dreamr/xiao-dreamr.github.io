@@ -18,6 +18,9 @@ node_modules
 *.log
 *.psd
 
+*.jpg
+*.png
+
 components.d.ts
 
 # valaxy fuse
