@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://linium.xin/images/lin-favicon.png">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.z5Ij853T.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.QTnfLwEv.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.BTQirQJB.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.Dk9JKhVE.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.SqDC-DRA.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.BCoX8S0I.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.BdSyV0Mv.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/@vueuse/motion.BypNt3oK.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.DzUSWJxs.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.DHGjGeo5.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.CqxTgaXq.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.DzUSWJxs.js">
+<link rel="preload" href="/assets/none.DLM1AMsD.jpg" as="image">
+<link rel="preload" href="/assets/bg-img.kXdNMxcF.jpg" as="image">
+<link rel="preload" href="/assets/sidebar-bg-img.mp54gEws.webp" as="image">
+<link rel="modulepreload" crossorigin href="/assets/登泰山记.BObZ2Tz5.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>登泰山记 - 霖的小屋 ο(=•ω＜=)ρ⌒☆</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap">
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="Per aspera, Ad astra.">
+<meta property="og:description" content="Per aspera, Ad astra.">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="霖的小屋 ο(=•ω＜=)ρ⌒☆">
+<meta property="og:title" content="登泰山记">
+<meta property="og:image" content="https://linium.xin/images/lin-favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://linium.xin/">
+<link rel="icon" href="https://linium.xin/images/lin-favicon.png" type="image/png">
+<meta name="generator" content="Valaxy 0.28.11">
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-TileColor" content="#fff">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!--[--><!--v-if--><!--v-if--><div class="yun-page-header-gradient"></div><div class="yun-nav-menu z-$yun-z-nav-menu fixed bg-transparent" data-v-1791e522><!--  --><div class="inline-flex justify-start items-center flex-1" data-v-1791e522><button type="button" class="vt-hamburger menu-btn sidebar-toggle leading-4 size-12 lg:hidden" aria-label="mobile navigation" aria-expanded="false" inline-flex cursor="pointer" hover="bg-white/80 dark:bg-black/80" z="$yun-z-menu-btn" data-v-1791e522><span class="vt-hamburger-container"><span class="vt-hamburger-top"></span><span class="vt-hamburger-middle"></span><span class="vt-hamburger-bottom"></span></span></button><a href="/" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 data-v-1791e522><!--[--><div class="size-6 i-ri-home-4-line"></div><!--]--></a><div class="hidden lg:contents" data-v-1791e522><!--[--><a href="/projects" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="项目橱窗" data-v-1791e522><!--[--><div class="size-6 i-ri-code-s-slash-line"></div><!--]--></a><a href="/links" class="va-link size-12 inline-flex-center cursor-pointer z-$yun-z-nav-menu text-$va-c-text" hover="bg-white/80 dark:bg-black/80 op-100" op-80 title="友情链接" data-v-1791e522><!--[--><div class="size-6 i-ri-planet-line"></div><!--]--></a><!--]--></div></div><div class="flex flex-1 flex-center" data-v-1791e522><div flex="~ center col h-full" class="nav-menu-title-container cursor-pointer" data-v-1791e522><!----><span class="font-light truncate">霖的小屋 ο(=•ω＜=)ρ⌒☆</span></div></div><div class="inline-flex-center justify-end items-center flex-1" data-v-1791e522><!-- <template v-if="!app.isMobile && themeConfig.nav">
+          <template v-for="item in themeConfig.nav" :key="item.text">
+            <AppLink
+              v-if="'link' in item"
+              :to="item.link"
+              class="menu-btn inline-flex-center p-2 transition text-$va-c-text"
+              inline-flex cursor="pointer"
+              hover="bg-white/80 dark:bg-black/80"
+              z="$yun-z-menu-btn"
+            >
+              {{ item.text }}
+            </AppLink>
+            <template v-else-if="'items' in item" />
+          </template>
+        </template> --><button class="yun-icon-btn rounded-none! hidden sm:inline-flex" title="切换语言" style="color:var(--va-c-text);" data-v-1791e522><div i-ri-translate class="transition transform"></div></button><button class="yun-icon-btn yun-toggle-dark rounded-none!" title="切换深色模式" data-v-1791e522><div i="ri-sun-line dark:ri-moon-line"></div></button><!--[--><button class="yun-search-btn yun-icon-btn popup-trigger rounded-none! size-12 inline-flex justify-center items-center" text="xl $va-c-text" title="搜索"><div i-ri-search-line op-80 hover="op-100"></div></button><!----><!--]--></div></div><!----><!--v-if--><!----><!--[--><div class="yun-bg"></div><!--]--><!----><a href="#" class="back-to-top yun-icon-btn bg-$va-c-bg-soft shadow-md"><div class="size-8" i-ri-arrow-up-s-line></div><svg class="progress-circle-container" viewBox="0 0 100 100"><circle stroke-dasharray="301.59289474462014 301.59289474462014" stroke-dashoffset="301.59289474462014" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="progress-circle" cx="50" cy="50" r="48" fill="none"></circle></svg></a><!--]--><!--[--><!--]--><!----><!--]--><main class="yun-main lt-md:w-full" flex="~ center"><!--[--><div class="content w-full md:w-3xl lg:w-2xl xl:w-2xl 2xl:w-4xl" flex="~ col grow" p="lt-md:0"><div class="yun-card flex-center rounded-2 overflow-hidden" flex="col" min-h="100px" bg="$va-c-bg-light" m="0"><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><!----><div class="mt-8 mb-4"><!--[--><header class="post-header"><h1 p="2" text="2xl center" font="serif black" style="color:" class="post-title flex-center"><!----><span inline-flex class="leading-none">登泰山记</span></h1></header><!--]--></div><!--[--><!--]--><div p="x-4 b-8" class="sm:px-6 lg:px-12 xl:px-16" w="full"><!--[--><!--]--><!--[--><!-- <Transition appear> --><article class="markdown-body"><!--[--><!----><!----><!--[--><!--]--><!--[--><h3 id="霖の批注" tabindex="-1">霖の批注 <a class="header-anchor" href="#霖の批注" aria-label="Permalink to &quot;霖の批注&quot;">​</a></h3><p>初次学习《登泰山记》时，我只不过是把其当作一篇<strong>普通</strong>的写景游记看待。但在深入了解写作背景后，真正的主旨才如拨云见日般显现。</p><p>为什么姚鼐一定要在<strong>大年三十</strong>的晚上去登泰山？</p><p>答案很简单，在这一年，姚鼐做了一个很重要的人生抉择——<strong>裸辞</strong>。</p><p>姚鼐的仕途并不算顺利，科举15年才考中进士。但当他怀着对仁政的满腔热忱步入官场时，看到的却是一片只顾名利，不顾民生的萧瑟景象。</p><p>让一个人放弃坚持了15年的人生抉择，自然不是什么易事。但，在八年仕途之后，姚鼐在当官与实现自己理想的强烈矛盾中，毅然选择了辞官。</p><p>裸辞只是那一瞬间的事，生活依旧需要继续。那么，接下来的人生应当何去何从？姚鼐陷入了<strong>迷茫</strong>。</p><h4 id="余以乾隆三十九年十二月-自京师乘风雪-历齐河、长清-穿泰山西北谷-越长城之限-至于泰安" tabindex="-1">余以乾隆三十九年十二月，自京师乘风雪，历齐河、长清，穿泰山西北谷，越长城之限，至于泰安 <a class="header-anchor" href="#余以乾隆三十九年十二月-自京师乘风雪-历齐河、长清-穿泰山西北谷-越长城之限-至于泰安" aria-label="Permalink to &quot;余以乾隆三十九年十二月，自京师乘风雪，历齐河、长清，穿泰山西北谷，越长城之限，至于泰安&quot;">​</a></h4><p>他决定求诸泰山。</p><p>在辞官之后，姚鼐从京师直奔泰山，沿途叫上了一生挚友——朱孝纯。</p><p>在他“自京师乘风雪”的旅途中，姚鼐想了些什么？</p><p>是如陶渊明一般对官场沉浮的厌恶？还是如屈原一般对自己为生民立命理想的向往？我们无从得知。</p><p>但我们唯一确定的是，姚鼐的<strong>心灵</strong>也如同其身躯一般，正乘着漫天飞雪，前往那给他带来了<strong>后半生的蜕变</strong>的泰山。</p><h4 id="道中迷雾冰滑-磴几不可登" tabindex="-1">道中迷雾冰滑，磴几不可登 <a class="header-anchor" href="#道中迷雾冰滑-磴几不可登" aria-label="Permalink to &quot;道中迷雾冰滑，磴几不可登&quot;">​</a></h4><p>寒冬腊月，大年三十。中国北部的天气一如既往地寒冷。</p><p>在这万家团圆、普天同庆的时分，姚鼐正和朱孝纯一同攀登泰山。</p><p>身为五岳之首，泰山自然不是什么想爬就爬的山。即使是在如今这个基础设施建设极为发达的时代，攀登泰山都不是什么容易事，更何况是乾隆年间。</p><p>然而，纵使是残破冻结的<strong>七千长阶</strong>也未能阻止姚鼐的脚步。</p><p>迷雾冰滑的不仅是泰山的登山长阶，也是姚鼐追寻理想的漆黑前路；几不可登的不仅是上通于天的冰雪石蹬，也是姚鼐在那个所有人都一心追求功名利禄的时代试图保持孑然一身的努力。</p><p>姚鼐攀登着，攀登着。</p><p>在他终于登顶的那一刻，他看到了什么？</p><h4 id="苍山负雪-明烛天南" tabindex="-1">苍山负雪，明烛天南 <a class="header-anchor" href="#苍山负雪-明烛天南" aria-label="Permalink to &quot;苍山负雪，明烛天南&quot;">​</a></h4><p>青黑色的山峦背负着皑皑白雪，晚霞的灿烂烛照着天空。</p><p>《登泰山记》截止到这句之前，一直在刻画飞雪漫天的凄冷寂静，一如姚鼐辞官时内心的灰暗。</p><p>但当我们读到“明烛天南”时，宛若豁然开朗之境，夕阳的灿烂余晖所带来的<strong>暖色调</strong>一扫先前冰雪的冷色，开创了焕然一新的局面。</p><p>还记得姚鼐是在什么时候登上泰山的吗？没错，除夕之夜。</p><p>就在这辞旧迎新的时刻，泰山所见证的<strong>亿万次日落</strong>中的一次<strong>再平凡不过</strong>的日落，治愈了那个一度阴冷无助的心灵。</p><p>提到“烛”，你最先想到什么？</p><p>是闻一多笔下燃烧自我，划破黑暗的“红烛”，还是鲁迅笔下以己为炬，照亮前路的“炬火”？</p><p>不论是哪一种意向，谈到“烛”，永远离不开的便是那划破黑暗的<strong>第一缕光照</strong>。</p><p>正是这缕不起眼的光照，照透了姚鼐的内心，也照透了无数迁客骚人迷茫的内心。</p><p>走下泰山后，姚鼐紧接着做了另一个重要的人生抉择——回桐城。</p><p>回桐城后他做了什么呢？做了一名教书先生。一如那晚的夕阳，他也成为了那根“烛”，试图照亮更多学生迷茫的心灵。</p><h4 id="山多石-少土。石苍黑色-多平方-少圜。少杂树-多松-生石罅-皆平顶。冰雪-无瀑水-无鸟兽音迹" tabindex="-1">山多石，少土。石苍黑色，多平方，少圜。少杂树，多松，生石罅，皆平顶。冰雪，无瀑水，无鸟兽音迹 <a class="header-anchor" href="#山多石-少土。石苍黑色-多平方-少圜。少杂树-多松-生石罅-皆平顶。冰雪-无瀑水-无鸟兽音迹" aria-label="Permalink to &quot;山多石，少土。石苍黑色，多平方，少圜。少杂树，多松，生石罅，皆平顶。冰雪，无瀑水，无鸟兽音迹&quot;">​</a></h4><p>在结尾处仍可窥得姚鼐对当时黑暗官场的一丝讽喻。</p><p>也许只是我过度解读，但结合姚鼐当时的内心，我还是认为有一定道理的。</p><p>坚硬的磐石与松散的沙土，方正的苍岩与圆滑的卵石，挺拔的劲松与杂乱的草木，洁净的冰雪与喧闹的瀑流，无一不是与“何方圜之能周兮，夫孰异道而相安”一般的傲岸与独立。</p><h3 id="结尾" tabindex="-1">结尾 <a class="header-anchor" href="#结尾" aria-label="Permalink to &quot;结尾&quot;">​</a></h3><p>在高三才发现，五册语文书中的每一篇文章都是经典中的经典。字字斟酌，每一篇都足够洋洋洒洒写一大篇文章。能把五册语文书每一篇文章都研究透彻，恐怕才是教材编纂者期望的教育。</p><p>只能说“睫在眼前长不见”吧，但愿能在之后的日子里，再重拾一些遗落在语文书角落的珍宝。</p><!--]--><!--]--><!----><!----></article><!-- </Transition> --><!--]--><!--[--><!--]--></div><!--]--></div><!----></div><!--[--><!--]--><!--[--><div class="post-nav"><div class="post-nav-item"><!----></div><div class="post-nav-item"><a href="/posts/YouthLivesForever/" class="post-nav-next" title="不要死在那个夏天"><span class="title truncate" text="sm">不要死在那个夏天</span><div class="icon" i-ri-arrow-right-s-line></div></a></div></div><!--]--><!--[--><!--]--><!--[--><div class="yun-card flex-center rounded-2 overflow-hidden comment yun-comment sm:p-6 lg:px-12 xl:px-16" flex="col" min-h="100px" bg="$va-c-bg-light" w="full" p="4"><!----><!----><div class="yun-card-body relative" w="full" flex="~ col" items="center"><!--[--><!----><!--]--></div><!----></div><!--]--><!--[--><!-- eslint-disable-next-line vue/no-lone-template empty --><template class="mt-4 lg:hidden"></template><!--]--><!--[--><!--]--><!--[--><!--]--></div><!--]--></main><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"yun-app":{"bannerAnimationDone":false},"app":{"showLoading":true},"site":{},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://linium.xin/#identity","@type":"Person","name":"霖","url":"https://linium.xin/","image":{"@id":"https://linium.xin/#/schema/image/1"},"sameAs":["/atom.xml","https://github.com/xiao-dreamr","https://space.bilibili.com/502814741"]},{"@id":"https://linium.xin/#website","@type":"WebSite","dateModified":"2026-07-23T15:27:39.224Z","datePublished":"2026-07-23T15:27:39.224Z","inLanguage":"zh-CN","name":"登泰山记","url":"https://linium.xin/","publisher":{"@id":"https://linium.xin/#identity"}},{"@id":"https://linium.xin/#webpage","@type":"WebPage","description":"Per aspera, Ad astra.","name":"登泰山记","url":"https://linium.xin/","about":{"@id":"https://linium.xin/#identity"},"isPartOf":{"@id":"https://linium.xin/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://linium.xin/"]}]},{"@id":"https://linium.xin/#/schema/image/1","@type":"ImageObject","contentUrl":"https://linium.xin/images/lin.png","inLanguage":"zh-CN","url":"https://linium.xin/images/lin.png"}]}</script>
+  
+</body>
+</html>
