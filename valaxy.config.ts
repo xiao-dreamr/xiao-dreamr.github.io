@@ -22,7 +22,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       colors:["#e040fb","#9c27b0","#2979ff"]
     },
     colors:{
-      primary: "#1b8bf2"
+      primary: "#2e5da8"
     },
     banner: {
       enable: true,
@@ -34,7 +34,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     bg_image:{
       enable : true,
       url:"https://linium.xin/images/LightBackground.webp",
-      dark:"https://linium.xin/images/DarkBackground.jpg",   //"https://img.picui.cn/free/2024/12/11/6759b4f393e96.png"
+      dark:"https://linium.xin/images/DarkBackground.webp",   //"https://img.picui.cn/free/2024/12/11/6759b4f393e96.png"
       opacity:0.75,
     },
     say:{
